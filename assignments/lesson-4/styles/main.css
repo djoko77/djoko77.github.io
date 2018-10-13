@@ -29,14 +29,16 @@ header > img {
     font-variant: small-caps;
     text-shadow: 2px 2px 4px gray;
     letter-spacing: 1px;
+    margin-top: 10px;
 }
 
-.header-text h2 {
+.sub-heading {
     font-size: 18px;
     color: #00327f;
     font-style: italic;
     letter-spacing: 2px;
     line-height: 1px;
+    font-weight: bold;
     margin-top: -18px;
 }
 
