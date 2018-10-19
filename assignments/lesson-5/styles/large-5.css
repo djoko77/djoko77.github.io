@@ -66,12 +66,18 @@ header > img {
     font-weight: bold;
 }
 
+.nav-center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color:#00327f;
+
 }
 
 li {
