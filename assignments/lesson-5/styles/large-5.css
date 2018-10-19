@@ -65,3 +65,9 @@ header > img {
     color: #fff;
     font-weight: bold;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
