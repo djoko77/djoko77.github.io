@@ -157,6 +157,10 @@ p.value {
     text-align: center;
 }
 
+.footer-nav {
+    color: #00327f;
+}
+
 /*CSS media query for mobile starts here */
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
