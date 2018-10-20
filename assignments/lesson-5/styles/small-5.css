@@ -136,6 +136,12 @@ p.value {
     padding: 0;
 }
 
+/* lower part */
+
+.lower-part {
+    padding: 10px;
+}
+
 /* Images */
 
 .town-image, .article-image, .map-image {
