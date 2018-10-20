@@ -2,4 +2,8 @@
 .menu-click {
     display: none;
 }
+.current-condition, .forecast {
+    display: block
+}
+
 }

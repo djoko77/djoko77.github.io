@@ -51,7 +51,7 @@ header > img {
     background-color: #00327f;
     border: 1px solid gray;
     box-shadow: 3px 3px 5px gray;
-    display: none;
+
 }
 
 .current-condition img {
@@ -96,5 +96,9 @@ li a:hover {
 }
 
 .forecast {
+    display: none;
+}
+
+.current-condition {
     display: none;
 }
