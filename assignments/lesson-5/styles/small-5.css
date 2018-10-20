@@ -5,9 +5,12 @@ body {
     font-size: 14px;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
     color: #00327f;
+}
 
+h3 {
+    color: white;
 }
 
 /* header part */
@@ -113,16 +116,26 @@ li a:hover {
 /* Upper part */
 
 .town-image {
-    width: 640px;
-    height: 426px;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 
 section.weather-summary {
     position: relative;
-    bottom: 30px;
+    top: 30px;
     background-color: #00327f;
     opacity: 0.6;
-    filter: alpha(opacity=60); 
+    filter: alpha(opacity=60);
+    width: 100px;
+}
+
+.weather-summary p {
+    color: #fff;
+}
+
+p.value {
+    display: inline-block;
 }
 
 
