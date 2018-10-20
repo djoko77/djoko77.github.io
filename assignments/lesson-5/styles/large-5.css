@@ -117,4 +117,13 @@ table, th, td {
     border: 1px solid #00327f;
 }
 
+/* Images */
+
+.town-image, .article-image, .map-image {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+    padding 20px;
+}
+
 }
