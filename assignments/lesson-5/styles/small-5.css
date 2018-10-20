@@ -132,9 +132,13 @@ section.weather-summary {
     padding: 10px;
 }
 
+.weather-details p {
+    color: #fff;
+}
+
 p.value {
     float: right;
-    width: 10%;
+    width: auto;
 }
 
 
