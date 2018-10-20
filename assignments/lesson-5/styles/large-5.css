@@ -96,7 +96,7 @@ section.weather-summary {
     margin-right:auto;
     font-size: 16px;
     color: #00327f;
-    border: #00327f 2px solid;
+    width: 100px;
 }
 
 }
