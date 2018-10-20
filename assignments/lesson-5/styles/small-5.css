@@ -133,13 +133,16 @@ section.weather-summary {
 }
 
 }
-.weather-summary p {
+.weather-details p {
     color: #fff;
 }
 
 p.value {
-    display: inline-block;
-    width: 30%;
+    float: right;
+    width: 10%;
+    margin: 0 1%;
+}
+
 }
 
 /*CSS media query for mobile starts here */
