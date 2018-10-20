@@ -77,8 +77,6 @@ header > img {
 
 section.weather-summary {
     position: absolute;
-    top: 500px;
-    left: 100px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -119,20 +117,14 @@ table, th, td {
 
 /* Images */
 
-..article-image {
+.article-image {
     float: right;
-    width: auto;
-    max-width: 100% ;
-    height: auto;
-    padding 20px;
+    padding 10px;
 }
 
 .map-image {
     float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    padding 15px;
+    padding 10px;
 }
 
 }
