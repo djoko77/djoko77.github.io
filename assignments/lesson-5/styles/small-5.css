@@ -136,7 +136,7 @@ p.value {
     padding: 0;
 }
 
-/* Upper part */
+/* Images */
 
 .town-image, .article-image, .map-image {
     width: auto ;
@@ -144,6 +144,15 @@ p.value {
     height: auto ;
 }
 
+/* Footer */
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info li {
+    font-size: smaller;
+}
 
 /*CSS media query for mobile starts here */
 
