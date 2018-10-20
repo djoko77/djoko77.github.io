@@ -139,8 +139,7 @@ section.weather-summary {
 
 p.value {
     float: right;
-    width: 30%;
-    margin: 0 1%;
+    width: 10%;
 }
 
 /*CSS media query for mobile starts here */
