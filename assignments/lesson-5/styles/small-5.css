@@ -118,7 +118,7 @@ li a:hover {
 section.weather-summary {
     position: absolute;
     top: 220px;
-    right: 15px;
+    right: 5px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
