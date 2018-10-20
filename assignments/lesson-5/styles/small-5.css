@@ -42,7 +42,7 @@ header > img {
     font-style: italic;
     line-height: 1px;
     font-weight: bold;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 .current-condition {
@@ -98,6 +98,12 @@ li a:hover {
     background-color: #42b4ff;
     color: #00327f;
     }
+
+/* Town Name */
+.town-name {
+    text-align: center;
+    font-weight: bold;
+}
 
 /*CSS media query for mobile starts here */
 
