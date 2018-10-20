@@ -132,18 +132,11 @@ section.weather-summary {
     padding: 10px;
 }
 
-}
-.weather-details p {
-    color: #fff;
-}
-
 p.value {
     float: right;
     width: 10%;
-    margin: 0 1%;
 }
 
-}
 
 /*CSS media query for mobile starts here */
 
@@ -151,6 +144,7 @@ p.value {
     .forecast, .desktop-only-nav, .current-condition {
     display: none;
     }
+}
 
 /*CSS media query for mobile ends here */
 
