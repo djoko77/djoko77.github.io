@@ -69,15 +69,6 @@ header > img {
     font-weight: bold;
 }
 
-/*CSS media query for mobile starts here */
-
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-    .forecast, .desktop-only-nav, .current-condition {
-    display: none;
-    }
-
-/*CSS media query for mobile ends here */
-
 .navigation-bar {
     margin: 0;
     padding: 0;
@@ -105,3 +96,13 @@ li a:hover {
     background-color: #42b4ff;
     color: #00327f;
     }
+
+/*CSS media query for mobile starts here */
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .forecast, .desktop-only-nav, .current-condition {
+    display: none;
+    }
+
+/*CSS media query for mobile ends here */
+
