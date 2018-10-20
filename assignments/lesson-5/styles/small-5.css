@@ -88,12 +88,12 @@ li a {
     text-align: center;
     font-size: 1.5em;
     margin-left: 120px;
-
+}
 
 li a:hover {
     background-color: #42b4ff;
     color: #00327f;
-}
+    }
 
 .forecast {
     display: none;
