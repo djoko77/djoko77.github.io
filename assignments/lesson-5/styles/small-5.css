@@ -146,10 +146,10 @@ p.value {
 /* Images */
 
 .town-image, .article-image, .map-image {
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-    padding 15px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
 }
 
 /* Footer */
