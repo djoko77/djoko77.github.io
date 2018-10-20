@@ -1,8 +1,11 @@
 @media only screen and (min-width: 0px) and (max-width: 600px) {
-.forecast, .desktop-only-nav, .current-condition {
+.forecast, .desktop-only-nav {
 display: none;
 }
 
+.current-condition {
+    visibility: hidden;
+}
 }
 
 body {
