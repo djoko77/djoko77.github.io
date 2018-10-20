@@ -73,10 +73,17 @@ header > img {
     font-weight: bold;
 }
 
+/* town name*/
+
+.town-name {
+    padding: 15px;
+}
+
 /* Upper part */
 
 section.weather-summary {
-    position: absolute;
+    position: relative;
+    top: 220px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -113,6 +120,11 @@ table {
 
 table, th, td {
     border: 1px solid #00327f;
+}
+
+
+.lower-part {
+    padding: 20px;
 }
 
 /* Images */
