@@ -4,9 +4,8 @@
 }
 
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 /* header part */
@@ -97,7 +96,7 @@ section.weather-summary {
     margin-right:auto;
     font-size: 16px;
     color: #00327f;
-    width: 100px;
+    width: 600px;
 }
 
 }
