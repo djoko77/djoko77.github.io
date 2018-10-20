@@ -118,7 +118,7 @@ li a:hover {
 section.weather-summary {
     position: absolute;
     top: 220px;
-    right: 30px;
+    right: 15px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -155,10 +155,6 @@ p.value {
 
 .contact-info {
     text-align: center;
-}
-
-..footer-nav {
-    font-size: 10px;
 }
 
 /*CSS media query for mobile starts here */
