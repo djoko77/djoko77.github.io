@@ -77,8 +77,8 @@ header > img {
 
 section.weather-summary {
     position: absolute;
-    top: 220px;
-    left: 10px;
+    top: 500px;
+    left: 100px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
