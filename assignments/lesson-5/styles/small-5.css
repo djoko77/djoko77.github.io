@@ -12,7 +12,6 @@ header {
     text-align: center;
     padding: 15px;
     color: #fff;
-    position: absolute;
 }
 
 header > img {
@@ -29,7 +28,7 @@ header > img {
 
 .header-text h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
     font-variant: small-caps;
     text-shadow: 2px 2px 4px gray;
