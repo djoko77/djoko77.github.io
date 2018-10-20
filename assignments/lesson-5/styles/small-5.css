@@ -115,12 +115,6 @@ li a:hover {
 
 /* Upper part */
 
-.town-image {
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-}
-
 section.weather-summary {
     position: relative;
     top: -200px;
@@ -138,7 +132,16 @@ section.weather-summary {
 
 p.value {
     float: right;
-    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Upper part */
+
+.town-image, .article-image, .map-image {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 
 
