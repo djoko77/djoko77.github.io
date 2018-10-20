@@ -10,10 +10,12 @@ header {
     text-align: center;
     padding: 15px;
     color: #fff;
+    display: flex;
+	justify-content: center;
 }
 
 header > img {
-    width: 100px;
+    width: 70px;
     height: auto;
     vertical-align: middle;
     margin: 5px 20px;
@@ -89,7 +91,7 @@ li a {
     text-decoration: none;
     text-align: center;
     font-size: 1.5em;
-    margin-left: 120px;
+    margin-left: 1px;
 }
 
 li a:hover {
