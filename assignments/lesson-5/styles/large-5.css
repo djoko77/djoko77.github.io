@@ -83,7 +83,7 @@ header > img {
 
 section.weather-summary {
     position: relative;
-    top: 220px;
+    top: 500px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -122,27 +122,34 @@ table, th, td {
     border: 1px solid #00327f;
 }
 
-
-.lower-part {
+.forecast h2 {
     padding: 20px;
 }
 
 /* article section */
 
 .article-image {
-    display: inline-block;
-    padding: 10px;
-    vertical-align: middle;
+    float: right;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 .lower-part {
 padding: 10px;
 margin: 10px;
+}
+
+/* article section */
+
+.contact-info h2 {
+padding: 20px;
+}
 
 }
 .map-image {
     float: left;
     padding 10px;
+    margin-right: 20px;
 }
 
 }
