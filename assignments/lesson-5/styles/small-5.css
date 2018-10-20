@@ -8,6 +8,7 @@ header {
     text-align: center;
     padding: 15px;
     color: #fff;
+    position: fixed;
 }
 
 header > img {
