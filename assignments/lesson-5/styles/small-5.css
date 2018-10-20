@@ -10,9 +10,7 @@ header {
     text-align: center;
     padding: 15px;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    width: 600px;
+    position: fixed;
 }
 
 header > img {
