@@ -10,7 +10,7 @@ body {
 header {
     background-color: #42b4ff;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     color: #fff;
 }
 
@@ -18,7 +18,7 @@ header > img {
     width: 80px;
     height: auto;
     vertical-align: middle;
-    margin: 5px 20px;
+    margin: 5px 10px;
 }
 
 .header-text {
@@ -28,7 +28,7 @@ header > img {
 
 .header-text h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     font-variant: small-caps;
     text-shadow: 2px 2px 4px gray;
@@ -37,10 +37,9 @@ header > img {
 }
 
 .sub-heading {
-    font-size: 18px;
+    font-size: 12px;
     color: #00327f;
     font-style: italic;
-    letter-spacing: 2px;
     line-height: 1px;
     font-weight: bold;
     margin-top: -18px;
