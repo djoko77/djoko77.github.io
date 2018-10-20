@@ -135,7 +135,7 @@ section.weather-summary {
 }
 
 p.value {
-    float: left;
+    float: right;
 }
 
 /*CSS media query for mobile starts here */
