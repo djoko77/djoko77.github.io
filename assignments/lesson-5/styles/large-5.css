@@ -132,6 +132,8 @@ table, th, td {
     float: right;
     padding: 20px;
     overflow: auto;
+    height: 300px;
+    width: auto;
 }
 
 .lower-part {
@@ -153,6 +155,8 @@ padding: 20px;
     float: left;
     padding: 20px;
     overflow: auto;
+    height: 300px;
+    width: auto;
 }
 
 }
