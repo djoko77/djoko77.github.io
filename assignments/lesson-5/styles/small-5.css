@@ -1,7 +1,11 @@
+/* This is the mobile first */
+
 body {
     font-family: 'Lustria', serif;
     font-size: 14px;
 }
+
+/* header part */
 
 header {
     background-color: #42b4ff;
@@ -66,6 +70,8 @@ header > img {
     color: #fff;
     font-weight: bold;
 }
+
+/* navigation bar */
 
 .navigation-bar {
     margin: 0;
