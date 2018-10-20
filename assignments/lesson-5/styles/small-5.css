@@ -1,11 +1,8 @@
 @media only screen and (min-width: 0px) and (max-width: 767x) {
-.forecast, .desktop-only-nav {
+.forecast, .desktop-only-nav, .current-condition {
 display: none;
 }
 
-header.current-condition {
-display: none;
-}
 }
 
 body {
