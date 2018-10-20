@@ -82,8 +82,6 @@ header > img {
 /* Upper part */
 
 section.weather-summary {
-    position: relative;
-    top: 500px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -131,9 +129,10 @@ table, th, td {
 .article-image {
     float: right;
     padding: 20px;
+    width: 320px;
+    height: 213px;
     overflow: auto;
-    height: 300px;
-    width: auto;
+
 }
 
 .lower-part {
@@ -154,9 +153,9 @@ padding: 20px;
 .map-image {
     float: left;
     padding: 20px;
+    width: 320px;
+    height: 213px;
     overflow: auto;
-    height: 300px;
-    width: auto;
 }
 
 }
