@@ -84,6 +84,9 @@ header > img {
     padding: 0;
     overflow: hidden;
     background-color: #00327f;
+    display: contents;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 li {
