@@ -131,7 +131,7 @@ table, th, td {
 .article-image {
     float: right;
     padding: 20px;
-    margin-left: 20px;
+    overflow: auto;
 }
 
 .lower-part {
@@ -139,7 +139,11 @@ padding: 10px;
 margin: 10px;
 }
 
-/* article section */
+.lower-part p {
+    padding: 20px;
+}
+
+/* footer */
 
 .contact-info h2 {
 padding: 20px;
@@ -149,7 +153,7 @@ padding: 20px;
 .map-image {
     float: left;
     padding 10px;
-    margin-right: 20px;
+    overflow: auto;
 }
 
 }
