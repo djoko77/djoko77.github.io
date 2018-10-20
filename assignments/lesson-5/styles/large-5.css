@@ -129,10 +129,12 @@ table, th, td {
 .article-image {
     float: right;
     padding: 20px;
-    width: 150px;
-    height: 100px;
     overflow: auto;
+}
 
+.right-column, .left-column {
+max-width: 48%;
+flex: 1 0 15em;
 }
 
 .lower-part {
@@ -149,8 +151,6 @@ padding: 20px;
 .map-image {
     float: left;
     padding: 20px;
-    width: 150px;
-    height: 100px;
     overflow: auto;
 }
 
