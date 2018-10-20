@@ -110,6 +110,19 @@ li a:hover {
     font-weight: bold;
 }
 
+/* Upper part */
+
+.town-image {
+    width: 640px;
+    height: 426px;
+}
+
+section.weather-summary {
+    position: relative;
+    bottom: 30px;
+}
+
+
 /*CSS media query for mobile starts here */
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
