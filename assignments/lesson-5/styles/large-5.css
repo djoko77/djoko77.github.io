@@ -81,8 +81,8 @@ header > img {
 
 /* Upper part */
 
-section.weather-summary {
-    float: left;
+.weather-summary {
+    float: right;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -115,10 +115,6 @@ th, td {
 
 table {
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid #00327f;
 }
 
 .forecast h2 {
