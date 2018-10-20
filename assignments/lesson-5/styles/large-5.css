@@ -66,12 +66,7 @@ header > img {
     font-weight: bold;
 }
 
-nav {
-    margin:0 auto;
-    list-style:none;
-}
-
-ul {
+.navigation-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -79,18 +74,22 @@ ul {
 }
 
 li {
+    list-style: none;
     float: left;
+
 }
 
 li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 15px 10px;
     text-decoration: none;
-    width: 150px;
-}
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 120px;
+
 
 li a:hover {
     background-color: #42b4ff;
+    color: #00327f;
 }

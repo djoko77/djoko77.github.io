@@ -1,5 +1,5 @@
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-.current-condition, middle-part {
+.current-condition, .forecast {
     display: none;
     }
 }
