@@ -86,6 +86,7 @@ section.weather-summary {
     width: 600px;
     height: 600px;
     padding: 40px;
+    font-size: 16px;
 }
 
 /* % days weather forecast section */
