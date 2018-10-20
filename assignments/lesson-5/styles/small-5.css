@@ -123,7 +123,7 @@ li a:hover {
 
 section.weather-summary {
     position: relative;
-    top: 150px;
+    top: -100px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -135,9 +135,8 @@ section.weather-summary {
 }
 
 p.value {
-    display: inline-block;
+    float: left;
 }
-
 
 /*CSS media query for mobile starts here */
 
