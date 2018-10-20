@@ -2,6 +2,10 @@
 .forecast, .current-condition {
 display: none;
 }
+
+.desktop-only-nav {
+    display: none;
+}
 }
 
 body {
