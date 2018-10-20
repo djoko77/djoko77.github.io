@@ -132,10 +132,10 @@ table, th, td {
     overflow: auto;
 }
 
-.right-column, .left-column {
-max-width: 48%;
-flex: 1 0 15em;
+.float-left {
+    float: left;
 }
+
 
 .lower-part {
 padding: 10px;
