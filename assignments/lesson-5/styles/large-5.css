@@ -129,8 +129,8 @@ table, th, td {
 .article-image {
     float: right;
     padding: 20px;
-    width: 320px;
-    height: 213px;
+    width: 150px;
+    height: 100px;
     overflow: auto;
 
 }
@@ -138,10 +138,6 @@ table, th, td {
 .lower-part {
 padding: 10px;
 margin: 10px;
-}
-
-.lower-part p {
-    padding: 20px;
 }
 
 /* footer */
@@ -153,8 +149,8 @@ padding: 20px;
 .map-image {
     float: left;
     padding: 20px;
-    width: 320px;
-    height: 213px;
+    width: 150px;
+    height: 100px;
     overflow: auto;
 }
 
