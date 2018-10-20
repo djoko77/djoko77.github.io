@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+.forecast, .current-condition {
+display: none;
+}
+}
+
 body {
     font-family: 'Lustria', serif;
     font-size: 14px;
@@ -94,8 +100,3 @@ li a:hover {
     background-color: #42b4ff;
     color: #00327f;
     }
-
-.forecast, .current-condition {
-    display: none;
-}
-
