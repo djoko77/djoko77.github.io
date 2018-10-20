@@ -123,11 +123,11 @@ li a:hover {
 
 section.weather-summary {
     position: relative;
-    top: 30px;
+    top: 150px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
-    width: 100px;
+    width: 300px;
 }
 
 .weather-summary p {
