@@ -127,13 +127,19 @@ table, th, td {
     padding: 20px;
 }
 
-/* Images */
+/* article section */
 
 .article-image {
-    float: right;
-    padding 10px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
 }
 
+.lower-part {
+padding: 10px;
+margin: 10px;
+
+}
 .map-image {
     float: left;
     padding 10px;
