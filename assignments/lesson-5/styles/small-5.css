@@ -154,18 +154,10 @@ p.label, p.value {
 
 /* Footer */
 
-.contact-info {
-    text-align: center;
-}
-
 .footer-nav {
     display: inline-block;
     vertical-align: middle;
     color: #00327f;
-}
-
-.footer-nav li {
-    padding: 10px;
 }
 
 /*CSS media query for mobile starts here */
