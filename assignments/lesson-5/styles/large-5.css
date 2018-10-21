@@ -84,8 +84,8 @@ header > img {
 
 .weather-summary {
     position: absolute;
-    top: -200px;
-    right: 500px;
+    top: -400px;
+    right: 600px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -131,9 +131,9 @@ table {
 
 
 .lower-part {
-padding: 10px;
-margin: 10px;
-overflow: auto;
+    padding: 10px;
+    margin: 10px;
+    overflow: auto;
 }
 
 /* footer */
