@@ -84,13 +84,10 @@ header > img {
 
 .weather-summary {
     position: absolute;
-    top: 100px;
-    right: 600px;
-    background-color: #00327f;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-    padding: 40px;
-    font-size: 16px;
+    bottom: 250px;
+    right: 700px;
+    font-size: 1.2em;
+    line-height: 20px;
 }
 
 /* 5-day weather forecast section */
@@ -138,17 +135,18 @@ table {
 
 /* footer */
 
-.contact-info h2 {
-padding: 20px;
-}
-
 .contact-info {
     overflow: auto;
+}
+
+.contact-info h2 {
+    padding: 20px;
 }
 
 .map-image {
     float: left;
     padding: 20px;
 }
+
 
 }

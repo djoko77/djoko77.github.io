@@ -79,7 +79,7 @@ header > img {
 
 /* navigation bar */
 
-.navigation-bar {
+.navigation-bar, .footer-nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -89,13 +89,13 @@ header > img {
     flex-wrap: wrap;
 }
 
-nav li {
+li {
     list-style: none;
     float: left;
 
 }
 
-nav li a {
+li a {
     display: block;
     color: white;
     padding: 15px 10px;
@@ -105,7 +105,7 @@ nav li a {
     margin-left: 1px;
 }
 
-nav li a:hover {
+li a:hover {
     background-color: #42b4ff;
     color: #00327f;
     }
@@ -155,8 +155,9 @@ p.label, p.value {
 /* Footer */
 
 .footer-nav {
-    display: inline-block;
-    color: #00327f;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
 }
 
 /*CSS media query for mobile starts here */
