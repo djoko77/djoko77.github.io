@@ -162,7 +162,7 @@ p.label, p.value {
     display: inline-block;
     vertical-align: middle;
     color: #00327f;
-    padding 10px;
+    padding 20px;
 }
 
 /*CSS media query for mobile starts here */
