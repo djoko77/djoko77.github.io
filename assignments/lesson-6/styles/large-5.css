@@ -1,0 +1,86 @@
+@media only screen and (min-width : 768px) {
+.menu-click {
+    display: none
+}
+
+* {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* header part */
+
+header {
+    padding: 15px;
+}
+
+header > img {
+    width: 150px;
+    margin: 5px 30px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-top: -18px;
+}
+
+/* town name*/
+
+.town-name {
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Upper part */
+
+.weather-summary {
+    position: absolute;
+    bottom: 250px;
+    right: 700px;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+/* article */
+
+.article-image {
+    float: right;
+    padding: 20px;
+}
+
+.left-column {
+    padding: 10px;
+    margin: 10px;
+}
+
+.lower-part {
+    overflow: auto;
+}
+
+/* footer */
+
+.right-column {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    padding: 10px;
+}
+
+.map-mage {
+    float: left;
+    padding: 20px;
+}
+
+
+}
