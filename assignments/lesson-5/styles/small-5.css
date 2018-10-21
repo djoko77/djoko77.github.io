@@ -154,10 +154,17 @@ p.label, p.value {
 
 /* Footer */
 
+.contact-info .right-column {
+    padding: 10px;
+}
+
 .footer-nav {
     color: #fff;
-    padding: 20px;
     font-size: 16px;
+}
+
+.footer-nav li {
+    padding: 10px;
 }
 
 /*CSS media query for mobile starts here */

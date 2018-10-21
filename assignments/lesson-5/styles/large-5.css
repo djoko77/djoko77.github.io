@@ -119,31 +119,39 @@ table {
     padding: 20px;
 }
 
-/* article section */
+/* article */
 
 .article-image {
     float: right;
     padding: 20px;
 }
 
-
-.lower-part {
+.left-column {
     padding: 10px;
     margin: 10px;
+}
+
+.lower-part {
     overflow: auto;
 }
 
 /* footer */
 
-.contact-info {
-    overflow: auto;
+.right-column {
+    text-align: right;
+    width: 50%;
+    float: right;
 }
 
-.contact-info h2 {
+.contact-info {
     padding: 20px;
 }
 
-.map-image {
+.contact-info h2 {
+    padding: 10px;
+}
+
+.map-mage {
     float: left;
     padding: 20px;
 }
