@@ -134,10 +134,8 @@ section.weather-summary {
     color: #fff;
 }
 
-p.value {
-    float: right;
-    margin: 0;
-    padding: 0;
+p.label, p.value {
+    display: inline-block;
 }
 
 /* lower part */
