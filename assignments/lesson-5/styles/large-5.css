@@ -82,7 +82,6 @@ header > img {
 /* Upper part */
 
 .weather-summary {
-    float: right;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -90,6 +89,10 @@ header > img {
     height: 600px;
     padding: 40px;
     font-size: 16px;
+}
+
+p.label, p.value {
+    display: inline-block;
 }
 
 /* 5-day weather forecast section */
