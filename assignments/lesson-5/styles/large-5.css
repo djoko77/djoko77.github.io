@@ -85,8 +85,8 @@ header > img {
 
 .weather-summary {
     position: absolute;
-    top: -1000px;
-    right: -300px;
+    top: -500px;
+    right: -500px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
