@@ -143,3 +143,8 @@ p.label, p.value {
     padding: 10px;
 }
 
+/* hidden elements in mobile version */
+
+.current-condition, .forecast, .desktop-only-nav, {
+    display: none;
+}
