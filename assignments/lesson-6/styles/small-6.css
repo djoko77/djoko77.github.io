@@ -53,30 +53,6 @@ header > img {
     margin-top: -10px;
 }
 
-.current-condition {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 5px 30px;
-    padding: 15px;
-    color: #fff;
-    background-color: #00327f;
-    border: 1px solid gray;
-    box-shadow: 3px 3px 5px gray;
-}
-
-.current-condition img {
-    width: 70px;
-    height: auto;
-}
-
-.current-condition-label {
-    float: right;
-    padding: 20px 10px;
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
-}
-
 /* navigation bar */
 
 .navigation-bar, .footer-nav {
@@ -138,35 +114,6 @@ p.label, p.value {
     display: inline-block;
 }
 
-/* 5-day weather forecast section */
-
-.forecast {
-    text-align: center;
-    margin-left:auto; 
-    margin-right:auto;
-    font-size: 16px;
-    color: #00327f;
-    width: 600px;
-}
-
-th {
-    background-color: #00327f;
-    color: white;
-    padding: 15px;
-}
-
-th, td {
-    text-align: center;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-.forecast h2 {
-    padding: 20px;
-}
-
 /* lower part */
 
 .lower-part {
@@ -195,14 +142,4 @@ table {
 .footer-nav li {
     padding: 10px;
 }
-
-/*CSS media query for mobile starts here */
-
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-    .forecast, .desktop-only-nav, .current-condition {
-    display: none;
-    }
-}
-
-/*CSS media query for mobile ends here */
 
