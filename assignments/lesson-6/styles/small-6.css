@@ -158,6 +158,6 @@ p.label, p.value {
 
 /* hidden elements in mobile version */
 
-.current-condition, .forecast, .desktop-only-nav, .current-condition-label, .current-condition img {
+.current-condition, .forecast {
     display: none;
 }
