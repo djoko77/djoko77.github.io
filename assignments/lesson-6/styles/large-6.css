@@ -91,11 +91,13 @@ table {
 /* Upper part */
 
 .weather-summary {
-    position: absolute;
-    bottom: 250px;
-    right: 700px;
+    float: left;
     font-size: 1.2em;
     line-height: 20px;
+}
+
+.upper-part {
+    background-image: url("/assignments/lesson-6/images/preston.jpeg");
 }
 
 /* article */
