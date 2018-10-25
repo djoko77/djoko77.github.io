@@ -4,7 +4,7 @@
 }
 
 * {
-    max-width: 960px;
+    max-width: 1028px;
     margin: auto;
 }
 
@@ -77,14 +77,26 @@ table {
 
 /* Upper part */
 
-.weather-summary {
-    top: 100px;
-    left: 100px;
-    width: 500px;
-    height: 500px;
+section.weather-summary {
+    top: 50px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    line-height: 30px;;
     font-size: 1.5em;
-    line-height: 20px;
 }
+
+.weather-details p {
+    display: inline-block;
+    width: 100%;
+}
+
+.weather-detail .value {
+    margin-top: 0;
+}
+
+
 
 /* article */
 

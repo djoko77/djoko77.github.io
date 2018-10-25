@@ -121,13 +121,18 @@ section.weather-summary {
     width: 400px;
     height: 400px;
     padding: 10px;
+    color: #fff;
+    line-height: 5px;
+    font-size: 1.2em;
 }
 
 .weather-details p {
     display: inline-block;
-    color: #fff;
-    line-height: 10px;
-    font-size: 1.2em;
+    width: 100%;
+}
+
+.weather-detail .value {
+    margin-top: 0;
 }
 
 /* lower part */
