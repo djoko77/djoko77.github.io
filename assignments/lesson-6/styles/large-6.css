@@ -49,6 +49,7 @@ header > img {
 /* 5-day weather forecast section */
 
 .forecast {
+    display: block;
     text-align: center;
     margin-left:auto; 
     margin-right:auto;
