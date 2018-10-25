@@ -107,24 +107,27 @@ li a:hover {
 
 /* Upper part */
 
+.upper-part {
+    position: relative;
+}
+
 section.weather-summary {
     position: absolute;
-    top: 220px;
+    top: 10px;
     left: 10px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     padding: 10px;
 }
 
 .weather-details p {
-    color: #fff;
-}
-
-p.label, p.value {
     display: inline-block;
+    color: #fff;
+    line-height: 10px;
+    font-size: 1.2em;
 }
 
 /* lower part */

@@ -78,13 +78,12 @@ table {
 /* Upper part */
 
 .weather-summary {
-    float: left;
-    font-size: 1.2em;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    font-size: 1.5em;
     line-height: 20px;
-}
-
-.upper-part {
-    background-image: url("/assignments/lesson-6/images/preston.jpeg");
 }
 
 /* article */
