@@ -113,17 +113,17 @@ li a:hover {
 
 section.weather-summary {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     background-color: #00327f;
     opacity: 0.6;
     filter: alpha(opacity=60);
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     padding: 10px;
     color: #fff;
     line-height: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .weather-details p {
@@ -131,8 +131,9 @@ section.weather-summary {
     width: 100%;
 }
 
-.weather-detail .value {
+.value {
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 /* lower part */
