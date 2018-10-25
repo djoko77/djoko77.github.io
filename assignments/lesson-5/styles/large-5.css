@@ -1,86 +1,139 @@
-@media only screen and (min-width : 768px) {
-.menu-click {
-    display: none
-}
-
-* {
-    max-width: 960px;
-    margin: auto;
-}
-
-/* header part */
-
-header {
-    padding: 15px;
-}
-
-header > img {
-    width: 150px;
-    margin: 5px 30px;
-}
-
-.header-text h1 {
-    font-size: 50px;
-}
-
-.sub-heading {
-    font-size: 18px;
-    margin-top: -18px;
-}
-
-/* town name*/
-
-.town-name {
-    padding: 15px;
-    margin: 15px;
-}
-
-/* Upper part */
-
-.weather-summary {
-    position: absolute;
-    bottom: 250px;
-    right: 700px;
-    font-size: 1.2em;
-    line-height: 20px;
-}
-
-/* article */
-
-.article-image {
-    float: right;
-    padding: 20px;
-}
-
-.left-column {
-    padding: 10px;
-    margin: 10px;
-}
-
-.lower-part {
-    overflow: auto;
-}
-
-/* footer */
-
-.right-column {
-    text-align: right;
-    width: 50%;
-    float: right;
-}
-
-.contact-info {
-    padding: 20px;
-}
-
-.contact-info h2 {
-    padding: 10px;
-}
-
-.map-mage {
-    float: left;
-    padding: 20px;
-}
-
-
-}
+@media only screen and (min-width : 992px) {
+    .menu-click {
+        display: none
+    }
+    
+    * {
+        max-width: 1028px;
+        margin: auto;
+    }
+    
+    /* header part */
+    
+    header {
+        padding: 15px;
+    }
+    
+    header > img {
+        width: 150px;
+        margin: 5px 20px;
+    }
+    
+    .header-text h1 {
+        font-size: 50px;
+    }
+    
+    .sub-heading {
+        font-size: 18px;
+        margin-top: -18px;
+    }
+    
+    .current-condition {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 5px 30px;
+        padding: 15px;
+        color: #fff;
+        background-color: #00327f;
+        border: 1px solid gray;
+        box-shadow: 3px 3px 5px gray;
+    }
+    
+    /* town name*/
+    
+    .town-name {
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    /* 5-day weather forecast section */
+    
+    .forecast {
+        text-align: center;
+        margin-left:auto; 
+        margin-right:auto;
+        font-size: 16px;
+        color: #00327f;
+        width: 600px;
+    }
+    
+    th {
+        background-color: #00327f;
+        color: white;
+        padding: 15px;
+    }
+    
+    th, td {
+        text-align: center;
+    }
+    
+    table {
+        border-collapse: collapse;
+    }
+    
+    .forecast h2 {
+        padding: 20px;
+    }
+    
+    /* Upper part */
+    
+    section.weather-summary {
+        top: 30px;
+        left: 30px;
+        width: 400px;
+        height: 450px;
+        color: #fff;
+        line-height: 30px;
+        font-size: 1.5em;
+    }
+    
+    .weather-details p {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .value {
+        margin-bottom: 20px;
+    }
+    
+    
+    /* article */
+    
+    .article-image {
+        float: right;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .left-column {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .lower-part {
+        overflow: auto;
+    }
+    
+    /* footer */
+    
+    .right-column {
+        text-align: right;
+        width: 50%;
+        float: right;
+    }
+    
+    .contact-info {
+        padding: 20px;
+    }
+    
+    .contact-info h2 {
+        padding: 10px;
+    }
+    
+    .map-mage {
+        float: left;
+        padding: 20px;
+    }
+    
+    
+    }

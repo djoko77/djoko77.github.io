@@ -128,7 +128,7 @@ section.weather-summary {
 
 .weather-details p {
     display: inline-block;
-    width: 100%;
+    width: 50%;
 }
 
 .value {
