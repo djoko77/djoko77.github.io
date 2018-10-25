@@ -81,7 +81,7 @@ table {
 section.weather-summary {
     top: 30px;
     left: 30px;
-    min-width: 500px;
+    width: 450px;
     min-height: 450px;
     color: #fff;
     line-height: 30px;
