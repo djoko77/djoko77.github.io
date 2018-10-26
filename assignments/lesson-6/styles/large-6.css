@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.desktop-only-nav {
+    display: inline-block;
+}
+
 /* header part */
 
 header {

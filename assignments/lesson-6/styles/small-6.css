@@ -167,6 +167,6 @@ section.weather-summary {
 
 /* hidden elements in mobile version */
 
-.current-condition, .forecast {
+.current-condition, .forecast .desktop-only-nav{
     display: none;
 }
