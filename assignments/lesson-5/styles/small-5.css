@@ -1,4 +1,4 @@
-/* This is the mobile first */
+/* This is the mobile first and extra small devices (phones, 600px and down) */ */
 
 body {
     font-family: 'Lustria', serif;
@@ -167,6 +167,6 @@ section.weather-summary {
 
 /* hidden elements in mobile version */
 
-.current-condition, .forecast {
+.current-condition, .forecast, .desktop-only-nav {
     display: none;
 }
