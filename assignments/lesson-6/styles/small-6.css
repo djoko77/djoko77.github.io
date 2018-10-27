@@ -101,7 +101,7 @@ nav ul.hide {
 
 .footer-nav {
     background-color:  #00327f;
-    display: block;
+    float: left;
 }
 
 /* Town Name */
