@@ -43,10 +43,12 @@
             </div>
 
         <div class="upper-part">
-                <figure>
-                <img class="town-image" src="images/preston-original-default-1200.jpg" alt="Preston town" sizes="100vw"
-                srcset="images/preston-large.jpg 1028w, images/preston-small.jpg 600w">
-                </figure>
+
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="images/preston-small.jpg">
+                        <source media="(min-width: 600px)" srcset="images/preston-large.jpg">
+                        <img class="town-image" src="images/franklin-original-default-1200.jpg" alt="preston">
+                      </picture>
 
                     <section class="weather-summary">
                     <h3>Weather Summary</h3>
