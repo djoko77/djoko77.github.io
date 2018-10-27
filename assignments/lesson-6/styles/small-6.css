@@ -99,11 +99,6 @@ nav ul.hide {
     display: none;
 }
 
-.footer-nav {
-    background-color:  #00327f;
-    float: left;
-}
-
 /* Town Name */
 .town-name {
     text-align: center;
@@ -181,6 +176,12 @@ section.weather-summary {
 
 .footer-nav li {
     padding: 10px;
+}
+
+.footer-nav {
+    background-color:  #00327f;
+    float: left;
+    width: 100%;
 }
 
 /* hidden elements in mobile version */
