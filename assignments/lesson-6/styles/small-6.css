@@ -70,7 +70,7 @@ nav button {
     color: #fff;
 }
 
-nav ul {
+nav ul, .footer-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -85,18 +85,23 @@ nav ul li a {
     border-top: 1px solid gray;
 }
 
-nav ul li a:active {
+nav ul li a:active, .footer-nav li a:active {
     background-color: aqua;
     color: #00327f;
     }
 
-nav ul li a:hover {
+nav ul li a:hover .footer-nav li a:active {
     background-color: #42b4ff;
     color: #00327f;
     }
 
 nav ul.hide {
     display: none;
+}
+
+.footer-nav li {
+    background-color:  #00327f;
+    display: inline-block;
 }
 
 /* Town Name */

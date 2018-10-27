@@ -42,14 +42,6 @@ header > img {
 
 /* Navigation bar*/
 
-nav {
-    background: #6db3f2; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
 nav button {
     display: none;
 }
@@ -59,13 +51,17 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
+    display: inline-block;
 }
 
 nav ul li a {
     border: none;
-    border-right: 1px solid #42b4ff;
     padding: .8rem 1rem;
+    text-align: center;
+}
+
+nav ul.hide {
+    display: block;
 }
 
 /* town name*/
