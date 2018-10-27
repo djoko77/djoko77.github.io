@@ -90,7 +90,7 @@ nav ul li a:active, .footer-nav li a:active {
     color: #00327f;
     }
 
-nav ul li a:hover .footer-nav li a:active {
+nav ul li a:hover, .footer-nav li a:hover {
     background-color: #42b4ff;
     color: #00327f;
     }
@@ -99,9 +99,9 @@ nav ul.hide {
     display: none;
 }
 
-.footer-nav li {
+.footer-nav {
     background-color:  #00327f;
-    display: inline-block;
+    display: block;
 }
 
 /* Town Name */
