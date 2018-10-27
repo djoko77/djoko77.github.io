@@ -106,20 +106,11 @@ table {
 section.weather-summary {
     top: 30px;
     left: 30px;
-    width: 450px;
-    height: 450px;
+    width: 260px;
+    height: 240px;
     color: #fff;
     line-height: 30px;
     font-size: 1.5em;
-}
-
-.weather-details p {
-    display: inline-block;
-    width: 100%;
-}
-
-.value {
-    margin-bottom: 20px;
 }
 
 
