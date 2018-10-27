@@ -25,15 +25,15 @@
             </div>
         </header>
   
-        <nav>
-                <ul class="navigation-bar">
-                    <li class="menu-click"><a href="#" onclick="">Menu</a></li>
-                    <li class="desktop-only-nav"><a href="#">Home</a></li>
-                    <li class="desktop-only-nav"><a href="/assignments/lesson-6/preston-6.html">Preston</a></li>
-                    <li class="desktop-only-nav"><a href="#">Soda Springs</a></li>
-                    <li class="desktop-only-nav"><a href="#">Fish Haven</a></li>
-                    <li class="desktop-only-nav"><a href="#">Storm Center</a></li>
-                    <li class="desktop-only-nav"><a href="#">Gallery</a></li>
+        <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id="mobile-nav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/assignments/lesson-6/preston-6.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
                 </ul>
         </nav>
 
@@ -118,5 +118,6 @@
             </ul>
         </footer>
         <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
     </body>
 </html>

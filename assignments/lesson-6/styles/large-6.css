@@ -1,7 +1,4 @@
 @media only screen and (min-width : 992px) {
-.menu-click {
-    display: none
-}
 
 * {
     max-width: 1028px;
@@ -33,7 +30,7 @@ header > img {
 }
 
 .current-condition {
-    display: inline-block;
+    display: inline-block;s
     vertical-align: middle;
     margin: 5px 30px;
     padding: 15px;
@@ -41,6 +38,34 @@ header > img {
     background-color: #00327f;
     border: 1px solid gray;
     box-shadow: 3px 3px 5px gray;
+}
+
+/* Navigation bar*/
+
+nav {
+    background: #6db3f2; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+nav button {
+    display: none;
+}
+
+nav ul {
+    margin-left: 2%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid #42b4ff;
+    padding: .8rem 1rem;
 }
 
 /* town name*/
