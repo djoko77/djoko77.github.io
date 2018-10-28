@@ -107,15 +107,19 @@ table {
 section.weather-summary {
     top: 30px;
     left: 30px;
-    width: 260px;
-    height: 240px;
+    width: 270px;
+    height: 250px;
     line-height: 30px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .weather-details p {
-    margin-top: 20px;
-    padding-top: 20px;
+    line-height: 2rem;
+}
+
+section.weather-summary h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 
