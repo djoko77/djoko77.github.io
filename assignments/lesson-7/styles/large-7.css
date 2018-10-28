@@ -1,0 +1,165 @@
+@media only screen and (min-width : 992px) {
+
+* {
+    max-width: 1028px;
+    margin: auto;
+}
+
+.desktop-only-nav {
+    display: inline-block;
+}
+
+/* header part */
+
+header {
+    padding: 15px;
+}
+
+header > img {
+    width: 150px;
+    margin: 5px 20px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-top: -18px;
+}
+
+.current-condition {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 30px;
+    padding: 15px;
+    color: #fff;
+    background-color: #00327f;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px gray;
+}
+
+/* Navigation bar*/
+
+nav button {
+    display: none;
+}
+
+nav ul {
+    margin-left: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    border: none;
+    padding: .8rem 1rem;
+    text-align: center;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+/* town name*/
+
+.town-name {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+/* 5-day weather forecast section */
+
+.forecast {
+    display: block;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 16px;
+    color: #00327f;
+    width: 600px;
+}
+
+th {
+    background-color: #00327f;
+    color: white;
+    padding: 15px;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.forecast h2 {
+    padding: 20px;
+}
+
+/* Upper part */
+
+section.weather-summary {
+    top: 30px;
+    left: 30px;
+    width: 270px;
+    height: 250px;
+    line-height: 30px;
+    font-size: 1.5rem;
+}
+
+.weather-details p {
+    line-height: 2rem;
+}
+
+section.weather-summary h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+/* article */
+
+.article-image {
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+
+.left-column {
+    padding: 10px;
+    margin: 10px;
+}
+
+.lower-part {
+    overflow: auto;
+}
+
+/* footer */
+
+.right-column {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    padding: 10px;
+}
+
+.map-mage {
+    float: left;
+    padding: 20px;
+}
+
+
+}
