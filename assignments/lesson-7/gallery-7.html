@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Weather in Town</title>
+        <meta name="description" content="Get the latest weather forecast from our website">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7CRaleway" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small-7.css" rel="stylesheet">
+        <link href="styles/large-7.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/logo.png" alt="weather in town logo">
+            <div class="header-text">
+                <h1>Weather in Town</h1>
+                <div class="sub-heading">"The reliable forecast that delivers!"</div>
+            </div>
+            <div class="current-condition">
+                <img src="images/sunny.png" alt="current weather condition">
+                <div class="current-condition-label">Sunny</div>
+            </div>
+        </header>
+  
+        <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id="mobile-nav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/assignments/lesson-7/preston-7.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="/assignments/lesson-7/gallery-7.html">Gallery</a></li>
+                </ul>
+        </nav>
+
+        <main>
+            <h1>Image Gallery</h1>
+            <div class="gallery-grid">
+            <div class="gallery-image">
+            <picture>
+                    <img src="images/rain.jpg" alt="sunset">
+                </picture>
+                <p>Rainy day with dark sky</p>
+            </div>
+            <div class="gallery-image">
+                <picture>
+                    <img src="images/snow-day.jpg" alt="sunset">
+                </picture>
+                <p>Heavy snow and sled mark</p>
+            </div>
+            <div class="gallery-image">
+                <picture>
+                    <img src="images/sun-at-noon.jpg" alt="sunset">
+                </picture>
+                <p>Highest temperature of the day with the sun up</p>
+            </div>
+            <div class="gallery-image">
+
+                <picture>
+                    <img src="images/sunrise-dessert.jpg" alt="sunset">
+                </picture>
+                <p>The golden hour which is right after sunrise</p>
+            </div>
+            <div class="gallery-image">
+                <picture>
+                    <img src="images/thunder.jpg" alt="sunset">
+                </picture>
+                <p>Flashes of lightning and roaring thunder in the midnight sky</p>
+            </div>
+            <div class="gallery-image">
+                <picture>
+                    <img src="images/storm.jpg" alt="sunset">
+                                                       </picture>
+                <p>Cloudy sky which means rain will pour any time.</p>
+            </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <div class="right-column">
+                    <h2>Contact Information</h2>
+                    <p>Office Address: 8781 N Weather St, Boise, ID 83709, USA</p>
+                    <p>Phone Number: (208)541-9921</p>
+                    <p>Email: info@weatherintown.com</p>
+                </div>
+                    <img class="map-image" src="images/idaho-map.jpeg" alt="Preston Map">
+            </div>
+            
+            <ul class="footer-nav">
+                <li>&copy;2018 Weather in Town &verbar; Rombie Lagunzad</li>
+                <li>Terms of Use</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+    </body>
+</html>
