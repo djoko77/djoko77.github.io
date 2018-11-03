@@ -161,5 +161,17 @@ section.weather-summary h3 {
     padding: 20px;
 }
 
+/* Gallery Images*/
+
+.gallery-image:hover, .gallery-image p:hover {
+    text-decoration: none;
+    box-shadow: .5rem .5rem .5rem #42b4ff;
+}
+
+.gallery-image p {
+    display: flex;
+    justify-content: center;
+}
+
 
 }
