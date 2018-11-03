@@ -85,7 +85,8 @@ nav ul, .footer-nav {
 }
 
 nav ul li a {
-    display: block;
+    display: flex;
+    justify-content: center;
     padding: .8rem 2%;
     text-decoration: none;
     color: #fff;
@@ -177,6 +178,7 @@ section.weather-summary {
 .gallery-grid {
     display: grid;
     align-items: center;
+    grid-template-columns: 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
     padding: 1rem;
