@@ -166,7 +166,7 @@ section.weather-summary {
 
 /* Images */
 
-.town-image, .article-image, .map-image {
+.town-image, .article-image, .map-image, .gallery-images {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -176,16 +176,21 @@ section.weather-summary {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.2rem;
-    row-gap: 1.2rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 1rem;
+    margin: 1rem,
   }
-
 
 /* Footer */
 
 .contact-info .right-column {
-    padding: 10px;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+footer .contact-info {
+background-color: #42b4ff;
 }
 
 .footer-nav {
