@@ -1,6 +1,8 @@
 @media only screen and (min-width : 992px) {
 
-* {
+/* main part */
+
+main, footer {
     max-width: 1028px;
     margin: auto;
 }
@@ -9,41 +11,51 @@
 /* header part */
 
 header {
-    padding: 15px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
-header > img {
+header .heading-size {
+    max-width: 1028px;
+}
+
+header picture {
+    margin-left: 2%;
+ }
+
+header picture img {
     width: 150px;
-    margin: 5px 20px;
-}
-
-header .site-logo {
-    justify-content: flex-end;
+    height: auto;
 }
 
 .header-text h1 {
     font-size: 50px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 470px;
 }
 
 .sub-heading {
     font-size: 18px;
-    margin-top: -18px;
+    margin-top: 5px;
 }
 
 .current-condition {
+    width: 60px;
+    height: 90px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 5px 30px;
-    padding: 15px;
+    align-items: center;
+    margin-right: 2%;
+    padding: 1.2rem;
     color: #fff;
     background-color: #00327f;
     border: 1px solid gray;
     box-shadow: 3px 3px 5px gray;
+}
+
+.current-condition-label {
+    margin-top: -18px;
 }
 
 /* Navigation bar*/
@@ -52,19 +64,29 @@ nav button {
     display: none;
 }
 
-nav ul {
-    margin-left: 2%;
+nav, .footer-nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    max-width: 1028px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 nav ul li {
-    display: inline-block;
+    flex-direction: row;
+    padding-left: 2em;
 }
 
 nav ul li a {
     border: none;
-    padding: .8rem 1rem;
+    padding: .5rem 1.2rem;
     text-align: center;
 }
 
@@ -113,21 +135,21 @@ table {
 /* Upper part */
 
 section.weather-summary {
-    top: 30px;
+    top: 20px;
     left: 30px;
     width: 270px;
-    height: 270px;
-    line-height: 30px;
+    height: 290px;
+    line-height: 1.5rem;
     font-size: 1.5rem;
 }
 
 .weather-details p {
-    line-height: 2rem;
+    line-height: 1.7rem;
 }
 
 section.weather-summary h3 {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 
@@ -169,7 +191,7 @@ section.weather-summary h3 {
     padding: 20px;
 }
 
-/* Gallery Images*/
+/* Gallery Images Grid Large Screen View*/
 
 
 .gallery-grid {
@@ -186,12 +208,12 @@ section.weather-summary h3 {
     box-shadow: 5px 5px 10px #42b4ff;
 }
 
-.gallery-image p:focus {
+.gallery0grid .gallery-image p:hover {
     background-color: #42b4ff;
 }
+
 .gallery-image p {
     display: flex;
-    justify-content: center;
 }
 
 
