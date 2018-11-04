@@ -85,8 +85,7 @@ nav ul, .footer-nav {
 }
 
 nav ul li a {
-    display: flex;
-    justify-content: center;
+    display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #fff;
