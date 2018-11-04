@@ -173,8 +173,7 @@ section.weather-summary h3 {
     margin: 1rem,
   }
 
-.gallery-image:hover, .gallery-image p:hover {
-    text-decoration: none;
+.gallery-image:hover, .gallery-image p:focus {
     box-shadow: .5rem .5rem .5rem #42b4ff;
 }
 
