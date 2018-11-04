@@ -5,9 +5,6 @@
         margin: auto;
     }
     
-    .desktop-only-nav {
-        display: inline-block;
-    }
     
     /* header part */
     
@@ -46,20 +43,20 @@
         display: none;
     }
     
+    
     nav ul {
-        margin-left: 2%;
-        flex-direction: row;
-        }
-    
-    nav ul li {
-        display: inline-block;
-    }
-    
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
     nav ul li a {
-        border: none;
-        padding: .8rem 1rem;
-        text-align: center;
-    }
+    border: none;
+    padding: .8rem 1rem;
+    text-align: center;
+}
+
     
     nav ul.hide {
         display: block;
@@ -109,7 +106,7 @@
         top: 30px;
         left: 30px;
         width: 270px;
-        height: 300px;
+        height: 260px;
         line-height: 30px;
         font-size: 1.5rem;
     }
