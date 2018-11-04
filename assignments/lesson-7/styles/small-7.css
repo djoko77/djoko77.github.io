@@ -80,8 +80,13 @@ nav button {
 
 nav ul, .footer-nav {
     list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
+}
+
+nav ul {
+    flex-direction: column;
 }
 
 nav ul li a {

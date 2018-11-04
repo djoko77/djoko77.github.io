@@ -167,16 +167,20 @@ section.weather-summary h3 {
 .gallery-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     column-gap: 2rem;
     row-gap: 2rem;
     padding: 1rem;
     margin: 1rem,
   }
 
-.gallery-image:hover, .gallery-image p:focus {
-    box-shadow: .5rem .5rem .5rem #42b4ff;
+.gallery-image:hover {
+    box-shadow: 5px 5px 10px #42b4ff;
 }
 
+.gallery-image p:focus {
+    background-color: #42b4ff;
+}
 .gallery-image p {
     display: flex;
     justify-content: center;

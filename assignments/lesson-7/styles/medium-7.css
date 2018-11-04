@@ -48,7 +48,8 @@
     
     nav ul {
         margin-left: 2%;
-    }
+        flex-direction: row;
+        }
     
     nav ul li {
         display: inline-block;
@@ -168,12 +169,12 @@
     .gallery-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-self: center;
-        justify-self: center;
-        column-gap: 2rem;
-        row-gap: 2rem;
-        padding: 1rem;
-        margin: 1rem,
+        justify-content: space-around;
+        align-content: space-around;
+        column-gap: 1.5rem;
+        row-gap: 1,5rem;
+        padding: 0.5rem;
+        margin: 0.5rem,
   }
 
     
