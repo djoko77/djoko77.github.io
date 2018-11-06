@@ -1,0 +1,31 @@
+table {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+thead {
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 24px;
+    height: 30px;
+}
+
+.emphasis {
+    background-color: #628ca6,
+    color: white;
+}
+
+th {
+    color: white;
+    background-color: #628ca6;
+}
+
+tbody {
+    background-color: #e7f0ed;
+}
+
+tfoot {
+    font-size: smaller;
+    color: white;
+    background-color: #7fb9c2
+}
