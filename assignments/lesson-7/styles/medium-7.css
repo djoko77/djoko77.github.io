@@ -62,7 +62,7 @@ header picture img {
 
 /* Navigation bar*/
 
-nav button {
+nav button, #menu-title {
     display: none;
 }
 

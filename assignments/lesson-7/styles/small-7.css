@@ -83,11 +83,19 @@ nav {
 }
 
 nav button {
+    display: flex;
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #fff;
+}
+
+nav .menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 nav ul, .footer-nav {
@@ -109,6 +117,7 @@ nav ul li a {
     font-size: 1.2rem;
     border-top: 1px solid gray;
     font-weight: bold;
+    text-align: center;
 }
 
 nav ul li a:active, .footer-nav li a:active {
