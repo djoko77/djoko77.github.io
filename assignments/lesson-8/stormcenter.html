@@ -48,7 +48,49 @@
 
         <main>
 
-            </main>
+            <div class="town-name">
+                <h2>Storm Center</h2>
+            </div>
+    
+            <form method="get" action="thanks.html" id="storm-center-comment">
+                    <label class="top-form">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{5,}" required>
+                        </label>
+                    <label class="top-form">Email <input type="email" name="email" placeholder="john@gmail.com">
+                        </label>
+                    <label class="top-form">Phone Number* <input type="tel" name="telephone" placeholder="2087772991" required>
+                        </label>
+                    <label class="top-form">Zip Code* <input type="number" name="zipcode" required>
+                        </label>
+                    <label class="top-form">Storm Date <input type="date" name="storm-date">
+                        </label>
+                    <label class="top-form">Storm Type <input list="storm-type" name="storm-type">
+                        <datalist id="storm-type">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">
+                                <option value="Tornado">
+                              </datalist>
+                        </label>
+                    <label class="top-form">Storm Severity <input type="range" min="1" max="10">
+                        </label>
+                    <label class="top-form">Storm Region <select>
+                            <option value="Select Region" disabled>Select Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Soda Springs">Springs</option>
+                            <option value="Nampa">Nampa</option>
+                          </select>
+                        </label>
+                        <label class="top-form">User In-danger Level <input type="radio" name="danger-level" value="Yes">Yes
+                            <input type="radio" name="danger-level" value="Maybe">Maybe
+                            <input type="radio" name="danger-level" value="No">No
+                        </label>
+                        <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
+                        </label>
+                        <input type="submit" value="Report A Storm" class="submit-button">
+            </form>
+        </main>
 
         <footer>
             <div class="contact-info">

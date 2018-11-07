@@ -236,6 +236,29 @@ background-color: #42b4ff;
     width: 100%;
 }
 
+/* Storm Center Design*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+input, textarea, datalist option, select option,  {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lustria', serif;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #00327f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+
+}
+
 /* hidden elements in mobile version */
 
 .current-condition, .forecast {
