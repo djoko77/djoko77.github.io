@@ -82,6 +82,11 @@ nav {
     background-color: #00327f;
 }
 
+#menu-title {
+    font-family: 'Lustria', serif;
+    font-size: 1.2rem;
+}
+
 nav button {
     display: flex;
     margin: .2rem 2%;
