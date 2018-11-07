@@ -1,8 +1,8 @@
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 600px) {
 
 /* main part */
 
-main, footer {
+main, footer .right-column, footer ul .footer-nav {
     max-width: 1028px;
     margin: auto;
 }
@@ -16,7 +16,7 @@ header {
 }
 
 header .heading-size {
-    max-width: 1028px;
+    max-width: 992px;
 }
 
 header picture {
@@ -41,13 +41,15 @@ header picture img {
 }
 
 .current-condition {
-    width: 60px;
+    width: 70px;
     height: 90px;
+    flex: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-right: 2%;
-    padding: 1.2rem;
+    justify-self: center;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 1rem;
     color: #fff;
     background-color: #00327f;
     border: 1px solid gray;
@@ -60,33 +62,22 @@ header picture img {
 
 /* Navigation bar*/
 
-nav button {
+nav button, #menu-title {
     display: none;
 }
 
-nav, .footer-nav {
+nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul {
-    max-width: 1028px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
 }
 
 nav ul li {
-    flex-direction: row;
-    padding-left: 2em;
+    display: inline-block;
 }
 
 nav ul li a {
     border: none;
-    padding: .5rem 1.2rem;
+    padding: .8rem 1rem;
     text-align: center;
 }
 
@@ -135,7 +126,7 @@ table {
 /* Upper part */
 
 section.weather-summary {
-    top: 20px;
+    top: 40px;
     left: 30px;
     width: 270px;
     height: 290px;
@@ -148,8 +139,8 @@ section.weather-summary {
 }
 
 section.weather-summary h3 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -191,30 +182,23 @@ section.weather-summary h3 {
     padding: 20px;
 }
 
-/* Gallery Images Grid Large Screen View*/
+/* Gallery Images Grid Medium Screen View */
 
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 2rem;
-    row-gap: 2rem;
-    padding: 1rem;
-    margin: 1rem,
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        column-gap: 1.5rem;
+        row-gap: 1,5rem;
+        padding: 0.5rem;
+        margin: 0.5rem,
   }
+    
+    .gallery-image p {
+        display: flex;
+    }
+    
+    
 
-.gallery-image:hover {
-    box-shadow: 5px 5px 10px #42b4ff;
-}
-
-.gallery0grid .gallery-image p:hover {
-    background-color: #42b4ff;
-}
-
-.gallery-image p {
-    display: flex;
-}
-
-
-}
+ }
