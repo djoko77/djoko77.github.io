@@ -238,32 +238,44 @@ background-color: #42b4ff;
 
 /* Storm Center Design*/
 
-form {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #00327f;
+    border-radius: 10px;
+    padding: .5rem 5%;
 }
 
-input, textarea, datalist option, select option,  {
-    font-family: 'Lustria', serif;
-    padding: 1rem;
-}
-
-label {
+form label.top-form, form label datalist {
+    display: block;
     font-weight: bold;
     color: #00327f;
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
-    padding-top: 2rem;
+    padding: 1,5rem;
     margin: 1rem;
 
 }
 
-legend {
+form legend {
     font-family: 'Raleway', sans-serif;
     font-size: 1.7rem;
     font-weight: bold;
     color: #00327f;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top-form input, form label datalist#storm-type option, form label.top-form select, form label textarea  {
+    display: block;
+    font-family: 'Lustria', serif;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 4px;
+    border: solid 1px #42b4ff;
+    color: #00327f;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(66, 180, 255, 0.1)
 }
 
 /* hidden elements in mobile version */
