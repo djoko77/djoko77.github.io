@@ -245,12 +245,12 @@ form fieldset {
     padding: .5rem 5%;
 }
 
-form label.top-form, form label datalist, form label.top-form-radio {
+form label.top-form, form label datalist, form label.top-form-radio, form .submit-button {
     display: block;
     font-weight: bold;
     color: #00327f;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: .3rem;
     margin: 1rem;
 
@@ -265,7 +265,7 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top-form input, form label datalist#storm-type option, form label.top-form select, form label textarea  {
+form label.top-form input, form label datalist#storm-type option, form label.top-form select, form label textarea, form label.top-form-radio input  {
     display: block;
     font-family: 'Lustria', serif;
     font-size: 1rem;
@@ -310,6 +310,16 @@ form label.top-form input, form label datalist#storm-type option, form label.top
     background: #00327f;
     cursor: pointer;
 }
+
+form .submit-button {
+    background-color: #00327f;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    width: 20%;
+    height: 30px;
+}
+
 /* hidden elements in mobile version */
 
 .current-condition, .forecast {
