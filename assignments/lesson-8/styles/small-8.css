@@ -245,13 +245,13 @@ form fieldset {
     padding: .5rem 5%;
 }
 
-form label.top-form, form label datalist {
+form label.top-form, form label datalist, form label.top-form-radio {
     display: block;
     font-weight: bold;
     color: #00327f;
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
-    padding: 1,5rem;
+    padding: .5rem;
     margin: 1rem;
 
 }
