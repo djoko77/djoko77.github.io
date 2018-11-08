@@ -245,18 +245,25 @@ form {
 }
 
 input, textarea, datalist option, select option,  {
-    display: flex;
-    flex-direction: column;
     font-family: 'Lustria', serif;
-    padding: 20px;
+    padding: 1rem;
 }
 
 label {
     font-weight: bold;
     color: #00327f;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    margin: 1rem;
 
+}
+
+legend {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #00327f;
 }
 
 /* hidden elements in mobile version */
