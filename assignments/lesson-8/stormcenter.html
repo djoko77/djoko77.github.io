@@ -65,7 +65,7 @@
                         </label>
                     <label class="top-form">Storm Date <input type="date" name="storm-date">
                         </label>
-                    <label class="top-form">Storm Type <input list="storm-type" name="storm-type">
+                    <label class="top-form">Storm Type <input list="storm-type" name="storm-type"></label>
                         <datalist id="storm-type">
                                 <option value="Flash Flood">
                                 <option value="Hail">
@@ -73,8 +73,10 @@
                                 <option value="Thunderstorm">
                                 <option value="Tornado">
                               </datalist>
-                        </label>
-                    <label class="top-form">Storm Severity <input type="range" min="1" max="10">
+                        
+                    <label class="top-form">Storm Severity
+                        <input type="range" name=storm-severity min="1" max="10" value="5" class="slider-form" id="severity-range">
+                        <p id="storm-severity-number"></p>
                         </label>
                     <label class="top-form">Storm Region <select>
                             <option value="Select Region" disabled>Select Region</option>
@@ -90,7 +92,7 @@
                         </label>
                         <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
                         </label>
-                        <input type="submit" value="Report It Now!" class="submit-button">
+                        <input type="submit" name="submit-it" value="Report It Now!" class="submit-button">
                     </fieldset>
             </form>
         </main>
@@ -115,5 +117,6 @@
         <script type="text/javascript" src="scripts/currentdate.js"></script>
         <script type="text/javascript" src="scripts/hamburger.js"></script>
         <script type="text/javascript" src="scripts/windchill.js"></script>
+        <script type="text/javascript" src="scripts/range.js"></script>
     </body>
 </html>

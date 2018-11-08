@@ -251,14 +251,14 @@ form label.top-form, form label datalist, form label.top-form-radio {
     color: #00327f;
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
-    padding: .5rem;
+    padding: .3rem;
     margin: 1rem;
 
 }
 
 form legend {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #00327f;
     margin: 0 1rem;
@@ -278,6 +278,39 @@ form label.top-form input, form label datalist#storm-type option, form label.top
     background-color: rgb(66, 180, 255, 0.1)
 }
 
+
+.slider-form {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #42b4ff; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.slider-form:hover {
+    opacity: 1;
+}
+
+.slider-form::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #00327f; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+.slider-form::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #00327f;
+    cursor: pointer;
+}
 /* hidden elements in mobile version */
 
 .current-condition, .forecast {
