@@ -76,7 +76,7 @@
                         
                     <label class="top-form">Storm Severity
                         <input type="range" name=storm-severity min="1" max="10" value="5" class="slider-form" id="severity-range">
-                        <p id="storm-severity-number"></p>
+                        <span id="storm-severity-number"></span>
                         </label>
                     <label class="top-form">Storm Region <select>
                             <option value="Select Region" disabled>Select Region</option>
@@ -86,10 +86,11 @@
                             <option value="Nampa">Nampa</option>
                           </select>
                         </label>
-                        <label class="top-form-radio">User In-danger Level <input type="radio" name="danger-level" value="Yes">Yes
-                            <input type="radio" name="danger-level" value="Maybe">Maybe
-                            <input type="radio" name="danger-level" value="No">No
-                        </label>
+                        <div>User In-danger Level</div>
+                        <label class="top-form-radio"><input type="radio" name="danger-level" value="Yes">Yes</label>
+                        <label class="top-form-radio"><input type="radio" name="danger-level" value="No">No</label>
+                        <label class="top-form-radio"><input type="radio" name="danger-level" value="Maybe">Maybe</label>
+                        
                         <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
                         </label>
                         <input type="submit" name="submit-it" value="Report It Now!" class="submit-button">
