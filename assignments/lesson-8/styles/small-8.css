@@ -315,9 +315,17 @@ form label.top-form input:required:valid {
     border-left: 6px solid #00327f;
 }
 
-form div {
-    padding: none;
+main .thank-you-message {
+    font-size: 1.3rem;
+    color: #00327f;
+    text-align: center;
+    padding-top: none;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -50px;
+    font-family: 'Lustria', serif;
 }
+
 /* hidden elements in mobile version */
 
 .current-condition, .forecast {
