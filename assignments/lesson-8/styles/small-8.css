@@ -144,7 +144,7 @@ nav ul.hide {
 .town-name {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-variant: small-caps;
 }
 
@@ -322,13 +322,12 @@ form label.top-form input:required:valid {
 }
 
 main .thank-you-message {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #00327f;
     text-align: center;
-    padding-top: none;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    margin-top: -50px;
+    margin-top: -10px;
     font-family: 'Lustria', serif;
 }
 

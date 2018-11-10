@@ -194,6 +194,19 @@ section.weather-summary h3 {
     padding: 20px;
 }
 
+/* Thank You Message Large */
+
+main .thank-you-message {
+    font-size: 1.5rem;
+    color: #00327f;
+    text-align: center;
+    padding-top: none;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -50px;
+    font-family: 'Lustria', serif;
+}
+
 /* Gallery Images Grid Large Screen View*/
 
 
