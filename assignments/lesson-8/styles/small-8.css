@@ -24,22 +24,28 @@ span {
 /* header part */
 
 header {
+    display: flex;
+    justify-content: center;
     background-color: #9ae9f7
 }
 
 header .heading-size {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 5px;
     color: #fff;
 }
+
  header picture {
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 0.5rem;
-    flex: 0 1 auto;
  }
 
 header picture img {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
     width: 80px;
     height: auto;
 }
@@ -55,13 +61,13 @@ header picture img {
 
 .header-text h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     font-variant: small-caps;
     text-shadow: 2px 2px 4px gray;
     letter-spacing: 1px;
     margin-top: 10px;
-
+    width: 14rem;
 }
 
 .sub-heading {
@@ -70,7 +76,7 @@ header picture img {
     font-style: italic;
     line-height: 1px;
     font-weight: bold;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 /* navigation bar */

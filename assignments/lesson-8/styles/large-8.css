@@ -21,6 +21,7 @@ header .heading-size {
 
 header picture {
     margin-left: 2%;
+    padding: 1rem;
  }
 
 header picture img {
@@ -75,12 +76,12 @@ nav ul {
     max-width: 1028px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
 nav ul li {
-    flex-direction: row;
     padding-left: 2em;
 }
 
@@ -88,11 +89,13 @@ nav ul li a {
     border: none;
     padding: .5rem 1.2rem;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 nav ul.hide {
     display: block;
 }
+
 
 /* town name*/
 
@@ -138,8 +141,8 @@ section.weather-summary {
     top: 20px;
     left: 30px;
     width: 270px;
-    height: 290px;
-    line-height: 1.5rem;
+    height: 310px;
+    line-height: 2rem;
     font-size: 1.5rem;
 }
 
