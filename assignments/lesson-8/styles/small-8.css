@@ -308,13 +308,16 @@ form .submit-button {
 }
 
 form label.top-form input:required {
-    border-left: 6px solid #00327f;
+    border-left: 6px solid red;
 }
 
 form label.top-form input:required:valid {
-    border-left: 6px solid #42b4ff;
+    border-left: 6px solid #00327f;
 }
 
+form div {
+    padding: none;
+}
 /* hidden elements in mobile version */
 
 .current-condition, .forecast {
