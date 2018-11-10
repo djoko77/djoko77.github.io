@@ -246,11 +246,10 @@ background-color: #FFC966;
 
 form fieldset {
     margin: 1rem 0;
-    border: 1px solid #00327f;
-    border-radius: 10px;
+    border: none;
     padding: .5rem 5%;
     margin-top: -10px;
-    background-color:rgb(154, 233, 247, 0.3);
+    background-color:rgb(154, 233, 247, 0.5);
 }
 
 form label.top-form, form label datalist, form label.top-form-radio, form .submit-button, form span, form div {
@@ -286,7 +285,7 @@ form label.top-form input, form label datalist#storm-type option, form label.top
     color: #00327f;
     width: 100%;
     max-width: 20rem;
-    background-color: rgb(0, 0, 0, 0.1)
+
 }
 
 datalist#storm-type option {
