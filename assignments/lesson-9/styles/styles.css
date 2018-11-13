@@ -2,6 +2,12 @@
 
 html {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6254+0,cf0404+100 */
+background: rgb(255,98,84); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,98,84,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,98,84,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,98,84,1) 0%,rgba(207,4,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6254', endColorstr='#cf0404',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   
   body {
