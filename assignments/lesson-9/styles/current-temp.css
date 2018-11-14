@@ -6,6 +6,7 @@ background: -webkit-linear-gradient(-45deg, rgba(178,225,255,1) 0%,rgba(178,225,
 background: linear-gradient(135deg, rgba(178,225,255,1) 0%,rgba(178,225,255,1) 29%,rgba(102,182,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 }
