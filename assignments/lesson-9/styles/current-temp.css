@@ -13,7 +13,7 @@ justify-content: center;
 h1 {
     color: #00327f;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     font-variant: small-caps;
 }
@@ -21,5 +21,5 @@ h1 {
 p {
     color: #00327f;
     font-family: 'Lustria', serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
