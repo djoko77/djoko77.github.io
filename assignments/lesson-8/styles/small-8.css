@@ -247,7 +247,7 @@ form fieldset {
     border: none;
     padding: .5rem 5%;
     margin-top: -10px;
-    background-color:rgba(68, 221, 248, 0.3);
+    background-color: #9ae9f7;
 }
 
 form label.top-form, form label datalist, form label.top-form-radio, form .submit-button, form span, form div {
