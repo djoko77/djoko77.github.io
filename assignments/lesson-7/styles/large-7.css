@@ -208,7 +208,7 @@ section.weather-summary h3 {
     box-shadow: 5px 5px 10px #42b4ff;
 }
 
-.gallery0grid .gallery-image p:hover {
+.gallery-grid .gallery-image p:hover {
     background-color: #42b4ff;
 }
 
