@@ -1,0 +1,225 @@
+@media only screen and (min-width : 600px) {
+
+/* main part */
+
+main, footer .right-column, footer ul .footer-nav {
+    max-width: 1028px;
+    margin: auto;
+}
+
+
+/* header part */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .heading-size {
+    max-width: 992px;
+}
+
+header picture {
+    margin-left: 2%;
+    padding: 1rem;
+ }
+
+header picture img {
+    width: 110px;
+    height: auto;
+}
+
+.header-text h1 {
+    font-size: 35px;
+    width: 20rem;
+}
+
+.sub-heading {
+    font-size: 1rem;
+}
+
+.current-condition {
+    width: 70px;
+    height: 90px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #00327f;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.current-condition-label {
+    margin-top: -18px;
+}
+
+/* Navigation bar*/
+
+nav button, #menu-title {
+    display: none;
+}
+
+nav ul {
+    max-width: 992px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    border: none;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+nav ul li a {
+    font-size: 0.85rem;
+}
+
+
+/* town name*/
+
+.town-name {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+/* 5-day weather forecast section */
+
+.forecast {
+    display: block;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 16px;
+    color: #00327f;
+    width: 600px;
+}
+
+th {
+    background-color: #00327f;
+    color: white;
+    padding: 15px;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.forecast h2 {
+    padding: 20px;
+}
+
+/* Upper part */
+
+section.weather-summary {
+    top: 20px;
+    left: 30px;
+    width: 210px;
+    height: 260px;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.weather-details p {
+    line-height: 1.7rem;
+}
+
+section.weather-summary h3 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+/* article */
+
+.article-image {
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+
+.left-column {
+    padding: 10px;
+    margin: 10px;
+}
+
+.lower-part {
+    overflow: auto;
+}
+
+/* footer */
+
+.right-column {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    padding: 10px;
+}
+
+.map-mage {
+    float: left;
+    padding: 20px;
+}
+
+/* Thank You Message Medium */
+
+main .thank-you-message {
+    font-size: 1.3rem;
+    color: #00327f;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -50px;
+    font-family: 'Lustria', serif;
+}
+
+/* Gallery Images Grid Medium Screen View */
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        padding: 0.5rem;
+  }
+    
+    .gallery-image p {
+        display: flex;
+    }
+    
+    
+
+ }
