@@ -223,7 +223,8 @@ section.weather-summary {
 }
 
 footer .contact-info {
-background-color: #42b4ff;
+    padding: 20px;
+    background-color: #ffa629
 }
 
 .footer-nav {

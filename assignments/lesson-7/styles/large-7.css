@@ -178,7 +178,7 @@ section.weather-summary h3 {
     float: right;
 }
 
-.contact-info {
+footer .contact-info {
     padding: 20px;
 }
 
@@ -186,7 +186,7 @@ section.weather-summary h3 {
     padding: 10px;
 }
 
-.map-mage {
+.map-image {
     float: left;
     padding: 20px;
 }
