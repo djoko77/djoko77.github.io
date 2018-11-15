@@ -342,7 +342,7 @@ main .thank-you-message {
 
 /* Home page CSS */
 
-.town-grid-column {
+main .town-grid-column {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
