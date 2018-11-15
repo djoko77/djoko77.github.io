@@ -200,14 +200,13 @@ section.weather-summary h3 {
     column-gap: 2rem;
     row-gap: 2rem;
     padding: 1rem;
-    margin: 1rem,
   }
 
 .gallery-image:hover {
     box-shadow: 5px 5px 10px #42b4ff;
 }
 
-.gallery-grid .gallery-image p:hover {
+.gallery-image p:hover {
     background-color: #42b4ff;
 }
 
