@@ -36,7 +36,6 @@ header picture img {
 
 .sub-heading {
     font-size: 1rem;
-    margin-top: none;
 }
 
 .current-condition {
@@ -199,7 +198,6 @@ main .thank-you-message {
     font-size: 1.3rem;
     color: #00327f;
     text-align: center;
-    padding-top: none;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     margin-top: -50px;
@@ -214,9 +212,8 @@ main .thank-you-message {
         justify-content: space-around;
         align-content: space-around;
         column-gap: 1.5rem;
-        row-gap: 1,5rem;
+        row-gap: 1.5rem;
         padding: 0.5rem;
-        margin: 0.5rem,
   }
     
     .gallery-image p {

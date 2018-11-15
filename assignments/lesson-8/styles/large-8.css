@@ -200,7 +200,6 @@ main .thank-you-message {
     font-size: 1.5rem;
     color: #00327f;
     text-align: center;
-    padding-top: none;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     margin-top: -50px;
@@ -217,7 +216,6 @@ main .thank-you-message {
     column-gap: 2rem;
     row-gap: 2rem;
     padding: 1rem;
-    margin: 1rem,
   }
 
 .gallery-image:hover {
