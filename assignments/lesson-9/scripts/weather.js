@@ -5,13 +5,20 @@ weatherRequest.send();
 
 weatherRequest.onload =  function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
-    console.log(weatherData.main['temp']);
+    console.log(weatherData.main['humidity']);
+
+    var currentWeather = weatherData.weather['main'];
+    document.getElementById("current-weather").innerHTML = currentWeather;
+
     var currentTemp = weatherData.main['temp'];
     document.getElementById("current-temperature").innerHTML = currentTemp+" &deg;F";
+
     var currentHumidity = weatherData.main['humidity'];
     document.getElementById("current-humidity").innerHTML = currentHumidity+"%";
+
     var currentPrecipitation = weatherData.main['precipitation'];
-    document.getElementById("current-humidity").innerHTML = currentPrecipitation+" inches";
+    document.getElementById("current-precipitation").innerHTML = currentPrecipitation+" inches";
+
     var currentWindSpeed = weatherData.wind['speed'];
     document.getElementById("wind-speed").innerHTML = currentWindSpeed+" mph";
 }
