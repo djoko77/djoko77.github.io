@@ -136,8 +136,6 @@ section.weather-summary {
     top: 15px;
     left: 15px;
     background-color: #00327f;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
     width: 150px;
     height: 130px;
     padding: 10px;
