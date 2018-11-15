@@ -232,7 +232,7 @@ main .thank-you-message {
 
 /* Home page CSS */ 
 
-.town-grid-column {
+main .town-grid-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
