@@ -42,6 +42,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6254', end
   
   section p {
     margin: 5px 0;
+    padding: 1rem;
   }
   
   section ul {
