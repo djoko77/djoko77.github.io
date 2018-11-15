@@ -232,13 +232,5 @@ main .thank-you-message {
 
 /* Home page CSS */ 
 
-main .town-grid-column {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 2rem;
-    row-gap: 2rem;
-    padding: 1rem;
-  }
 
 }

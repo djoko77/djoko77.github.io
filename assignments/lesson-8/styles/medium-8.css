@@ -222,14 +222,5 @@ main .thank-you-message {
     
     /* Home page CSS */ 
     
-    .town-grid-column {
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr;
-        column-gap: 2rem;
-        row-gap: 2rem;
-        padding: 1rem;
-        margin: 1rem;
-      } 
 
  }
