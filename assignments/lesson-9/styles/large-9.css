@@ -237,7 +237,7 @@ section h2 {
  }
  
  section p.front-label {
-     color: #00327f;
+     color: #fff;
      font-weight: bold;
  }
  
@@ -253,8 +253,6 @@ section h2 {
  }
  
  main div.town-data {
-     position: absolute;
-     background-color: rgb(154, 233, 247, 0.7);
      width: 275px;
      padding: 1rem;
      margin: 1rem;
@@ -265,6 +263,11 @@ section h2 {
     width: auto;
     height: 600px;
     margin-bottom: 2rem;
+ }
+
+#weather-icon {
+    width: 100%;
+
 }
 
 }

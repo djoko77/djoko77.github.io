@@ -337,10 +337,11 @@ main .thank-you-message {
 
 section h2 {
    display: flex;
+   color: #fff;
 }
 
 section p.front-label {
-    color: #00327f;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -359,7 +360,7 @@ main div.town-grid-column {
 
 main div.town-data {
     position: absolute;
-    background-color: rgb(154, 233, 247, 0.7);
+    background-color: rgb(0, 50, 127, 0.7);
     width: 350px;
     padding: 1rem;
     margin: 1rem;
