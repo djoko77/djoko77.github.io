@@ -17,7 +17,7 @@ weatherRequest.onload =  function () {
     document.getElementById("current-humidity").innerHTML = currentHumidity+"%";
 
     var currentPrecipitation = weatherData.main['precipitation'];
-    document.getElementById("current-precipitation").innerHTML = currentPrecipitation+" inches";
+    document.getElementById("current-precipitation").innerHTML = currentPrecipitation;
 
     var currentWindSpeed = weatherData.wind['speed'];
     document.getElementById("wind-speed").innerHTML = currentWindSpeed+" mph";
