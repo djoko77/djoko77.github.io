@@ -5,9 +5,9 @@ weatherRequest.send();
 
 weatherRequest.onload =  function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
-    console.log(weatherData.main['humidity']);
+    console.log(weatherData.weather["description"]);
 
-    var currentWeather = weatherData.weather['main'];
+    var currentWeather = weatherData.weather.main;
     document.getElementById("current-weather").innerHTML = currentWeather;
 
     var currentTemp = weatherData.main['temp'];

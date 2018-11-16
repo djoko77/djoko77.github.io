@@ -341,34 +341,29 @@ section h2 {
 
 section p.front-label {
     color: #00327f;
+    font-weight: bold;
 }
 
 section p.front-value {
     color: #ffa629;
-}
-
-main section.preston-town {
-    background-color: #9ae9f7;
-}
-
-main section.soda-springs-town {
-    background-color: #9ae9f7;
-}
-
-main section.fish-haven-town {
-    background-color: #9ae9f7;
+    font-weight: bold;
 }
 
 main div.town-grid-column {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
 }
 
 main div.town-data {
     position: absolute;
-    background-color: #9ae9f7
+    background-color: rgb(154, 233, 247, 0.7);
+    width: 325px;
+    padding: 1rem;
+    
+}
+
+section picture.front-hero {
     padding: 1rem;
 }
 
