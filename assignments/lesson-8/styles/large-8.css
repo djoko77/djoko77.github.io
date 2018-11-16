@@ -232,8 +232,4 @@ main .thank-you-message {
 
 /* Home page CSS */ 
 
-main .town-grid-column {
-    display: flex;
-    flex-direction: row;
-  }
 }
