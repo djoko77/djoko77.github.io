@@ -347,6 +347,7 @@ section p.front-label {
 section p.front-value {
     color: #ffa629;
     font-weight: bold;
+    display: block;
 }
 
 main div.town-grid-column {
@@ -359,14 +360,14 @@ main div.town-grid-column {
 main div.town-data {
     position: absolute;
     background-color: rgb(154, 233, 247, 0.7);
-    width: 200px;
+    width: 350px;
     padding: 1rem;
+    margin: 1rem;
 }
 
 .front-hero {
-    max-width: 100%;
-    width: auto;
-    height: 300px;
+    width: 400px;
+    height: 500px;
     padding: .4rem;
 }
 
