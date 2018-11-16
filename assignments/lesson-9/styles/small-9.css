@@ -351,19 +351,23 @@ section p.front-value {
 
 main div.town-grid-column {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main div.town-data {
     position: absolute;
     background-color: rgb(154, 233, 247, 0.7);
-    width: 325px;
+    width: 200px;
     padding: 1rem;
 }
 
-section picture.front-hero {
-    padding: 1rem;
+.front-hero {
+    max-width: 100%;
+    width: auto;
+    height: 300px;
+    padding: .4rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

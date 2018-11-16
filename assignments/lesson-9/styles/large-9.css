@@ -230,5 +230,40 @@ main .thank-you-message {
     display: flex;
 }
 
+/* Home page CSS */ 
+
+section h2 {
+    display: flex;
+ }
+ 
+ section p.front-label {
+     color: #00327f;
+     font-weight: bold;
+ }
+ 
+ section p.front-value {
+     color: #ffa629;
+     font-weight: bold;
+ }
+ 
+ main div.town-grid-column {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ 
+ main div.town-data {
+     position: absolute;
+     background-color: rgb(154, 233, 247, 0.7);
+     width: 275px;
+     padding: 1rem;
+ }
+ 
+ .front-hero {
+    max-width: 95%;
+    width: auto;
+    height: 600px;
+    margin-bottom: 2rem;
+}
 
 }
