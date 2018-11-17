@@ -10,9 +10,9 @@
         "age" : 16,
         "secretIdentity" : "Straw Hat",
         "powers" : [
-          "Immense Strength and Endurance",
-          "Stretchable legs and arms",
-          "Haki Attack"
+          "Immense strength and endurance",
+          "stretchable legs and arms",
+          "Haki attack"
         ]
       },
       {
@@ -21,7 +21,7 @@
         "secretIdentity" : "Kakarot",
         "powers" : [
           "Kamehame wave",
-          "Super saiyan reflexes",
+          "Ultra instinct",
           "Teleportation"
         ]
       },
@@ -30,7 +30,7 @@
         "age" : 25,
         "secretIdentity" : "Capped Buddy",
         "powers" : [
-          "Psychic Resistance",
+          "Psychic resistance",
           "One punch attack",
           "Ultra speed"
         ]
