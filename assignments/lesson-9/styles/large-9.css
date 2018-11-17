@@ -129,6 +129,7 @@ th, td {
 
 table {
     border-collapse: collapse;
+    border:1px solid #00327f;
 }
 
 .forecast h2 {
@@ -235,6 +236,7 @@ main .thank-you-message {
 
 section h2 {
     display: flex;
+    justify-content: center;
  }
  
  section p.front-label {
@@ -268,7 +270,6 @@ section h2 {
 
 #weather-icon {
     width: 100%;
-
 }
 
 }
