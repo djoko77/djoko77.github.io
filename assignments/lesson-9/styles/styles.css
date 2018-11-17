@@ -22,12 +22,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', end
   /* header styles */
   
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
   
   header p {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
   }
