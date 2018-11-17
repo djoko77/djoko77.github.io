@@ -194,6 +194,11 @@ section.weather-summary {
     padding: 10px;
 }
 
+h3.town-daily-title {
+    color: #00327f;
+    font-size: 1.5rem;
+}
+
 /* Images */
 
 .town-image, .article-image, .map-image, .gallery-images {
