@@ -350,14 +350,14 @@ section p.front-label {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 section p.front-value {
     color: #ffa629;
     font-weight: bold;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 main div.town-grid-column {
@@ -384,8 +384,8 @@ main div.town-data {
 #townMottoFH, #townMottoSS, #townMottoPreston {
     color: #ffa629;
     margin-top: -10px;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
