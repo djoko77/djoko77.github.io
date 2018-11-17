@@ -28,7 +28,7 @@ console.log(weatherData.rain);
     document.getElementById("current-precipitation").innerHTML = currentPrecipitation;
 
     var currentWindSpeed = weatherData.wind['speed'];
-    document.getElementById("wind-speed").innerHTML = currentWindSpeed+" mph";
+    document.getElementById("wind-speed").innerHTML = currentWindSpeed;
 
     var currentWeatherIcon = weatherData.weather[0].icon;
     document.getElementById("weather-icon")
