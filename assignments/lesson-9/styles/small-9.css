@@ -343,17 +343,21 @@ main .thank-you-message {
 section h2 {
    display: flex;
    color: #fff;
+   justify-content: center;
 }
 
 section p.front-label {
     color: #fff;
     font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 section p.front-value {
     color: #ffa629;
     font-weight: bold;
-    display: block;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 main div.town-grid-column {
@@ -375,6 +379,13 @@ main div.town-data {
     width: 400px;
     height: 500px;
     padding: .4rem;
+}
+
+#townMottoFH, #townMottoSS, #townMottoPreston {
+    color: #ffa629;
+    margin-top: -10px;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
