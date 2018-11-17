@@ -56,7 +56,7 @@ header picture img {
 }
 
 .current-condition-label {
-    margin-top: -18px;
+    padding: 1rem;
 }
 
 /* Navigation bar*/
