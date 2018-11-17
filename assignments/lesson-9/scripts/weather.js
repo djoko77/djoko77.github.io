@@ -22,7 +22,7 @@ console.log(weatherData.rain);
         currentPrecipitation = "0 inches";
     }
     else {
-        return currentPrecipitation+ " inches"
+        return currentPrecipitation+ " inches";
     }
 
     document.getElementById("current-precipitation").innerHTML = currentPrecipitation;

@@ -14,7 +14,7 @@ townDataRequest.onload =  function () {
     document.getElementById("townMottoPreston").innerHTML = prestonMotto;
     document.getElementById("yearFoundedPreston").innerHTML = prestonFounded;
     document.getElementById("townPopulationPreston").innerHTML = prestonPopulation;
-    document.getElementById("annualRainfallPreston").innerHTML = prestonRainfall;
+    document.getElementById("annualRainfallPreston").innerHTML = prestonRainfall+"&quot;";
 
     var FHName = townData.towns[1].name;
     var FHMotto = townData.towns[1].motto;
@@ -25,7 +25,7 @@ townDataRequest.onload =  function () {
     document.getElementById("townMottoFH").innerHTML = FHMotto;
     document.getElementById("yearFoundedFH").innerHTML = FHFounded;
     document.getElementById("townPopulationFH").innerHTML = FHPopulation;
-    document.getElementById("annualRainfallFH").innerHTML = FHRainfall;
+    document.getElementById("annualRainfallFH").innerHTML = FHRainfall+"&quot;";
 
 
     var SSName = townData.towns[5].name;
@@ -37,5 +37,5 @@ townDataRequest.onload =  function () {
     document.getElementById("townMottoSS").innerHTML = SSMotto;
     document.getElementById("yearFoundedSS").innerHTML = SSFounded;
     document.getElementById("townPopulationSS").innerHTML = SSPopulation;
-    document.getElementById("annualRainfallSS").innerHTML = SSRainfall;
+    document.getElementById("annualRainfallSS").innerHTML = SSRainfall+"&quot;";
 }
