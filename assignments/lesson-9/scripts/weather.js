@@ -5,7 +5,6 @@ weatherRequest.send();
 
 weatherRequest.onload =  function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
-console.log(weatherData.rain);
 
     var currentWeather = weatherData.weather[0].main;
     document.getElementById("current-weather").innerHTML = currentWeather;
@@ -17,15 +16,8 @@ console.log(weatherData.rain);
     var currentHumidity = weatherData.main['humidity'];
     document.getElementById("current-humidity").innerHTML = currentHumidity+"%";
 
-    var currentPrecipitation = weatherData.rain;
-    if (currentPrecipitation == undefined ) {
-        currentPrecipitation = "0 inches";
-    }
-    else {
-        return currentPrecipitation+ " inches";
-    }
-
-    document.getElementById("current-precipitation").innerHTML = currentPrecipitation;
+    var clouds = weatherData.clouds['all'];
+    document.getElementById("cloudiness").innerHTML = clouds+"%";
 
     var currentWindSpeed = weatherData.wind['speed'];
     document.getElementById("wind-speed").innerHTML = currentWindSpeed;
