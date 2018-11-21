@@ -1,6 +1,7 @@
 var t = document.getElementById('current-temperature');
 var text = t.textContent;
 var numberT = Number(text);
+console.log(numberT);
 
 var s = document.getElementById('wind-speed');
 var text2 = s.textContent;

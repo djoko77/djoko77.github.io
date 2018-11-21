@@ -9,7 +9,6 @@ weatherRequest.onload =  function () {
     var currentWeather = weatherData.weather[0].main;
     document.getElementById("current-weather").innerHTML = currentWeather;
 
-
     var currentTemp = weatherData.main['temp'];
     document.getElementById("current-temperature").innerHTML = currentTemp;
 
