@@ -1,0 +1,399 @@
+/* This is the mobile first */
+
+body {
+    font-family: 'Lustria', serif;
+    font-size: 14px;
+}
+
+h2 {
+    color: #00327f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+span {
+    color: #ffa629;
+    font-weight: bold;
+}
+
+/* header part */
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #9ae9f7;
+}
+
+header .heading-size {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    color: #fff;
+}
+
+ header picture {
+    margin-left: 2%;
+    padding: 0.5rem;
+ }
+
+header picture img {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    width: 80px;
+    height: auto;
+}
+
+.header-text {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 4px gray;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 14rem;
+}
+
+.sub-heading {
+    font-size: 12px;
+    color: #00327f;
+    font-style: italic;
+    line-height: 1px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+/* navigation bar */
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00327f;
+}
+
+nav button {
+    display: flex;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav .menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul, .footer-nav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    flex-direction: column;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-top: 1px solid gray;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a:active, .footer-nav li a:active {
+    background-color: aqua;
+    color: #00327f;
+    }
+
+nav ul li a:hover, .footer-nav li a:hover {
+    background-color: #9ae9f7;
+    color: #00327f;
+    }
+
+nav ul.hide {
+    display: none;
+}
+
+/* Town Name */
+.town-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-variant: small-caps;
+}
+
+.current-condition img {
+    width: 70px;
+    height: auto;
+}
+
+.current-condition-label {
+    float: right;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Upper part */
+
+.upper-part {
+    position: relative;
+}
+
+section.weather-summary {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #00327f;
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.weather-details p {
+    display: inline;
+}
+
+.value {
+    color: #ffa629;
+    font-weight: bold;
+}
+
+/* lower part */
+
+.lower-part {
+    padding: 10px;
+}
+
+h3.town-daily-title {
+    color: #00327f;
+    font-size: 1.5rem;
+}
+
+/* Images */
+
+.town-image, .article-image, .map-image, .gallery-images {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gallery Images Grid Small Screen View*/
+
+.gallery-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+/* Footer */
+
+.contact-info .right-column {
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+footer .contact-info {
+background-color: #FFC966;
+}
+
+.footer-nav {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-nav li {
+    padding: 10px;
+}
+
+.footer-nav {
+    background-color:  #00327f;
+    float: left;
+    width: 100%;
+}
+
+/* Storm Center Design*/
+
+form fieldset {
+    margin: 1rem 0;
+    border: none;
+    padding: .5rem 5%;
+    margin-top: -10px;
+    background-color: #9ae9f7;
+}
+
+form label.top-form, form label datalist, form label.top-form-radio, form .submit-button, form span, form div {
+    display: block;
+    font-weight: bold;
+    color: #00327f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: .3rem;
+    margin: .5rem;
+}
+
+form span {
+    margin-top: -10px;
+}
+
+form div.form-title {
+    font-family: 'Lustria', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00327f;
+    padding: 1rem;
+    margin-left: -9px;
+}
+
+form label.top-form input, form label datalist#storm-type option, form label.top-form select, form label textarea  {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 4px;
+    border: solid 1px #42b4ff;
+    color: #00327f;
+    width: 100%;
+    max-width: 20rem;
+
+}
+
+datalist#storm-type option {
+    color: #00327f;
+}
+
+form label.side-by-side {
+    display: block;
+    padding: .5rem 0;
+    color: #00327f;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+form .submit-button {
+    background-color: #00327f;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    padding: .75rem 1rem;
+    margin: 0 0 1rem 2%;
+    width: 97%;
+    max-width: 20rem;
+}
+
+form label.top-form input:required {
+    border-left: 6px solid red;
+}
+
+form label.top-form input:required:valid {
+    border-left: 6px solid #00327f;
+}
+
+main .thank-you-message {
+    font-size: 1.1rem;
+    color: #00327f;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -10px;
+    font-family: 'Lustria', serif;
+}
+
+/* hidden elements in mobile version */
+
+.current-condition, .forecast {
+    display: none;
+}
+
+/* Home page CSS */ 
+
+section h2 {
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   font-variant: small-caps;
+   font-size: 1.8rem;
+}
+
+
+section .town-data div {
+    color: #ffa629;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: -1.5rem;
+    padding-bottom: 1rem;
+}
+
+section .town-data p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+main div.town-grid-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.town-data {
+    position: absolute;
+    background-color: rgb(0, 50, 127);
+    width: 360px;
+    height: 200px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.front-hero {
+    width: 400px;
+    height: 500px;
+    padding: .4rem;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+    

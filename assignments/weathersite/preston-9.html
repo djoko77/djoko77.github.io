@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Weather in Town</title>
+        <meta name="description" content="Get the latest weather forecast from our website">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7CRaleway" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small-9.css" rel="stylesheet">
+        <link href="styles/medium-9.css" rel="stylesheet">
+        <link href="styles/large-9.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="heading-size">
+            <picture>
+            <img class="site-logo" src="images/logo.png" alt="weather in town logo">
+            </picture>
+            <div class="header-text">
+                <h1>Weather in Town</h1>
+                <div class="sub-heading">"The reliable forecast that delivers!"</div>
+            </div>
+            <div class="current-condition">
+                <img src="#" id="weather-icon" alt="weather icon">
+                <div class="current-condition-label" id="current-condition-label"></div>
+            </div>
+            </div>
+        </header>
+
+  
+        <nav class="clearfix">
+                <div class="menu-nav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <h3 id="menu-title">Menu</h3>
+                </div>
+                <ul id="mobile-nav" class="hide">
+                    <li><a href="/assignments/lesson-9/index.html">Home</a></li>
+                    <li><a href="/assignments/lesson-9/preston-9.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/assignments/lesson-9/gallery-9.html">Gallery</a></li>
+                </ul>
+        </nav>
+
+        <main>
+            <div class="town-name">
+                <h2>Preston, Idaho</h2>
+            </div>
+
+        <div class="upper-part">
+
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/preston-small.jpg">
+                <source media="(min-width: 600px)" srcset="images/preston-large.jpg">
+                <img class="town-image" src="images/preston-default.jpg" alt="preston">
+            </picture>
+        
+
+                    <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                        <div class="weather-details">
+                        <p class="label">Currently:</p>
+                        <p class="value" id="current-weather"></p>
+                        <p class="label">Temperature:</p>
+                        <p class="value" id="current-temperature"></p><span> &deg;F</span>
+                        <p class="label">Humidity:</p>
+                        <p class="value" id="current-humidity"></p>
+                        <p class="label">Cloudiness:</p>
+                        <p class="value" id="cloudiness"></p><br>
+                        <p class="label">Wind Speed:</p>
+                        <p class="value" id="wind-speed"></p><span> mph</span>
+                        <p class="label">Wind Chill:</p>
+                        <p class="value" id="wind-chill"></p>
+                        </div>
+                </section>
+        </div>
+
+            <section class="forecast">
+                <h3 class="town-daily-title">High Temperature Forecast</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th id="dailyForecast0"></th>
+                                <th id="dailyForecast1"></th>
+                                <th id="dailyForecast2"></th>
+                                <th id="dailyForecast3"></th>
+                                <th id="dailyForecast4"></th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <th>Forecast</th>
+                                <td id="HT1"></td>
+                                <td id="HT2"></td>
+                                <td id="HT3"></td>
+                                <td id="HT4"></td>
+                                <td id="HT5"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+            </section>
+
+            <article class="lower-part">
+                <div class="left-column">
+                    <h2>Be Prepared in Preston</h2>
+                    <h4>Necia Seamons</h4>
+                </div>
+                <img class="article-image" src="images/weather-storm.jpeg" alt="article image">
+                <p class="left-column">According to the United States Drought Monitor, Franklin County is experiencing moderate drought. Most of the state of Idaho is abnormally dry. According to the Boise State Public Radio, the drought regions stretch along the bottom of the state and the tip of the panhandle, including much of the Treasure Valley, the West Central Mountains and the southeast corner of the state. Idaho counties that border Montana and Wyoming have not reached drought status yet.</p>
+                <p class="left-column">States experiencing the most significant droughts include Arizona, Colorado, Missouri, Oregon and Utah.</p>
+                <p class="left-column">Based on CO-OP Observer data, Preston sees an average of 14.83 inches of precipitation each year. So far this year, 10.66 inches of rain has fallen, said Kevin Smith of the National Weather Services office in Pocatello.</p>
+                <p class="left-column">Preston, Weston, and Dayton have each received between 10 percent and 25 percent of their normal precipitation over the last 90 days, contributing to the ongoing drought conditions, said Smith.</p>
+                <p class="left-column">The last time Franklin County declared a drought emergency was in 2010, according to the Idaho Department of Water Resources. That year, the snow water equivalent from snowpack levels in the Bear River Basin were only 75 percent of average on May 10, and the forecasted stream flow from the Bear River was expected to be only 40 percent of average.</p>
+                <p class="left-column">Read full article: <a href="https://www.hjnews.com/preston/news/franklin-county-experiencing-drought/article_38c5f524-aaf8-11e8-9e5c-57e26f440580.html">HERE</a></p>
+            </article>
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <div class="right-column">
+                    <h2>Contact Information</h2>
+                    <p>Office Address: 8781 N Weather St, Boise, ID 83709, USA</p>
+                    <p>Phone Number: (208)541-9921</p>
+                    <p>Email: info@weatherintown.com</p>
+                    <p>Powered by: <a href="https://openweathermap.org/">Open Weather Map</a></p>
+                </div>
+                    <img class="map-image" src="images/idaho-map.jpeg" alt="Preston Map">
+            </div>
+            
+            <ul class="footer-nav">
+                <li>&copy;2018 Weather in Town &verbar; Rombie Lagunzad</li>
+                <li>Terms of Use</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+        <script type="text/javascript" src="scripts/weather.js"></script>
+        <script type="text/javascript" src="scripts/windchill.js"></script>
+    </body>
+</html>

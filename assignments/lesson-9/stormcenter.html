@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Weather in Town</title>
+        <meta name="description" content="Get the latest weather forecast from our website">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7CRaleway" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small-9.css" rel="stylesheet">
+        <link href="styles/medium-9.css" rel="stylesheet">
+        <link href="styles/large-9.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="heading-size">
+            <picture>
+            <img class="site-logo" src="images/logo.png" alt="weather in town logo">
+            </picture>
+            <div class="header-text">
+                <h1>Weather in Town</h1>
+                <div class="sub-heading">"The reliable forecast that delivers!"</div>
+            </div>
+            <div class="current-condition">
+                <img src="images/sunny.png" alt="current weather condition">
+                <div class="current-condition-label">Sunny</div>
+            </div>
+            </div>
+            </header>
+  
+        <nav class="clearfix">
+                <div class="menu-nav">
+                        <button onclick="toggleMenu()">&#9776;</button>
+                        <h3 id="menu-title">Menu</h3>
+                        </div>
+                <ul id="mobile-nav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/assignments/lesson-9/preston-9.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/assignments/lesson-9/gallery-9.html">Gallery</a></li>
+                </ul>
+        </nav>
+
+        <main>
+
+            <div class="town-name">
+                <h2>Storm Center</h2>
+            </div>
+    
+            <form method="get" action="thanks.html" id="storm-center-comment">
+                    <fieldset>
+                        <div class="form-title">Report A Storm</div>
+                    <label class="top-form">Your Full Name* <input type="text" name="fname" pattern="[A-Za-z].{5,}" required>
+                        </label>
+                    <label class="top-form">Email <input type="email" name="email" placeholder="john@gmail.com">
+                        </label>
+                    <label class="top-form">Phone Number* <input type="tel" name="telephone" placeholder="2087772991" required>
+                        </label>
+                    <label class="top-form">Zip Code* <input type="number" name="zipcode" required>
+                        </label>
+                    <label class="top-form">Storm Date <input type="date" name="storm-date">
+                        </label>
+                    <label class="top-form">Storm Type <input list="storm-type" name="storm-type"></label>
+                        <datalist id="storm-type">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">
+                                <option value="Tornado">
+                              </datalist>
+                        
+                    <label class="top-form">Storm Severity (1 to 10)
+                        <input type="range" name=storm-severity min="1" max="10" value="5" class="slider-form" id="severity-range">
+                        <span id="storm-severity-number"></span>
+                        </label>
+                    <label class="top-form">Storm Region <select name="region">
+                            <option value="Select Region" selected disabled>Select Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                          </select>
+                        </label>
+                        <div>User In-danger Level</div>
+                        <label class="side-by-side"><input type="radio" name="danger-level" value="Yes">Yes</label>
+                        <label class="side-by-side"><input type="radio" name="danger-level" value="No">No</label>
+                        <label class="side-by-side"><input type="radio" name="danger-level" value="Maybe">Maybe</label>
+                        
+                        <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
+                        </label>
+                        <input type="submit" name="submit-it" value="Report It Now!" class="submit-button">
+                    </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <div class="right-column">
+                    <h2>Contact Information</h2>
+                    <p>Office Address: 8781 N Weather St, Boise, ID 83709, USA</p>
+                    <p>Phone Number: (208)541-9921</p>
+                    <p>Email: info@weatherintown.com</p>
+                </div>
+                    <img class="map-image" src="images/idaho-map.jpeg" alt="Preston Map">
+            </div>
+            
+            <ul class="footer-nav">
+                <li>&copy;2018 Weather in Town &verbar; Rombie Lagunzad</li>
+                <li>Terms of Use</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+        <script type="text/javascript" src="scripts/windchill.js"></script>
+        <script type="text/javascript" src="scripts/range.js"></script>
+    </body>
+</html>

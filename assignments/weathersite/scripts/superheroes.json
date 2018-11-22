@@ -1,0 +1,39 @@
+{
+    "squadName" : "Super hero squad",
+    "homeTown" : "Metro Manila",
+    "formed" : 2018,
+    "secretBase" : "Super Headquarters",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "Luffy",
+        "age" : 16,
+        "secretIdentity" : "Straw Hat",
+        "powers" : [
+          "Immense strength and endurance",
+          "stretchable legs and arms",
+          "Haki attack"
+        ]
+      },
+      {
+        "name" : "Son Goku",
+        "age" : 35,
+        "secretIdentity" : "Kakarot",
+        "powers" : [
+          "Kamehame wave",
+          "Ultra instinct",
+          "Teleportation"
+        ]
+      },
+      {
+        "name" : "Saitama",
+        "age" : 25,
+        "secretIdentity" : "Capped Buddy",
+        "powers" : [
+          "Psychic resistance",
+          "One punch attack",
+          "Ultra speed"
+        ]
+      }
+    ]
+  }

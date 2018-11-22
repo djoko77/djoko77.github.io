@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Weather in Town</title>
+        <meta name="description" content="Get the latest weather forecast from our website">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7CRaleway" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small-9.css" rel="stylesheet">
+        <link href="styles/medium-9.css" rel="stylesheet">
+        <link href="styles/large-9.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="heading-size">
+            <picture>
+            <img class="site-logo" src="images/logo.png" alt="weather in town logo">
+            </picture>
+            <div class="header-text">
+                <h1>Weather in Town</h1>
+                <div class="sub-heading">"The reliable forecast that delivers!"</div>
+            </div>
+            <div class="current-condition">
+                <img src="images/sunny.png" alt="current weather condition">
+                <div class="current-condition-label">Sunny</div>
+            </div>
+            </div>
+        </header>
+
+  
+        <nav class="clearfix">
+                <div class="menu-nav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <h3 id="menu-title">Menu</h3>
+                </div>
+                <ul id="mobile-nav" class="hide">
+                    <li><a href="/assignments/lesson-9/index.html">Home</a></li>
+                    <li><a href="/assignments/lesson-9/preston-9.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/assignments/lesson-9/gallery-9.html">Gallery</a></li>
+                </ul>
+        </nav>
+
+        <main>
+            <div class="town-name">
+                <h2>Check out the latest weather!</h2></div>
+         
+                <div class="town-grid-column">  
+
+                <section class="fish-haven-town">
+                    <div class="town-data">
+                        </div>
+                            <picture class="front-hero">
+                                <source media="(max-width: 600px)" srcset="images/fish-haven1.jpg">
+                                <source media="(min-width: 600px)" srcset="images/fish-haven1.jpg">
+                                    <img class="front-hero" src="images/fish-haven1.jpg" alt="fish-haven">
+                            </picture>
+                
+                </section>
+
+                <section class="preston-town">
+                    <div class="town-data">
+                    </div>
+                        <picture class="front-hero">
+                            <source media="(max-width: 600px)" srcset="images/preston-town1.jpg">
+                            <source media="(min-width: 600px)" srcset="images/preston-town1.jpg">
+                            <img class="front-hero" src="images/preston-town1.jpg" alt="preston">
+                        </picture>
+                </section>
+            
+                <section class="soda-springs-town">
+                    <div class="town-data">
+                    </div>
+                    <picture class="front-hero">
+                            <source media="(max-width: 600px)" srcset="images/soda-springs1.jpg">
+                            <source media="(min-width: 600px)" srcset="images/soda-springs1.jpg">
+                            <img class="front-hero" src="images/soda-springs1.jpg" alt="soda-springs">
+                    </picture>
+                </section>
+
+
+
+        </div>  
+        
+        </main>
+        <footer>
+            <div class="contact-info">
+                <div class="right-column">
+                    <h2>Contact Information</h2>
+                    <p>Office Address: 8781 N Weather St, Boise, ID 83709, USA</p>
+                    <p>Phone Number: (208)541-9921</p>
+                    <p>Email: info@weatherintown.com</p>
+                    <p>Powered by: <a href="https://openweathermap.org/">Open Weather Map</a></p>
+                </div>
+                    <img class="map-image" src="images/idaho-map.jpeg" alt="Preston Map">
+            </div>
+            
+            <ul class="footer-nav">
+                <li>&copy;2018 Weather in Town &verbar; Rombie Lagunzad</li>
+                <li>Terms of Use</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+        <script type="text/javascript" src="scripts/homepage.js" ></script>
+    </body>
+</html>
