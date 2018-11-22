@@ -240,17 +240,6 @@ section h2 {
     font-size: 2rem;
  }
  
- section p.front-label {
-     color: #fff;
-     font-weight: bold;
-     text-align: center;
- }
- 
- section p.front-value {
-    color: #ffa629;
-    font-weight: bold;
-    text-align: center;
- }
  
  main div.town-grid-column {
      display: flex;
@@ -260,6 +249,7 @@ section h2 {
  
  main div.town-data {
      width: 285px;
+     height: 250px;
      padding: 1rem;
      margin: 1rem;
  }

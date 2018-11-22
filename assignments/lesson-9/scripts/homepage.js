@@ -1,41 +1,40 @@
-var apiURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-var townDataRequest = new XMLHttpRequest();
-townDataRequest.open('GET', apiURL, true);
-townDataRequest.send();
+var dataForTowns = document.getElementsByClassName('town-data');
+var townDataURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+request.open('GET', townDataURL);
+request.responseType = 'json';
+request.send();
 
-townDataRequest.onload =  function () {
-    let townData = JSON.parse(townDataRequest.responseText);
-    var prestonName = townData.towns[4].name;
-    var prestonMotto = townData.towns[4].motto;
-    var prestonFounded = townData.towns[4].yearFounded;
-    var prestonPopulation = townData.towns[4].currentPopulation;
-    var prestonRainfall = townData.towns[4].averageRainfall;
-    document.getElementById("townNamePreston").innerHTML = prestonName;
-    document.getElementById("townMottoPreston").innerHTML = prestonMotto;
-    document.getElementById("yearFoundedPreston").innerHTML = prestonFounded;
-    document.getElementById("townPopulationPreston").innerHTML = prestonPopulation;
-    document.getElementById("annualRainfallPreston").innerHTML = prestonRainfall+"&quot;";
+request.onload =  function () {
+    var townFullData = request.response;
+    showData(townFullData);
+}
 
-    var FHName = townData.towns[1].name;
-    var FHMotto = townData.towns[1].motto;
-    var FHFounded = townData.towns[1].yearFounded;
-    var FHPopulation = townData.towns[1].currentPopulation;
-    var FHRainfall = townData.towns[1].averageRainfall;
-    document.getElementById("townNameFH").innerHTML = FHName;
-    document.getElementById("townMottoFH").innerHTML = FHMotto;
-    document.getElementById("yearFoundedFH").innerHTML = FHFounded;
-    document.getElementById("townPopulationFH").innerHTML = FHPopulation;
-    document.getElementById("annualRainfallFH").innerHTML = FHRainfall+"&quot;";
+function showData(jsonObj) {
+var townData = jsonObj['towns'];
 
+var numbering = 0;
+  for (var i = 0; i < townData.length; i++) {
+    if (i == 4 || i == 1 || i == 5) {
+    var myTownData = document.createElement('div');
+    var myTown = document.createElement('h2');
+    var townMotto = document.createElement('div');
+    var townFounded = document.createElement('p');
+    var townPopulation = document.createElement('p');
+    var rainfall = document.createElement('p');
 
-    var SSName = townData.towns[5].name;
-    var SSMotto = townData.towns[5].motto;
-    var SSFounded = townData.towns[5].yearFounded;
-    var SSPopulation = townData.towns[5].currentPopulation;
-    var SSRainfall = townData.towns[5].averageRainfall;
-    document.getElementById("townNameSS").innerHTML = SSName;
-    document.getElementById("townMottoSS").innerHTML = SSMotto;
-    document.getElementById("yearFoundedSS").innerHTML = SSFounded;
-    document.getElementById("townPopulationSS").innerHTML = SSPopulation;
-    document.getElementById("annualRainfallSS").innerHTML = SSRainfall+"&quot;";
+    myTown.textContent = townData[i].name;
+    townMotto.textContent = townData[i].motto;
+    townFounded.textContent = "Year Founded: "+townData[i].yearFounded;
+    townPopulation.textContent = "Population: "+townData[i].currentPopulation;
+    rainfall.textContent = "Annual Rainfall: "+townData[i].averageRainfall+" inches";
+
+    dataForTowns[numbering].appendChild(myTown);
+    dataForTowns[numbering].appendChild(townMotto);
+    dataForTowns[numbering].appendChild(townFounded);
+    dataForTowns[numbering].appendChild(townPopulation);
+    dataForTowns[numbering].appendChild(rainfall);
+    numbering++;
+    }
+}
 }
