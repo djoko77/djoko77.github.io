@@ -12,4 +12,3 @@ var chill = 35.74 + 0.6215*numberT- 35.75 * ws + 0.4275*numberT*ws;
 console.log(chill);
 
 document.getElementById('wind-chill').innerHTML = chill.toFixed(2) + " &deg;F";
-}
