@@ -1,22 +1,14 @@
-var windchillURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=9245458199b42e2a0a9617a7a202fd93&mode=json&units=imperial';
-var weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET', apiURL);
-weatherRequest.responseType = 'json';
-weatherRequest.send();
+var t = document.getElementById('current-temperature');
+var text = t.textContent;
+var numberT = Number(text);
+console.log(numberT);
 
-weatherRequest.onload = function () {
-	var weatherData = weatherRequest.response;
-	windChill(weatherData); 
-}
+var s = document.getElementById('wind-speed');
+var text2 = s.textContent;
+var numberS = Number(text2);
+var ws = Math.pow(numberS, 0.16);
 
-function windChill(jsonObj) {
-	var t = jsonObj.main.temp;
-	var ws = jsonObj.wind.speed;
-    console.log(t);
-    console.log(ws);
-var ws1 = Math.pow(ws, 0.16);
-
-var chill = 35.74 + 0.6215*t- 35.75 * ws1 + 0.4275*t*ws1;
+var chill = 35.74 + 0.6215*numberT- 35.75 * ws + 0.4275*numberT*ws;
 console.log(chill);
 
 document.getElementById('wind-chill').innerHTML = chill.toFixed(2) + " &deg;F";
