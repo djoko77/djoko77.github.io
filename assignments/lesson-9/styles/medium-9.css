@@ -39,7 +39,7 @@ header picture img {
 }
 
 .current-condition {
-    width: 70px;
+    width: 80px;
     height: 90px;
     flex: auto;
     display: flex;
