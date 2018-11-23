@@ -133,11 +133,6 @@ nav ul li a {
     text-align: center;
 }
 
-nav ul li a:visited {
-    background-color: #ffa629;
-    color: #00327f;
-    }
-
 nav ul li a:hover, .footer-nav li a:hover {
     background-color: #9ae9f7;
     color: #00327f;
@@ -441,5 +436,11 @@ main div.town-data {
     clear: both;
   }
 
+/* Map CSS */
+
+.map {
+width: 450px;
+height: 300px;
+}
 
     
