@@ -168,6 +168,14 @@ nav ul.hide {
     font-weight: bold;
 }
 
+.town-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    box-shadow: 10px 10px 8px #00327f;
+}
+
 /* Upper part */
 
 .upper-part {
@@ -179,15 +187,29 @@ section.weather-summary {
     top: 15px;
     left: 15px;
     background-color: #00327f;
-    width: 150px;
-    height: 130px;
+    width: 170px;
+    height: 150px;
     padding: 10px;
     color: #fff;
     font-size: .8rem;
+    outline: 2px solid white;
+    outline-offset: -10px;
+}
+
+section.weather-summary h3 {
+    text-align: center;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.weather-details {
+    text-align: center; 
 }
 
 .weather-details p {
-    display: inline;
+    display: inline-block;
+    text-align: center;
+    margin: 0.1rem;
 }
 
 .value {
@@ -220,10 +242,12 @@ h3.town-daily-title {
 
 /* Images */
 
-.town-image, .article-image, .map-image, .gallery-images {
+.article-image, .map-image, .gallery-images {
     width: auto;
     max-width: 100%;
     height: auto;
+    outline: 2px solid white;
+    outline-offset: -10px;
 }
 
 /* Gallery Images Grid Small Screen View*/
