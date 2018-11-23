@@ -43,7 +43,7 @@ header picture img {
 
 .current-condition {
     width: 70px;
-    height: 90px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
