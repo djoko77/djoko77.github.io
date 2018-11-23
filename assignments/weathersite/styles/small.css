@@ -296,6 +296,8 @@ form fieldset {
     padding: .5rem 5%;
     margin-top: -10px;
     background-color: #9ae9f7;
+    outline: 2px solid #00327f;
+    outline-offset: -10px;
 }
 
 form label.top-form, form label datalist, form label.top-form-radio, form .submit-button, form span, form div {
