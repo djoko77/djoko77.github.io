@@ -169,6 +169,8 @@ section.weather-summary h3 {
     float: right;
     margin: 0;
     padding: 10px;
+    outline: 2px solid white;
+    outline-offset: -10px;
 }
 
 .left-column {
@@ -226,7 +228,7 @@ main .thank-you-message {
   }
 
 .gallery-image:hover {
-    box-shadow: 5px 5px 10px #42b4ff;
+    box-shadow: 5px 5px 10px #00327f;
 }
 
 .gallery-image p {
