@@ -391,7 +391,6 @@ section h2 {
    font-size: 1.8rem;
 }
 
-
 section .town-data div {
     color: #ffa629;
     font-weight: bold;
@@ -423,6 +422,8 @@ main div.town-data {
     height: 200px;
     padding: 1rem;
     margin: 1rem;
+    outline: 2px solid white;
+    outline-offset: -10px;
 }
 
 .front-hero {

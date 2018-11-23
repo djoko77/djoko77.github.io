@@ -138,8 +138,8 @@ table {
 section.weather-summary {
     top: 20px;
     left: 30px;
-    width: 210px;
-    height: 260px;
+    width: 230px;
+    height: 250px;
     line-height: 1.3rem;
     font-size: 1.2rem;
 }
@@ -160,6 +160,8 @@ section.weather-summary h3 {
     float: right;
     margin: 0;
     padding: 10px;
+    outline: 2px solid white;
+    outline-offset: -10px;
 }
 
 .left-column {
