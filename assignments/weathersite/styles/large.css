@@ -224,10 +224,6 @@ main .thank-you-message {
     box-shadow: 5px 5px 10px #42b4ff;
 }
 
-.gallery-grid .gallery-image p:hover {
-    background-color: #42b4ff;
-}
-
 .gallery-image p {
     display: flex;
 }
