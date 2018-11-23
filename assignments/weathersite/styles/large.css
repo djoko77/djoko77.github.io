@@ -92,11 +92,6 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-nav ul li a:active {
-    background-color: #ffa629;
-    color: #00327f;
-    }
-
 nav ul.hide {
     display: block;
 }
