@@ -22,6 +22,11 @@ weatherRequest.onload =  function () {
     var currentWindSpeed = weatherData.wind['speed'];
     document.getElementById("wind-speed").innerHTML = currentWindSpeed;
 
+    var ws = Math.pow(currentWindSpeed, 0.16);
+    var chill = 35.74 + 0.6215*currentTemp - 35.75 * ws + 0.4275*currentTemp*ws;
+    console.log(chill);
+    document.getElementById("wind-chill").innerHTML = chill.toFixed(2) + " &deg;F";
+
     var currentWeatherIcon = weatherData.weather[0].icon;
     document.getElementById("weather-icon")
     .setAttribute( 'src', "http://openweathermap.org/img/w/"+currentWeatherIcon+".png")
