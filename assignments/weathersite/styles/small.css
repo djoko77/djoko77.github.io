@@ -133,8 +133,8 @@ nav ul li a {
     text-align: center;
 }
 
-nav ul li a:active, .footer-nav li a:active {
-    background-color: aqua;
+li a:active {
+    background-color: #ffa629;
     color: #00327f;
     }
 
