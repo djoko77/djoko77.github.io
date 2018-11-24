@@ -67,17 +67,7 @@ nav button, #menu-title {
 }
 
 nav ul {
-    max-width: 992px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: .3rem;
-}
-
-nav ul li {
-    display: inline-block;
+float: left;
 }
 
 nav ul li a {

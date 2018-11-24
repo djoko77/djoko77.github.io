@@ -1,8 +1,8 @@
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 600px) {
 
 /* main part */
 
-main, footer {
+main, footer .right-column, footer ul .footer-nav {
     max-width: 1028px;
     margin: auto;
 }
@@ -16,7 +16,7 @@ header {
 }
 
 header .heading-size {
-    max-width: 1028px;
+    max-width: 992px;
 }
 
 header picture {
@@ -25,30 +25,31 @@ header picture {
  }
 
 header picture img {
-    width: 150px;
+    width: 110px;
     height: auto;
 }
 
 .header-text h1 {
-    font-size: 50px;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    width: 470px;
+    font-size: 35px;
+    width: 20rem;
 }
 
 .sub-heading {
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 1rem;
 }
 
 .current-condition {
-    width: 70px;
-    height: 100px;
+    width: 80px;
+    height: 90px;
+    flex: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-right: 2%;
-    padding: 1.2rem;
+    justify-self: center;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
     color: #fff;
     background-color: #00327f;
     border: 1px solid gray;
@@ -56,7 +57,7 @@ header picture img {
 }
 
 .current-condition-label {
-    padding: 1rem;
+    margin-top: -18px;
 }
 
 /* Navigation bar*/
@@ -65,44 +66,41 @@ nav button, #menu-title {
     display: none;
 }
 
-nav, .footer-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 nav ul {
-    max-width: 1028px;
+    max-width: 992px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
 }
 
 nav ul li {
-    padding-left: 2em;
     display: inline-block;
 }
 
 nav ul li a {
     border: none;
-    padding: .5rem 1.2rem;
+    padding: .5rem 1rem;
     text-align: center;
-    font-size: 1.2rem;
 }
 
 nav ul.hide {
     display: block;
 }
 
+nav ul li a {
+    font-size: 0.85rem;
+}
+
+
 /* town name*/
 
 .town-name {
     padding: 10px;
     margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 /* 5-day weather forecast section */
@@ -112,9 +110,9 @@ nav ul.hide {
     text-align: center;
     margin-left:auto; 
     margin-right:auto;
+    font-size: 16px;
     color: #00327f;
-    width: 700px;
-    font-size: 1.3rem;
+    width: 600px;
 }
 
 th {
@@ -129,7 +127,6 @@ th, td {
 
 table {
     border-collapse: collapse;
-    border:1px solid #00327f;
 }
 
 .forecast h2 {
@@ -141,10 +138,10 @@ table {
 section.weather-summary {
     top: 20px;
     left: 30px;
-    width: 300px;
-    height: 300px;
-    line-height: 2rem;
-    font-size: 1.5rem;
+    width: 230px;
+    height: 250px;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .weather-details p {
@@ -152,10 +149,9 @@ section.weather-summary {
 }
 
 section.weather-summary h3 {
-    padding: 0.6rem;
-    margin: 0.6rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
-
 
 
 /* article */
@@ -198,10 +194,10 @@ section.weather-summary h3 {
     padding: 20px;
 }
 
-/* Thank You Message Large */
+/* Thank You Message Medium */
 
 main .thank-you-message {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #00327f;
     text-align: center;
     padding-bottom: 2rem;
@@ -210,57 +206,23 @@ main .thank-you-message {
     font-family: 'Lustria', serif;
 }
 
-/* Gallery Images Grid Large Screen View*/
 
+/* Gallery Images Grid Medium Screen View */
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 2rem;
-    row-gap: 2rem;
-    padding: 1rem;
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        padding: 0.5rem;
   }
+    
+    .gallery-image p {
+        display: flex;
+    }
+    
+    
 
-.gallery-image:hover {
-    box-shadow: 5px 5px 10px #00327f;
-}
-
-.gallery-image p {
-    display: flex;
-}
-
-/* Home page CSS */ 
-
-section h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
  }
- 
- 
- main div.town-grid-column {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
- }
- 
- main div.town-data {
-     width: 285px;
-     height: 250px;
-     padding: 1rem;
-     margin: 1rem;
- }
- 
- .front-hero {
-    max-width: 95%;
-    width: auto;
-    height: 600px;
-    margin-bottom: 2rem;
- }
-
-#weather-icon {
-    width: 100%;
-}
-
-}

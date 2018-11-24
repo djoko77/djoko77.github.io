@@ -241,7 +241,7 @@ h3.town-daily-title {
 
 /* Images */
 
-.article-image, .map-image, .gallery-images {
+article img, .map-image, .gallery-images {
     width: auto;
     max-width: 100%;
     height: auto;
