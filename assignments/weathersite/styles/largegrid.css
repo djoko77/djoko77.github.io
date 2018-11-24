@@ -227,38 +227,3 @@
     .gallery-image p {
         display: flex;
     }
-    
-    /* Home page CSS */ 
-    
-    section h2 {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-     }
-     
-     
-     main div.town-grid-column {
-         display: flex;
-         flex-direction: row;
-         justify-content: space-between;
-     }
-     
-     main div.town-data {
-         width: 285px;
-         height: 250px;
-         padding: 1rem;
-         margin: 1rem;
-     }
-     
-     .front-hero {
-        max-width: 95%;
-        width: auto;
-        height: 600px;
-        margin-bottom: 2rem;
-     }
-    
-    #weather-icon {
-        width: 80%;
-    }
-    
-    }
