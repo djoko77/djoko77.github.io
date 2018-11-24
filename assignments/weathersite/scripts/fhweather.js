@@ -11,7 +11,7 @@ weatherRequest.onload =  function () {
     document.getElementById("current-weather").innerHTML = currentWeather;
 
     var currentTemp = weatherData.main['temp'];
-    document.getElementById("current-temperature").innerHTML = currentTemp;
+    document.getElementById("current-temperature").innerHTML = currentTemp + " &deg;F";
 
     var currentHumidity = weatherData.main['humidity'];
     document.getElementById("current-humidity").innerHTML = currentHumidity+"%";
@@ -20,7 +20,7 @@ weatherRequest.onload =  function () {
     document.getElementById("cloudiness").innerHTML = clouds+"%";
 
     var currentWindSpeed = weatherData.wind['speed'];
-    document.getElementById("wind-speed").innerHTML = currentWindSpeed;
+    document.getElementById("wind-speed").innerHTML = currentWindSpeed+" mph";
 
     var ws = Math.pow(currentWindSpeed, 0.16);
     var chill = 35.74 + 0.6215*currentTemp - 35.75 * ws + 0.4275*currentTemp*ws;

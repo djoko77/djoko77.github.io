@@ -140,10 +140,10 @@
     section.weather-summary {
         top: 20px;
         left: 30px;
-        width: 300px;
-        height: 300px;
-        line-height: 2rem;
-        font-size: 1.5rem;
+        width: 230px;
+        height: 250px;
+        line-height: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .weather-details p {
@@ -151,6 +151,7 @@
     }
     
     section.weather-summary h3 {
+        font-size: 1.3rem;
         padding: 0.6rem;
         margin: 0.6rem;
     }
@@ -207,23 +208,4 @@
         margin-top: -50px;
         font-family: 'Lustria', serif;
     }
-    
-    /* Gallery Images Grid Large Screen View*/
-    
-    
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        column-gap: 2rem;
-        row-gap: 2rem;
-        padding: 1rem;
-      }
-    
-    .gallery-image:hover {
-        box-shadow: 5px 5px 10px #00327f;
-    }
-    
-    .gallery-image p {
-        display: flex;
-    }
+}

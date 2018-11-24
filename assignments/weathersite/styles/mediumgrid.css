@@ -152,7 +152,7 @@
     
     .upper-part {
         width: 80%;
-        display: flex;
+        display: grid;
         justify-content: center;
     }
     
@@ -203,28 +203,4 @@
         font-family: 'Lustria', serif;
     }
     
-    
-    /* Gallery Images Grid Medium Screen View */
-    
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-content: space-around;
-            align-content: space-around;
-            column-gap: 1.5rem;
-            row-gap: 1.5rem;
-            padding: 0.5rem;
-      }
-        
-        .gallery-image p {
-            display: flex;
-        }
-        
-    /* Home page CSS */ 
-    
-    main div.town-data {
-        width: 360px;
-        height: 230px;
-    }
-    
-     }
+}
