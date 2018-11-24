@@ -66,26 +66,23 @@ nav button, #menu-title {
     display: none;
 }
 
-nav ul {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
+nav {
+    width: 20%;
+    float: left;
+    height: 550px;
+    max-height: 600px;
 }
 
 nav ul li a {
     border: none;
     padding: .5rem 1rem;
-    display: block;
+    text-align: left;
+    font-size: 1.2rem;
 }
 
 nav ul.hide {
     display: block;
 }
-
-nav ul li a {
-    font-size: 0.85rem;
-}
-
 
 /* town name*/
 
@@ -145,6 +142,11 @@ section.weather-summary h3 {
     padding-bottom: .5rem;
 }
 
+.upper-part {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
 
 /* article */
 
@@ -215,6 +217,11 @@ main .thank-you-message {
         display: flex;
     }
     
-    
+/* Home page CSS */ 
+
+main div.town-data {
+    width: 360px;
+    height: 230px;
+}
 
  }
