@@ -138,7 +138,7 @@ nav ul li a:hover, .footer-nav li a:hover {
     color: #00327f;
     }
 
-nav ul li a:active {
+nav ul li .current {
     color: #ffa629;
 }
 
