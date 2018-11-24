@@ -92,7 +92,6 @@ nav {
 }
 
 nav button {
-    display: flex;
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
@@ -101,10 +100,9 @@ nav button {
 }
 
 nav .menu-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 nav ul, .footer-nav {
