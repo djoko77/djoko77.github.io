@@ -72,6 +72,14 @@ nav, .footer-nav {
     align-items: center;
 }
 
+.footer-nav {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
 nav ul {
     max-width: 1028px;
     display: flex;

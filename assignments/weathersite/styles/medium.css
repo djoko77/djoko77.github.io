@@ -39,7 +39,7 @@ header picture img {
 }
 
 .current-condition {
-    width: 80px;
+    width: 100px;
     height: 90px;
     flex: auto;
     display: flex;
@@ -67,13 +67,15 @@ nav button, #menu-title {
 }
 
 nav ul {
-float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 nav ul li a {
     border: none;
     padding: .5rem 1rem;
-    text-align: center;
+    display: block;
 }
 
 nav ul.hide {
