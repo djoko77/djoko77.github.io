@@ -82,7 +82,7 @@
     }
     
     nav ul.hide {
-        display: block;
+        display: grid;
     }
     
     /* town name*/

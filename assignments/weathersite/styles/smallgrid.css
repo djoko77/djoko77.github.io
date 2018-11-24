@@ -92,7 +92,7 @@ nav {
 }
 
 nav button {
-    margin: .2rem 2%;
+    margin: .2rem;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -101,19 +101,18 @@ nav button {
 
 nav .menu-nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: 50% 1fr 1fr 40%;
+    justify-items: flex-end;
 }
 
 nav ul, .footer-nav {
     list-style-type: none;
-    display: flex;
     margin: 0;
     padding: 0;
 }
 
-nav ul {
-    flex-direction: column;
+div #menu-title {
+    text-align: center;
 }
 
 nav ul li a {

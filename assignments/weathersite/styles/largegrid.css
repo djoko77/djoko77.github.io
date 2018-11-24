@@ -60,7 +60,7 @@
     }
 
     .current-condition-label {
-        margin-top: -70px;
+        margin-top: -50px;
         text-align: center;
     }
     
@@ -70,40 +70,31 @@
         display: none;
     }
     
-    nav, .footer-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    nav {
+        display: grid;
+        justify-items: center;
         width: 100%;
         height: 40px;
     }
-    
-    nav ul {
-        max-width: 1028px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-    
-    nav ul li {
-        padding-left: 2em;
-        display: inline-block;
-    }
-    
+
+  .footer-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        height: 40px;
+    }  
+
     nav ul li a {
         border: none;
         padding: .5rem 1.2rem;
-        text-align: center;
         font-size: 1.2rem;
+        text-align: center;
     }
     
     nav ul.hide {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
-    
     
     /* town name*/
     
@@ -267,7 +258,7 @@
      }
     
     #weather-icon {
-        width: 100%;
+        width: 80%;
     }
     
     }
