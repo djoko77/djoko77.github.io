@@ -29,41 +29,41 @@ span {
     font-weight: bold;
 }
 
+/* header picture img, .header-text, .sub-heading, .header-text h1 { grid-area: header; }
+nav .menu-nav,  { grid-area: menu; }
+main { grid-area: main; }
+footer { grid-area: footer; } */
+
 /* header part */
 
+.site-logo { grid-area: logo; }
+.header-text,  { grid-area: headerText; }
+.current-condition { grid-area: currentCondition; }
+
 header {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template:
+    'logo headerText';
+    grid-template-columns: 1fr 1fr;
     background-color: #9ae9f7;
 }
 
 header .heading-size {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding: 5px;
     color: #fff;
 }
 
- header picture {
+header picture {
     margin-left: 2%;
     padding: 0.5rem;
  }
 
 header picture img {
-    display: flex;
-    flex-direction: row; 
-    justify-content: flex-end;
     width: 80px;
     height: auto;
 }
 
 .header-text {
-    flex: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 

@@ -1,6 +1,6 @@
-@media only screen and (min-width : 992px) {
+/* Large View Grid Page */
 
-    /* Large View Grid Page */
+@media only screen and (min-width : 992px) {
 
     /* main part */
     
@@ -13,7 +13,7 @@
     /* header part */
     
     header {
-        display: flex;
+        display: grid;
         justify-content: center;
     }
     
