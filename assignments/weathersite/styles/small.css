@@ -138,6 +138,10 @@ nav ul li a:hover, .footer-nav li a:hover {
     color: #00327f;
     }
 
+nav ul li a:visited {
+    color: #ffa629;
+}
+
 nav ul.hide {
     display: none;
 }
