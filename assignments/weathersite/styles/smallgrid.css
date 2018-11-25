@@ -179,7 +179,7 @@ section.weather-summary {
     top: 15px;
     left: 15px;
     background-color: #00327f;
-    width: 150px;
+    width: 170px;
     height: 150px;
     padding: 10px;
     color: #fff;
@@ -195,12 +195,15 @@ section.weather-summary h3 {
 }
 
 .weather-details {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0.5rem;
 }
 
 .weather-details p {
-    float: left;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0; 
 }
 
 .value {
