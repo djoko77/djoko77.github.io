@@ -261,9 +261,12 @@ section h2 {
     max-width: 95%;
     width: auto;
     height: 600px;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
  }
 
+ footer {
+     padding-top: 10px;
+ }
 #weather-icon {
     width: 100%;
 }
