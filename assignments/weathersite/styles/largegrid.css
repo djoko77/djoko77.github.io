@@ -112,8 +112,10 @@
         margin-left:auto; 
         margin-right:auto;
         color: #00327f;
-        width: 700px;
+        max-width: 1028px;
         font-size: 1.3rem;
+        background-color: #9ae9f7;
+        padding: 10px;
     }
     
     th {
@@ -168,7 +170,7 @@
         margin: 0;
         padding: 10px;
         outline: 2px solid white;
-        outline-offset: -10px;
+        outline-offset: -20px;
     }
     
     .left-column {
@@ -182,20 +184,9 @@
     
     /* footer */
     
-    .right-column {
-        text-align: right;
-        width: 50%;
-        float: right;
-    }
-    
     .contact-info {
-        padding: 20px;
-    }
-    
-    .contact-info h2 {
         padding: 10px;
     }
-    
     
     /* Thank You Message Large */
     
