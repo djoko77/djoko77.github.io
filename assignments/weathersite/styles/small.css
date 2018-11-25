@@ -247,7 +247,7 @@ h3.town-daily-title {
     height: auto;
     padding: 10px;
     outline: 2px solid white;
-    outline-offset: -10px;
+    outline-offset: -20px;
 }
 
 .map-image, article img {
@@ -447,10 +447,6 @@ main div.town-data {
     width: 400px;
     height: 500px;
     padding: .4rem;
-}
-
-.front-hero:hover {
-    border: 2px solid  rgb(0, 50, 127);
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
