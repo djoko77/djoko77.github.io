@@ -241,12 +241,24 @@ h3.town-daily-title {
 
 /* Images */
 
-article img, .map-image, .gallery-images {
+/* Images */
+
+article img, .gallery-images {
     width: auto;
     max-width: 100%;
     height: auto;
+    padding: 10px;
     outline: 2px solid white;
     outline-offset: -10px;
+}
+
+.map-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    outline: 2px solid white;
+    outline-offset: -20px;
 }
 
 /* Gallery Images Grid Small Screen View*/
@@ -263,9 +275,10 @@ article img, .map-image, .gallery-images {
 
 /* Footer */
 
-.contact-info .right-column {
-    padding-top: 1rem;
-    margin-top: 1.5rem;
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 footer .contact-info {
@@ -439,12 +452,5 @@ main div.town-data {
     display: table;
     clear: both;
   }
-
-/* Map CSS */
-
-.map {
-width: 450px;
-height: 300px;
-}
 
     
