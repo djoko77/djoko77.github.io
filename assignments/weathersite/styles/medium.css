@@ -195,11 +195,7 @@ main .thank-you-message {
         row-gap: 1.5rem;
         padding: 0.5rem;
   }
-    
-    .gallery-image p {
-        display: flex;
-    }
-    
+  
 /* Home page CSS */ 
 
 main div.town-data {

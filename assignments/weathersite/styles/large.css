@@ -230,12 +230,9 @@ main .thank-you-message {
     padding: 1rem;
   }
 
-.gallery-image:hover {
-    box-shadow: 5px 5px 10px #00327f;
-}
 
-.gallery-image p {
-    display: flex;
+.gallery-images:hover {
+    box-shadow: 5px 5px 10px #00327f;
 }
 
 /* Home page CSS */ 

@@ -271,6 +271,13 @@ h3.town-daily-title {
     margin: 1rem;
   }
 
+  .gallery-image p {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #00327f;
+}
+
 /* Footer */
 
 .contact-info {
