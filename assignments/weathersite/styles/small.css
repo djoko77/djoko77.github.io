@@ -238,12 +238,9 @@ h3.town-daily-title {
     margin: 0.5rem;
 }
 
-
 /* Images */
 
-/* Images */
-
-article img, .gallery-images {
+.gallery-images {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -252,7 +249,7 @@ article img, .gallery-images {
     outline-offset: -10px;
 }
 
-.map-image {
+.map-image, article img {
     width: auto;
     max-width: 100%;
     height: auto;

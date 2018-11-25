@@ -116,7 +116,7 @@
         font-size: 1.3rem;
         background-color: #9ae9f7;
         padding: 10px;
-        height: 200px;
+        height: 230px;
     }
     
     th {
@@ -134,9 +134,10 @@
         border:1px solid #00327f;
     }
     
-    .forecast h2 {
-        padding: 20px;
+    .forecast h3 {
+        font-size: 1.8rem;
     }
+    
     
     /* Upper part */
     
