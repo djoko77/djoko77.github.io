@@ -49,7 +49,7 @@
     
     .current-condition {
         width: 150px;
-        height: 150px;
+        height: 140px;
         display: grid;
         justify-items: center;
         margin-top: 1rem;

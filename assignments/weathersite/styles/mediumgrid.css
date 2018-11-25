@@ -18,7 +18,7 @@
     }
     
     header .heading-size {
-        max-width: 992px;
+        max-width: 1028px;
     }
     
     header picture {
@@ -70,8 +70,8 @@
     nav {
         width: 20%;
         float: left;
-        height: 550px;
-        max-height: 600px;
+        height: 1390px;
+        max-height: 1400px;
     }
     
     nav ul li a {
@@ -92,6 +92,12 @@
         height: 40px;
     }  
 
+    /*Medium View Margin*/
+
+    main {
+        margin-left: 22%;
+    }
+
     /* town name*/
     
     .town-name {
@@ -107,7 +113,7 @@
         text-align: center;
         margin-left:auto; 
         margin-right:auto;
-        font-size: 16px;
+        font-size: 12px;
         color: #00327f;
         width: 600px;
     }
@@ -150,12 +156,7 @@
         padding-bottom: .5rem;
     }
     
-    .upper-part {
-        width: 80%;
-        display: grid;
-        justify-content: center;
-    }
-    
+
     /* article */
     
     .article-image {
