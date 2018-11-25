@@ -133,7 +133,7 @@ nav ul li a {
     text-align: center;
 }
 
-nav ul li a:hover, .footer-nav li a:hover {
+nav ul li a:hover {
     background-color: #9ae9f7;
     color: #00327f;
     }
