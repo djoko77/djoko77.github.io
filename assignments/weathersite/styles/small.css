@@ -214,6 +214,7 @@ section.weather-summary h3 {
 .value {
     color: #ffa629;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 /* lower part */

@@ -204,6 +204,7 @@ section.weather-summary h3 {
 .weather-details p {
     padding: 0;
     margin: 0; 
+    line-height: 1rem;
 }
 
 .value {

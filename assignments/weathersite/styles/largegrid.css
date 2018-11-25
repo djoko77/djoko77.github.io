@@ -138,24 +138,22 @@
         font-size: 1.8rem;
     }
     
-    
     /* Upper part */
     
     section.weather-summary {
         top: 20px;
         left: 30px;
-        width: 230px;
-        height: 260px;
-        line-height: 1.3rem;
-        font-size: 1.2rem;
+        width: 300px;
+        height: 300px;
+        line-height: 2rem;
+        font-size: 1.5rem;
     }
     
     .weather-details p {
-        line-height: 1.7rem;
+        line-height: 2rem;
     }
     
     section.weather-summary h3 {
-        font-size: 1.3rem;
         padding: 0.6rem;
         margin: 0.6rem;
     }
