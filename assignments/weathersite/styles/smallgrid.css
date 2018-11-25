@@ -272,7 +272,8 @@ article img, .gallery-images {
 }
 
 footer .contact-info {
-background-color: #FFC966;
+    background-color: #FFC966;
+    position: relative;
 }
 
 .footer-nav {

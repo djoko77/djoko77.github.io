@@ -146,8 +146,6 @@ table {
     grid-template-columns: 1fr 1fr;
     row-gap: 1rem;
     justify-items: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
 }
 
 .contact-info h2 {
@@ -155,6 +153,9 @@ table {
     padding: 0;
 }
 
+.right-column p, .contact-info h2 {
+    text-align: left;
+}
 .footer-nav {
     display: flex;
     flex-direction: row;

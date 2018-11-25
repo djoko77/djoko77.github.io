@@ -281,13 +281,9 @@ article img, .gallery-images {
     justify-items: center;
 }
 
-.right-column p, .contact-info h2 {
-    text-align: center;
-}
-
 footer .contact-info {
-background-color: #FFC966;
-position: relative;
+    background-color: #FFC966;
+    position: relative;
 }
 
 .footer-nav {
