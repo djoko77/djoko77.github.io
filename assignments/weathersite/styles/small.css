@@ -449,6 +449,10 @@ main div.town-data {
     padding: .4rem;
 }
 
+.front-hero:hover {
+    border: 2px solid  rgb(0, 50, 127);
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
