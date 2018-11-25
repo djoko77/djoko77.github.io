@@ -7,6 +7,9 @@ main, footer .right-column, footer ul .footer-nav {
     margin: auto;
 }
 
+main {
+    margin-left: 22%;
+}
 
 /* header part */
 
