@@ -74,7 +74,6 @@ nav {
     float: left;
     height: 1550px;
     position: absolute;
-    z-index: -1;
 }
 
 nav ul li a {
@@ -85,7 +84,7 @@ nav ul li a {
 }
 
 nav ul.hide {
-    display: block;
+    display: grid;
 }
 
 nav ul .hide li a:hover {
