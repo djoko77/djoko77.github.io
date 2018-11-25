@@ -148,6 +148,15 @@ table {
     justify-items: center;
 }
 
+.contact-info .right-column {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.right-column {
+    padding: 20px;
+}
+
 .contact-info h2 {
     font-variant: small-caps;
     padding: 0;

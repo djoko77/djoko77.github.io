@@ -285,6 +285,10 @@ footer .contact-info {
     padding: 10px;
 }
 
+.right-column {
+    padding: 10px;
+}
+
 .footer-nav {
     background-color:  #00327f;
     float: left;

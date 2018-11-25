@@ -286,6 +286,10 @@ footer .contact-info {
     position: relative;
 }
 
+.right-column {
+    padding: 10px;
+}
+
 .footer-nav {
     color: #fff;
     font-size: 16px;

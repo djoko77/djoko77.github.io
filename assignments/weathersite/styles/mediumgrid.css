@@ -192,8 +192,16 @@
         grid-template-columns: 1fr 1fr;
         row-gap: 1rem;
         justify-items: center;
-        grid-column-start: 1;
-        grid-column-end: 2;
+        grid-auto-flow: dense;
+    }
+
+    .contact-info .right-column {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .right-column {
+        padding: 20px;
     }
 
     .contact-info h2 {
