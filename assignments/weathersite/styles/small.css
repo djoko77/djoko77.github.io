@@ -455,10 +455,6 @@ main div.town-data {
     padding: .4rem;
 }
 
-.fish-haven-town:hover, .soda-springs-town:hover, .preston-town:hover {
-    border: 2px solid  rgb(0, 50, 127);
-}
-
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
