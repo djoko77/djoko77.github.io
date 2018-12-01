@@ -5,11 +5,14 @@
 	<meta charset="UTF-8">
 	<title>ToggleButton</title>
 	<link rel="stylesheet" href="css/toggleBtn.css">
-	<script src="js/jquery-2.2.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
 	<script>
 		$(function () {
 			// jQuery Code goes here
-
+			
+			$('.toggleBtn').click( function() {
+				$(this).toggleClass("toggleOn");
+			});
 		})
 	</script>
 </head>
