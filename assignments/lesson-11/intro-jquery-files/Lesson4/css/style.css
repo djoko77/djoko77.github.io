@@ -278,4 +278,20 @@ body {
 	color:inherit;
 }
 
+.footer .left-side {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,0.8);
+}
 
+.footer .left-side ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 0.5rem;
+}
+
+.footer .left-side ul li {
+	margin-right: 1.5rem;
+}
