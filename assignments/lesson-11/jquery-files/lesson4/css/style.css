@@ -287,14 +287,21 @@ body {
 	color: rgba(0,0,0,0.8);
 }
 
-.footer .left-side ul {
-	list-style-type: none;
-	display:flex;
-	flex-direction:row;
-	justify-content:flex-end;
+.footer .left-side {
 	padding:0.5rem;
+	float: right;
 }
 
 .footer .left-side ul li {
+	list-style-type: none;
 	margin-right:1.5rem;
+	display: inline;
+}
+
+.left-side ul li a {
+	text-decoration: none;
+}
+
+.left-side ul li a:hover {
+	color: white;
 }
