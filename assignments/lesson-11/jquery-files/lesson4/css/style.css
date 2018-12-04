@@ -263,6 +263,7 @@ body {
 	background:rgba(0, 167, 255, 0.86);
 	width: 960px;
 	margin: auto;
+	top: 2px;
 }
 
 .footer h5 {
