@@ -97,6 +97,36 @@ nav ul.hide {
   padding: 1rem;
 }
 
+/* CONTACT US PAGE */
+
+.contact-us-page {
+  display: flex;
+}
+
+form label.top-form {
+display: flex;
+flex-direction: column;
+max-width: 20rem;
+width: 100%;
+padding: 1rem;
+}
+
+form label.top-form input:required {
+border-left: 6px solid #F68D2E;
+}
+
+fieldset {
+border: 0;
+}
+
+.google-map {
+width: 600px;
+height: 400px;
+}
+
+.contact-column {
+flex: 50%;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

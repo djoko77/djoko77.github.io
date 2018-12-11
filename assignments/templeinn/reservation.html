@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Temple Inn &amp; Suites</title>
+        <meta name="description" content="Enjoy our affordable and yet luxurious rooms and reception right next to temple!">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7COswald" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="heading-size">
+            <picture>
+            <img class="site-logo" src="images/logo.png" alt="temple inn logo">
+            </picture>
+            </div>
+        </header>
+
+  
+        <nav class="clearfix">
+                <div class="menu-nav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <h3 id="menu-title">Menu</h3>
+                </div>
+                <ul id="mobile-nav" class="hide">
+                    <li><a class="current" href="/assignments/templeinn/index.html">Home</a></li>
+                    <li><a href="#">Temples</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li class="current"><a href="/assignments/templeinn/contactus.html">Contact Us</a></li>
+                    <li><a href="#">Reservation</a></li>
+                </ul>
+        </nav>
+
+        <main>
+
+            
+                <div class="contact-us-title">
+                        <h2>Online Reservation Form</h2>
+                    </div>
+                    
+                    <div class="contact-us-page">
+                    <form class="contact-column" method="get" action="thanks.html" id="contact-us">
+                            <fieldset>
+                                <legend class="form-title">Personal Information</legend>
+                            <label class="top-form">Full Name* <input type="text" name="fname" required>
+                                </label>
+                            <label class="top-form">Phone Number <input type="tel" name="telephone" placeholder="2087772991">
+                                </label>
+                            <label class="top-form">Email* <input type="email" name="email" placeholder="john@gmail.com" required>
+                                </label>
+                            
+                            <label class="top-form">Home State<input type="text" name="state" placeholder="MD" pattern="[A-Za-z].{2,}" maxlength="2" >
+                                </label>
+        
+                            <label class="top-form">Country*<input type="text" name="country" placeholder="MD" pattern="[A-Za-z]" required>
+                                </label>
+        
+                            <fieldset>
+                                <legend class="form-title">Reservation Information</legend>
+                                <label class="sbs" required>Location*
+                                        <select name="options">
+                                            <option value="Select Location" selected disabled>Select Location</option>
+                                            <option value="Salt Lake">Salt Lake, Utah</option>
+                                            <option value="Washington">Washington, DC</option>
+                                            <option value="Boise">Boise, Idaho</option>
+                                            <option value="Houston">Houston, Texas</option>
+                                        </select></label>
+                                <label class="sbs" required>Arrival Date*<input type="date" name="checkInDate"></label>
+                                <label class="sbs" required>Departure Date*<input type="date" name="checkOutDate"></label>
+        
+                                <label class="sbs" required>Room Type:
+                                        <select name="options">
+                                            <option value="Select Room" selected disabled>Select Room</option>
+                                            <option value="Single">Single</option>
+                                            <option value="Double">Double</option>
+                                            <option value="Queen">Queen</option>
+                                            <option value="King">King</option>
+                                            <option value="Twin">Twin</option>
+                                            <option value="MasterSuite">Master Suite</option>
+                                            <option value="JuniorSuite">Junior Suite</option>
+                                        </select></label>
+                                    <label class="top-form">Number of Rooms*<input type="number" name="numberRooms" required></label>
+                            <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
+                                </label>
+                            <input type="submit" name="submit-it" value="Make A Reservation Now!" class="submit-button">
+                            
+                        
+                        </fieldset>
+                    </form>
+                   
+                </main>
+        
+        </main>
+        <footer>            
+            <ul class="footer-nav">
+                <li>&copy;2018 Temple Inn &amp; Suites</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+    </body>
+</html>

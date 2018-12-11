@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Temple Inn &amp; Suites</title>
+        <meta name="description" content="Enjoy our affordable and yet luxurious rooms and reception right next to temple!">
+        <link href="https://fonts.googleapis.com/css?family=Lustria%7COswald" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/small.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="heading-size">
+            <picture>
+            <img class="site-logo" src="images/logo.png" alt="temple inn logo">
+            </picture>
+            </div>
+        </header>
+
+  
+        <nav class="clearfix">
+                <div class="menu-nav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <h3 id="menu-title">Menu</h3>
+                </div>
+                <ul id="mobile-nav" class="hide">
+                    <li><a class="current" href="/assignments/templeinn/index.html">Home</a></li>
+                    <li><a href="#">Temples</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li class="current"><a href="/assignments/templeinn/contactus.html">Contact Us</a></li>
+                    <li><a href="#">Reservation</a></li>
+                </ul>
+        </nav>
+
+        <main>
+                <div class="contact-us-title">
+                        <h2>Contact Us</h2>
+                    </div>
+                    
+                    <div class="contact-us-page">
+                    <form class="contact-column" method="get" action="thanks.html" id="contact-us">
+                            <fieldset>
+                                <div class="form-title">Send Us A Message</div>
+                            <label class="top-form">Name* <input type="text" name="fname" required>
+                                </label>
+                            <label class="top-form">Phone Number <input type="tel" name="telephone" placeholder="2087772991">
+                                </label>
+                            <label class="top-form">Email* <input type="email" name="email" placeholder="john@gmail.com" required>
+                                </label>
+        
+                            <label class="top-form">Additional Information or Comments <textarea form="storm-center-comment" name="comment" rows="10" cols="30"></textarea>
+                                </label>
+                            <input type="submit" name="submit-it" value="Sent It Now!" class="submit-button">
+                            </fieldset>
+                    </form>
+        
+                    <div class="contact-column">
+                        <h3>Contact Number</h3>
+                        <h3>Website</h3>
+                        <h3>4810 Montgomery Ln #500, Bethesda, MD 20814</h3>
+                        <object class="google-map" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4088497639777!2d-77.09900308527833!3d38.98316434949028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814%2C+USA!5e0!3m2!1sen!2sph!4v1544525587417">
+                        </object>
+                    </div>
+                    </div>        
+
+        </main>
+        <footer>            
+            <ul class="footer-nav">
+                <li>&copy;2018 Temple Inn &amp; Suites</li>
+                <li id="current-date"></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="scripts/currentdate.js"></script>
+        <script type="text/javascript" src="scripts/hamburger.js"></script>
+    </body>
+</html>
