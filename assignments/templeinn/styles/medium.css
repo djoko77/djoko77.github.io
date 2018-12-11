@@ -39,4 +39,21 @@ nav ul .hide li a:hover {
     color: #FFFFFF;
     }
 
+/* TEMPLE HOME PAGE */   
+
+section.temple-homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hotel-chains-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+
  }
+
