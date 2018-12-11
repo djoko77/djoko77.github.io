@@ -1,5 +1,9 @@
 /* This is the mobile first */
 
+* {
+  background-color: #FFEED2;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
