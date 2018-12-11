@@ -1,8 +1,102 @@
 /* This is the mobile first */
 
-* {
+main {
   background-color: #FFEED2;
 }
+
+header {
+  background-color: #FFFFFF;
+}
+
+/* HEADER */
+
+header .site-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 160px;
+  height: auto;
+  padding: 1rem;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F68D2E;
+}
+
+nav button {
+  display: flex;
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #696969;
+}
+
+nav .menu-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav ul, .footer-nav {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  flex-direction: column;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #696969;;
+  font-size: 1.2rem;
+  border-top: 1px solid #FFEED2;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #FFB81C;
+  color: #FFFFFF;
+  }
+
+nav ul li .current {
+  color: #FFEED2;
+  background-color: #ff9248;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+#menu-title {
+  color: #696969;
+}
+
+/* FOOTER BAR */
+
+.footer-nav {
+  background-color: #F68D2E;
+  color: #FFEED2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.footer-nav li {
+  display: inline;
+  padding: 1rem;
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
