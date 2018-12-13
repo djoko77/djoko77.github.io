@@ -63,4 +63,19 @@ section.hotel-chains-row {
         justify-content: center;
     }
 
+.hotel-chain .hotel-image {
+        width: 40%px;
+        height: auto;
+        padding: 1rem;
+      }
+
+      /* IMAGES */
+
+section div .temple-image-hero {
+        padding: 1rem;
+        width: 50%;
+        height: auto;
+      }
+      
+
 }
