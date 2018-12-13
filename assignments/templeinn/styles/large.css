@@ -54,4 +54,13 @@ nav ul .hide li a:hover {
     background-color: #FFB81C;
     color: #FFFFFF;
     }
+
+/* HOMEPAGE HOTELS */
+
+section.hotel-chains-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+    }
+
 }

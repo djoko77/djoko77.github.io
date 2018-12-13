@@ -8,6 +8,23 @@ header {
   background-color: #FFFFFF;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+
 /* HEADER */
 
 header .site-logo {
@@ -127,6 +144,33 @@ height: 400px;
 .contact-column {
 flex: 50%;
 }
+
+
+
+/* CALL TO ACTION FRONT PAGE */
+.call-to-action {
+  text-align: center;
+  background-color: #FFB81C;
+  padding: 1rem;
+  font-family: 'Oswald', sans-serif;
+  color: #FFEED2;
+}
+
+/* FRONT HERO IMAGES */
+
+section.image-slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+picture.front-images {
+  padding: 2rem;
+}
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
