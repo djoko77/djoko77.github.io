@@ -51,22 +51,11 @@ section.temple-homepage {
 section.hotel-chains-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    grid-gap: 1rem;
 }
-
-.hotel-chain .hotel-image {
-    width: 30%;
-    height: auto;
-    padding: 1rem;
-  }
 
 /* IMAGES */
 
-section div .temple-image-hero {
-        padding: 1rem;
-        width: 40%;
-        height: auto;
-      }
-      
+
  }
 

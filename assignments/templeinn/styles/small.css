@@ -170,17 +170,6 @@ picture.front-images {
   padding: 2rem;
 }
 
-.hotel-chain .hotel-image {
-  width: 20%;
-  height: auto;
-  padding: 1rem;
-}
-
-section div .temple-image-hero {
-  padding: 1rem;
-  width: 30%;
-  height: auto;
-}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
