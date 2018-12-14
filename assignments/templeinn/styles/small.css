@@ -14,6 +14,9 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: #F68D2E;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 h3 {
@@ -31,7 +34,6 @@ header .site-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   width: 160px;
   height: auto;
   padding: 1rem;
@@ -101,6 +103,25 @@ nav ul.hide {
   color: #696969;
 }
 
+/* IMAGE SLIDER */
+
+section.image-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+/* TEMPLE HOME PAGE */
+
+.temple-homepage {
+  background-color: #F68D2E;
+  color: #FFEED2;
+}
+
+
 /* FOOTER BAR */
 
 .footer-nav {
@@ -146,7 +167,6 @@ flex: 50%;
 }
 
 
-
 /* CALL TO ACTION FRONT PAGE */
 .call-to-action {
   text-align: center;
@@ -158,16 +178,8 @@ flex: 50%;
 
 /* IMAGES */
 
-section.image-slider {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 1rem;
-}
-
-picture.front-images {
-  padding: 2rem;
+picture {
+  object-fit: cover;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
