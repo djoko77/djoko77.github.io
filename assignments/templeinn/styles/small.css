@@ -21,6 +21,8 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  color: #FFEED2;
+  font-family: 'Oswald', sans-serif;
 }
 
 h4 {
@@ -31,12 +33,33 @@ h4 {
 /* HEADER */
 
 header .site-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
   width: 160px;
   height: auto;
   padding: 1rem;
+}
+
+.contact-us-now {
+  background-color: #FFB81C;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.contact-us-now p, .contact-us-now h3 {
+  padding: 0;
+}
+
+.contact-us-now img {
+  width: 50px;
+  height: auto;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 15%;
+  background-color: #FFEED2;
 }
 
 /* NAVIGATION BAR */
@@ -79,7 +102,7 @@ nav ul li a {
   padding: .8rem 2%;
   text-decoration: none;
   color: #696969;;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-top: 1px solid #FFEED2;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
@@ -168,19 +191,19 @@ flex: 50%;
 
 
 /* CALL TO ACTION FRONT PAGE */
+
 .call-to-action {
   text-align: center;
+  color:#FFEED2;
   background-color: #FFB81C;
+  font-size: 2rem;
   padding: 1rem;
   font-family: 'Oswald', sans-serif;
-  color: #FFEED2;
+  
 }
 
 /* IMAGES */
 
-picture {
-  object-fit: cover;
-}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
