@@ -91,7 +91,7 @@ header {
 }
 
 .contact-us-now:hover {
-  border: 2px solid #F68D2E;
+  box-shadow: 10px 10px #F68D2E;
 }
 
 .contact-us-now a {
@@ -233,26 +233,133 @@ nav ul.hide {
   width: 400px;
 }
 
-.hotel-chain h3 {
+.hotel-chain h2 {
   color: #F68D2E;
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-transform: uppercase;
 }
 
 .hotel-chain p {
+  color: #696969;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  padding-top: 1rem;
+}
+
+.hotel-chain p.label {
+  color: #F68D2E;
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hotel-chain .value {
+  color: #696969;
+  font-family: 'Lustria', serif;
+  font-size: 1.2rem;
+}
+
+.hotel-chain a {
+  text-decoration: none;
+}
+
+.hotel-chain .contact-us a:hover {
   color: #FFB81C;
+  background-color: #FFEED2;
+}
+
+.hotel-chain .contact-us a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #F68D2E;
+  transition: width .3s;
+}
+
+.hotel-chain .contact-us a:hover::after {
+  width: 100%;
+  text-decoration: underline;
+  border-bottom-color: #F68D2E;    
+}  
+
+
+/* CALL TO ACTION FRONT PAGE */
+
+.call-to-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action h2 {
+  text-align: center;
+  color:#FFEED2;
+  background-color: #FFB81C;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  width: 900px;
+  margin: 1rem;
+}
+
+.call-to-action a:hover {
+  border: 3px solid #F68D2E;
+}
+
+.call-to-action a {
+  text-decoration: none;
 }
 
 /* FOOTER BAR */
 
 .footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #F68D2E;
   color: #FFEED2;
   font-family: 'Oswald', sans-serif;
 }
 
 .footer-nav li {
-  display: inline;
   padding: 1rem;
+  color: #FFEED2;
+  list-style: none;
 }
+
+.resources a {
+  text-decoration: none;
+}
+
+.footer-nav a:visited {
+  color: #FFEED2;
+}
+
+footer .resources {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #FFEED2;
+}
+
+.footer-nav li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #FFEED2;
+  transition: width .3s;
+}
+
+.footer-nav li a:hover::after {
+  width: 100%;
+  text-decoration: underline;
+  border-bottom-color: #FFEED2;    
+} 
 
 /* CONTACT US PAGE */
 
@@ -286,18 +393,6 @@ flex: 50%;
 }
 
 
-/* CALL TO ACTION FRONT PAGE */
-
-.call-to-action {
-  text-align: center;
-  color:#FFEED2;
-  background-color: #FFB81C;
-  font-size: 2rem;
-  padding: 1rem;
-  font-family: 'Oswald', sans-serif;
-}
-
-/* IMAGES */
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
