@@ -103,14 +103,13 @@ header {
 /* NAVIGATION BAR */
 
 nav {
-  padding: 1rem;
   overflow: hidden;
   background-color: #FFEED2;
 }
 
 nav button {
   display: flex;
-  margin: .2rem, 4%;
+  margin: .2rem;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
@@ -136,7 +135,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 1rem 2%;
+  padding: 1rem;
   text-decoration: none;
   color: #F68D2E;
   font-size: 1.5rem;
@@ -321,10 +320,8 @@ nav ul.hide {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #F68D2E;
   color: #FFEED2;
   font-family: 'Oswald', sans-serif;
-  padding: .5rem;
 }
 
 .footer-nav li {
@@ -363,7 +360,7 @@ footer .resources {
 } 
 
 footer {
-  max-width: 600px;
+  background-color: #F68D2E;
 }
 
 /* CONTACT US PAGE */

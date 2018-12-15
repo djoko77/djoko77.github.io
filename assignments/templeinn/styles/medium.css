@@ -127,10 +127,6 @@ nav ul.hide li a:hover::after {
         border-bottom-color: #FFB81C;    
       }  
 
-footer {
-        max-width: 900px;
-      }
-
 /* IMAGES */
 
 .image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
