@@ -133,8 +133,8 @@ footer {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chains-row .front-hero {
-  width: 700px;
+.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
+  width: 600px;
 }
 
 /* HOMEPAGE MEDIUM VIEW */

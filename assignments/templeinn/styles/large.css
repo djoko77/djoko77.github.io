@@ -131,15 +131,16 @@ footer {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chains-row .front-hero {
+.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
   width: 900px;
 }
 
 /* HOMEPAGE LARGE VIEW */
 
-  .image-slider h2 {
+.image-slider h2 {
     font-size: 2rem;
-  }
+    padding: 1rem;
+}
 
   /* TEMPLE HOME PAGE */
 
@@ -148,6 +149,10 @@ section.temple-homepage {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
+}
+
+.temple-info {
+  padding: 1rem;
 }
 
 .temple-info h3 {
@@ -164,6 +169,25 @@ section.temple-homepage {
     margin: 0.6rem;
   }
 
+  .temple-info a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #FFEED2;
+    transition: width .3s;
+  }
+  
+  .temple-info a:hover::after {
+    width: 100%;
+    text-decoration: underline;
+    border-bottom-color: #FFEED2;    
+  } 
+  
+  .temple-info {
+    padding: 1rem;
+  }
+  
 /* HOTEL CHAIN LARGE VIEW */
 
 .hotel-chain h2 {
