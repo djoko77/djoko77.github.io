@@ -15,11 +15,10 @@ header .site-logo {
 .contact-us-now {
     float: left;
     background-color: #FFB81C;
-    height: 100px;
+    height: 110px;
     width: 230px;
     margin: 1rem;
     padding: 1rem;
-    text-decoration: none;
   }
   
 .contact-us-now img {
@@ -31,15 +30,14 @@ header .site-logo {
 
 .contact-us-now h3 {
     font-size: 1.5rem;
-    text-decoration: none;
     margin: 0.3rem;
+    padding-bottom: .3rem;
   }
 
   header {
     display: grid;
     grid-template-columns: 1fr 30%;
     background-color: #FFEED2;
-    text-decoration: none;
   }
   
   .contact-us-now p {
@@ -127,8 +125,53 @@ nav ul.hide li a:hover::after {
         border-bottom-color: #F68D2E;    
       }  
 
+/* HOMEPAGE LARGE VIEW */
 
-/* IMAGES */
+.image-slider .front-hero {
+    width: 800px;
+  }
 
+  .image-slider h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .temple-homepage .front-hero {
+    width: 800px;
+  }
+
+  section.temple-homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.temple-info h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .temple-info h4 {
+    margin: 0.6rem;
+  }
+  
+  .temple-info p, .temple-info li  {
+    font-size: 1.2rem;
+    margin: 0.6rem;
+  }
+
+/* HOTEL CHAIN SMALL VIEW */
+
+.hotel-chain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-chain .front-hero {
+  width: 900px;
+}
 
 }
