@@ -6,6 +6,7 @@
 
 main {
   background-color: #FFEED2;
+  padding-bottom: 2rem;
 }
 
 header {
@@ -166,6 +167,12 @@ nav ul.hide {
   padding: 0;
 }
 
+/* IMAGES */
+
+.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chains-row .front-hero {
+  width: 400px;
+}
+
 /* HOMEPAGE SMALL VIEW*/
 
 .image-slider {
@@ -175,13 +182,10 @@ nav ul.hide {
   align-items: center;
 }
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chains-row .front-hero {
-  width: 400px;
-}
-
  .image-slider h2 {
    margin-top: 0.5rem;
    margin-bottom: 1rem;
+   font-size: 1.3rem;
  }
 
 /* TEMPLE HOME PAGE */
@@ -194,10 +198,6 @@ nav ul.hide {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-}
-
-.temple-homepage .front-hero {
-  width: 400px;
 }
 
 .temple-info h3 {
@@ -229,34 +229,30 @@ nav ul.hide {
     margin: 1rem;
 }
 
-.hotel-chain .front-hero {
-  width: 400px;
-}
-
 .hotel-chain h2 {
   color: #F68D2E;
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin: 0.5rem;
   text-transform: uppercase;
 }
 
 .hotel-chain p {
   color: #696969;
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   margin: 0.5rem;
   padding-top: 1rem;
 }
 
 .hotel-chain p.label {
   color: #F68D2E;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Oswald', sans-serif;
 }
 
 .hotel-chain .value {
   color: #696969;
   font-family: 'Lustria', serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .hotel-chain a {
@@ -284,30 +280,30 @@ nav ul.hide {
 }  
 
 
-/* CALL TO ACTION FRONT PAGE */
+/* CALL TO ACTION FRONT PAGE SMALL VIEW */
 
 .call-to-action {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .call-to-action h2 {
   text-align: center;
   color:#FFEED2;
   background-color: #FFB81C;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 1rem;
   margin: 0;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  width: 900px;
-  margin: 1rem;
+  width: 350px;
 }
 
 .call-to-action a:hover {
-  border: 3px solid #F68D2E;
+  box-shadow: 10px 10px #F68D2E;
 }
 
 .call-to-action a {
@@ -324,6 +320,7 @@ nav ul.hide {
   background-color: #F68D2E;
   color: #FFEED2;
   font-family: 'Oswald', sans-serif;
+  padding: .5rem;
 }
 
 .footer-nav li {
@@ -361,6 +358,10 @@ footer .resources {
   border-bottom-color: #FFEED2;    
 } 
 
+footer {
+  max-width: 600px;
+}
+
 /* CONTACT US PAGE */
 
 .contact-us-page {
@@ -391,8 +392,6 @@ height: 400px;
 .contact-column {
 flex: 50%;
 }
-
-
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
