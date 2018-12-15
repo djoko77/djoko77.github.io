@@ -1,14 +1,15 @@
 @media only screen and (min-width : 992px) {
 
-
+* {
+        max-width: 1500px;
+    }
+    
 /* HEADER */
 
 header .site-logo {
     width: 300px;
     height: auto;
-    margin-left: 1.5rem;
-    align-items: center;
-    align-content: center;
+    padding: 1rem;
   }
 
 
@@ -18,7 +19,7 @@ nav button, #menu-title {
     display: none;
 }
 
-nav, .footer-nav {
+.footer-nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,18 +54,35 @@ nav ul li a {
     border: none;
     padding: .5rem 1.2rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 nav ul.hide {
     display: block;
 }
 
-nav ul .hide li a:hover {
-    background-color: #FFB81C;
-    color: #FFFFFF;
+nav ul li a:hover {
+    background-color: #FFEED2;
+  }
+
+nav ul.hide li a:hover {
+    color: #FFB81C;
     }
 
+nav ul.hide li a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background: #F68D2E;
+        transition: width .3s;
+      }
+
+nav ul.hide li a:hover::after {
+        width: 100%;
+        text-decoration: underline;
+        border-bottom-color: #F68D2E;    
+      }  
 
 
 /* IMAGES */

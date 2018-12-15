@@ -1,5 +1,9 @@
 /* This is the mobile first */
 
+* {
+  max-width: 600px;
+}
+
 main {
   background-color: #FFEED2;
 }
@@ -20,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #FFEED2;
   font-family: 'Oswald', sans-serif;
 }
@@ -33,8 +37,6 @@ h4 {
 /* HEADER */
 
 header .site-logo {
-  display: flex;
-  justify-content: flex-start;
   width: 160px;
   height: auto;
   padding: 1rem;
@@ -42,24 +44,44 @@ header .site-logo {
 
 .contact-us-now {
   background-color: #FFB81C;
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 2rem;
-}
-
-.contact-us-now p, .contact-us-now h3 {
-  padding: 0;
+  height: 140px;
+  width: 180px;
+  margin: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
 }
 
 .contact-us-now img {
-  width: 50px;
-  height: auto;
+  width: 30px;
+  height: 30px;
+  padding-right: .5rem;
 }
+.contact-us-now h3 {
+  text-decoration: none;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 15%;
   background-color: #FFEED2;
+}
+
+.contact-us-now p {
+  font-size: 1.2rem;
+  color: #696969;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0.3rem;
+  text-decoration: none;
+}
+
+.phone-proximity {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us-now:hover {
+  border: 2px solid #F68D2E;
 }
 
 /* NAVIGATION BAR */
@@ -68,16 +90,16 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F68D2E;
+  background-color: #FFEED2;
 }
 
 nav button {
   display: flex;
-  margin: .2rem 2%;
+  margin: .2rem;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-  color: #696969;
+  color: #F68D2E;
 }
 
 nav .menu-nav {
@@ -99,23 +121,24 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: .8rem 2%;
+  padding: 1rem 2%;
   text-decoration: none;
-  color: #696969;;
+  color: #F68D2E;
   font-size: 1.5rem;
-  border-top: 1px solid #FFEED2;
+  border-top: 1px solid #F68D2E;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid #F68D2E;
 }
 
 nav ul li a:hover {
-  background-color: #FFB81C;
-  color: #FFFFFF;
-  }
+  color: #FFB81C;
+  background-color: #fd6906;
+}
 
 nav ul li .current {
   color: #FFEED2;
-  background-color: #ff9248;
+  background-color: #fd6906;
 }
 
 nav ul.hide {
@@ -123,7 +146,9 @@ nav ul.hide {
 }
 
 #menu-title {
-  color: #696969;
+  color: #F68D2E;
+  margin-left: 0;
+  padding: 0;
 }
 
 /* IMAGE SLIDER */
