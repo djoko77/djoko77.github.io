@@ -221,5 +221,77 @@ section.temple-homepage {
   justify-content: space-evenly;
 }
 
+/* CONTACT US MEDIUM VIEW */
+
+.contact-us-title h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.contact-us-page .contact-element {
+  padding: 2rem;
+}
+
+.contact-page .contact-us-page .contact-element h4 {
+  color: #F68D2E;
+}
+
+.contact-page .contact-us-page .contact-element p {
+  color: #FFB81C;
+  font-size: 1rem;
+}
+
+.contact-us-page {
+  display: flex;
+}
+
+form label.top-form {
+display: flex;
+flex-direction: column;
+max-width: 20rem;
+width: 100%;
+padding: 1rem;
+font-family: 'Oswald', sans-serif;
+color: #FFEED2;
+font-size: 1.2rem;
+}
+
+form label.top-form input:required {
+border-left: 6px solid red;
+}
+
+fieldset {
+border: 0;
+}
+
+.google-map {
+width: 600px;
+height: 400px;
+}
+
+.contact-column {
+flex: 50%;
+}
+
+.contact-background {
+background-color: #F68D2E;
+margin: 3.5rem;
+padding: 3rem;
+}
+
+.form-title {
+  color: #FFEED2;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submit-button {
+  color: #fd6906;
+  background-color: #FFEED2;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
 
 }
