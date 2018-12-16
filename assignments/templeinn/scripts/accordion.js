@@ -8,7 +8,7 @@
 }) */
 
 $(function() {
-  $(".accordion").click(function() {
-      $(".panel").slideToggle(300);
+  $('.accordian').click(function() {
+      $('.panel').slideToggle(500);
   });
 }); 
