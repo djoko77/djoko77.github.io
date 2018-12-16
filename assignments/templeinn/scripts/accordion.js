@@ -7,8 +7,6 @@
   }, ".panel")
 }) */
 
-$(function() {
   $('.accordian').click(function() {
       $('.panel').slideToggle(500);
   });
-}); 
