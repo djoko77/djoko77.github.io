@@ -408,7 +408,10 @@ flex: 50%;
 
 /*  TEMPLE PAGE ACCORDIAN MENU */
 
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
   background-color: #fbfbf1;
   color: #F68D2E;
   cursor: pointer;
@@ -420,29 +423,31 @@ flex: 50%;
   transition: 0.4s;
 }
 
-.active, .temple-page .temple-data button:hover {
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
   background-color: #F68D2E;
   color: #FFEED2;
 }
 
+/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 1rem;
-  background-color: #FFEED2;
-  color: #F68D2E;
+  background-color: #fbfbf1;
   display: none;
   overflow: hidden;
 }
 
 .accordion:after {
-  content: "\FF0B";
-  font-size: 1rem;
+  content: "\FF0B"; /* Unicode character for "plus" sign (+) */
+  font-size: 1.2rem;
   color: #F68D2E;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2212";
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+  color: #FFEED2;
 }
 
 /*  TEMPLE PAGE SMALL VIEW */
@@ -460,11 +465,12 @@ flex: 50%;
   font-size: 1.5rem;
 }
 
+/*
 .temple-page .temple-data button {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2rem;
   color: #F68D2E;
-}
+} */
 
 .temple-page .temple-data p, .temple-page .temple-data span {
   color: #FFB81C;
@@ -477,10 +483,24 @@ flex: 50%;
   padding: 1rem;
 }
 
-.temple-page .panel p {
+.temple-page .panel p, .temple-page .panel li {
   font-family: 'Lustria', serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #F68D2E;
+  text-align: left;
+}
+
+.temple-page .panel h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: #FFB81C;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+}
+
+.temple-page .panel {
+border-bottom: 2px solid #F68D2E;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
