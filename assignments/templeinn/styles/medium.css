@@ -129,8 +129,13 @@ nav ul.hide li a:hover::after {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
+.image-slider .front-hero, .temple-homepage .front-hero,
+.hotel-chain .front-hero {
   width: 600px;
+}
+
+.temple-data .temple-pic {
+  width: 300px;
 }
 
 /* HOMEPAGE MEDIUM VIEW */
@@ -175,6 +180,14 @@ nav ul.hide li a:hover::after {
   width: 600px;
 }
 
+/*  TEMPLE PAGE SMALL VIEW */
+
+.temple-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
  }
 

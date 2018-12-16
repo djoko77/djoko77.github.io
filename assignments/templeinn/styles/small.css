@@ -171,8 +171,16 @@ nav ul.hide {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
+.image-slider .front-hero, .temple-homepage .front-hero,
+ .hotel-chain .front-hero, .temple-data .temple-pic {
   width: 400px;
+}
+
+.temple-data .temple-pic {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 /* HOMEPAGE SMALL VIEW*/
@@ -425,7 +433,7 @@ flex: 50%;
 }
 
 .accordion:after {
-  content: '\02795';
+  content: "\FF0B";
   font-size: 1rem;
   color: #F68D2E;
   float: right;
@@ -433,7 +441,38 @@ flex: 50%;
 }
 
 .active:after {
-  content: "\2796";
+  content: "\2212";
+}
+
+/*  TEMPLE PAGE SMALL VIEW */
+
+.temple-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.temple-page h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.temple-page .temple-data button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: #F68D2E;
+}
+
+.temple-page .temple-data {
+  padding: 1rem;
+}
+
+.temple-page .panel p {
+  font-family: 'Lustria', serif;
+  font-size: 1.2rem;
+  color: #F68D2E;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

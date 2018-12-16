@@ -128,9 +128,11 @@ nav ul.hide li a:hover::after {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero, .hotel-chain .front-hero {
+.image-slider .front-hero, .temple-homepage .front-hero, 
+.hotel-chain .front-hero  {
   width: 900px;
 }
+
 
 /* HOMEPAGE LARGE VIEW */
 
@@ -210,5 +212,14 @@ section.temple-homepage {
   font-size: 2rem;
   width: 900px;
 }
+
+/*  TEMPLE PAGE LARGE VIEW */
+
+.temple-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 
 }
