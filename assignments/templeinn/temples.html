@@ -129,13 +129,15 @@
                             <source media="(min-width: 0px)" srcset="images/san-diego-small1.jpg">
                             <img class="temple-pic" src="images/san-diego-default.jpg" alt="San Diego Temple">
                     </picture>
+
                     <h2>Boise Idaho Temple</h2>
+
                     <div class="weather-details">
-                    <span>Current Weather:</span>
-                    <span id="weather-condition"></span>
-                    <span>Current Temperature:</span>
-                    <span id="temperature"></span>
-                    </div>
+                            <p class="weather-label">Current Weather:</p>
+                            <p class="weather-value" id="weather-condition-boise"></p>
+                            <p class="weather-label">Current Temperature:</p>
+                            <p class="weather-value" id="temperature-boise"></p>
+                            </div>
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
@@ -192,9 +194,15 @@
                             <source media="(min-width: 0px)" srcset="images/san-diego-small1.jpg">
                             <img class="temple-pic" src="images/san-diego-default.jpg" alt="San Diego Temple">
                     </picture>
+
                     <h2>San Diego California Temple</h2>
-                    <p>Current Weather:</p><span id="weather-condition"></span>
-                    <p>Current Temperature:</p><span id="temperature"></span>
+                    
+                    <div class="weather-details">
+                            <p class="weather-label">Current Weather:</p>
+                            <p class="weather-value" id="weather-condition-sandiego"></p>
+                            <p class="weather-label">Current Temperature:</p>
+                            <p class="weather-value" id="temperature-sandiego"></p>
+                    </div>
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
@@ -255,9 +263,15 @@
                             <source media="(min-width: 0px)" srcset="images/san-diego-small1.jpg">
                             <img class="temple-pic" src="images/san-diego-default.jpg" alt="San Diego Temple">
                     </picture>
+
                     <h2>Houston Texas Temple</h2>
-                    <p>Current Weather:</p><span id="weather-condition"></span>
-                    <p>Current Temperature:</p><span id="temperature"></span>
+
+                    <div class="weather-details">
+                            <p class="weather-label">Current Weather:</p>
+                            <p class="weather-value" id="weather-condition-houston"></p>
+                            <p class="weather-label">Current Temperature:</p>
+                            <p class="weather-value" id="temperature-houston"></p>
+                    </div>
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
@@ -330,7 +344,10 @@
         <script type="text/javascript" src="scripts/currentdate.js"></script>
         <script type="text/javascript" src="scripts/hamburger.js"></script>
         <script type="text/javascript" src="scripts/saltlake-weather.js"></script>
-
+        <script type="text/javascript" src="scripts/boise-weather.js"></script>
+        <script type="text/javascript" src="scripts/sandiego-weather.js"></script>
+        <script type="text/javascript" src="scripts/houston-weather.js"></script>
+        
         <!--<script src="scripts/jquery-3.1.1.js"></script>-->
         <script type="text/javascript" src="scripts/accordion.js"></script>
         
