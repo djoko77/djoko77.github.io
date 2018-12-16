@@ -1,28 +1,28 @@
 {
-    "temples": [ { "templeName": "Salt Lake City Temple", "2018": 
-        [ "Tuesday, December 25, 2018", "Saturday, December 29, 2018 (Limited Hours)" ], "2019":
+    "temples": [ { "templeName": "Salt Lake City Temple", "thisYear": 
+        [ "Tuesday, December 25, 2018", "Saturday, December 29, 2018 (Limited Hours)" ], "nextYear":
         [ "Tuesday, January 1, 2019 - Monday, January 28, 2019", "Saturday, April 6, 2019", 
         "Tuesday, July 2, 2019 - Monday, July 15, 2019", "Wednesday, July 24, 2019", 
     "Saturday, October 5, 2019", "Wednesday, November 27, 2019 (Limited Hours)", 
     "Thursday, November 28, 2019 - Friday, November 29, 2019", "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
     "Tuesday, December 31, 2019" ] }
-     ,{ "templeName": "Boise Temple", "2018": "Tuesday, December 25, 2018", "2019":
+     ,{ "templeName": "Boise Temple", "thisYear": "Tuesday, December 25, 2018", "nextYear":
         [ "Tuesday, January 1, 2019", "Saturday, April 6, 2019", "Monday, May 6, 2019 - Monday, May 20, 2019",
         "Thursday, July 4, 2019", "Saturday, October 5, 2019", "Monday, October 14, 2019 - Monday, October 28, 2019",
     "Wednesday, November 27, 2019 (Limited Hours)", "Thursday, November 28, 2019",
     "Tuesday, December 24, 2019 - Wednesday, December 25, 2019", "Tuesday, December 31, 2019 (Limited Hours)"]
         },
-        { "templeName": "San Diego Temple", "2018": ["Tuesday, December 25, 2018"],
+        { "templeName": "San Diego Temple", "thisYear": ["Tuesday, December 25, 2018"],
             "2019": [ "Tuesday, January 1, 2019", "Monday, March 18, 2019 - Monday, April 1, 2019", "Saturday, April 6, 2019",
             "Thursday, July 4, 2019", "Monday, September 30, 2019 - Monday, November 11, 2019",
         "Wednesday, November 27, 2019 - Thursday, November 28, 2019", "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
     "Tuesday, December 31, 2019"] }
-    ,{ "templeName": "Houston Temple", "2018": ["Tuesday, December 25, 2018"],
-        "2019": [ "Tuesday, January 1, 2019", "Monday, February 25, 2019 - Monday, March 11, 2019",
+    ,{ "templeName": "Houston Temple", "thisYear": ["Tuesday, December 25, 2018"],
+        "nextYear": [ "Tuesday, January 1, 2019", "Monday, February 25, 2019 - Monday, March 11, 2019",
             "Saturday, April 6, 2019", "Thursday, July 4, 2019", "Tuesday, August 6, 2019 - Monday, September 2, 2019",
             "Saturday, October 5, 2019", "Wednesday, November 27, 2019 (Limited Hours)", "Thursday, November 28, 2019",
             "Tuesday, December 24, 2019 - Wednesday, December 25, 2019", "Tuesday, December 31, 2019 (Limited Hours)"],
-            "2020": [ "Wednesday, January 1, 2020"] }
+            "twoYears": [ "Wednesday, January 1, 2020"] }
         ]
 
     }
