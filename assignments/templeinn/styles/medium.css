@@ -38,7 +38,7 @@ header .site-logo {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 40%;
+    grid-template-columns: 1fr 35%;
     background-color: #FFEED2;
     text-decoration: none;
   }

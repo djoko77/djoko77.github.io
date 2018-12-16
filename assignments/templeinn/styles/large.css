@@ -36,7 +36,7 @@ header .site-logo {
 
   header {
     display: grid;
-    grid-template-columns: 1fr 30%;
+    grid-template-columns: 1fr 21%;
     background-color: #FFEED2;
   }
   

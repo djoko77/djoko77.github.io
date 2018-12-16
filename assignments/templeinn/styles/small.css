@@ -333,6 +333,7 @@ width: 50%;
   align-items: center;
   color: #FFEED2;
   font-family: 'Oswald', sans-serif;
+  padding-top: 1rem;
 }
 
 .footer-nav li {
@@ -408,7 +409,7 @@ flex: 50%;
 /*  TEMPLE PAGE ACCORDIAN MENU */
 
 .accordion {
-  background-color: #FFEED2;
+  background-color: #fbfbf1;
   color: #F68D2E;
   cursor: pointer;
   padding: 18px;
@@ -419,7 +420,7 @@ flex: 50%;
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active, .temple-page .temple-data button:hover {
   background-color: #F68D2E;
   color: #FFEED2;
 }
@@ -463,6 +464,13 @@ flex: 50%;
   font-family: 'Oswald', sans-serif;
   font-size: 1.2rem;
   color: #F68D2E;
+}
+
+.temple-page .temple-data p, .temple-page .temple-data span {
+  color: #FFB81C;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .temple-page .temple-data {
