@@ -62,9 +62,15 @@
                             <source media="(min-width: 0px)" srcset="images/san-diego-small1.jpg">
                             <img class="temple-pic" src="images/san-diego-default.jpg" alt="San Diego Temple">
                     </picture>
+                
                     <h2>Salt Lake Temple</h2>
-                    <p>Current Weather:</p><span id="weather-condition"></span>
-                    <p>Current Temperature:</p><span id="temperature"></span>
+
+                    <div class="weather-details">
+                    <p class="weather-label">Current Weather:</p>
+                    <p class="weather-value" id="weather-condition-slc"></p>
+                    <p class="weather-label">Current Temperature:</p>
+                    <p class="weather-value" id="temperature-slc"></p>
+                    </div>
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
@@ -124,8 +130,12 @@
                             <img class="temple-pic" src="images/san-diego-default.jpg" alt="San Diego Temple">
                     </picture>
                     <h2>Boise Idaho Temple</h2>
-                    <p>Current Weather:</p><span id="weather-condition"></span>
-                    <p>Current Temperature:</p><span id="temperature"></span>
+                    <div class="weather-details">
+                    <span>Current Weather:</span>
+                    <span id="weather-condition"></span>
+                    <span>Current Temperature:</span>
+                    <span id="temperature"></span>
+                    </div>
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
@@ -134,7 +144,7 @@
                             <h4>Telephone</h4>
                             <p>(1) 208-322-4422</p>
                             <h4>Email</h4>
-                            <p>boiseidahotemple@lds.org</p>
+                            <p>boisetemple@lds.org</p>
                     </div>
 
                     <button class="accordion">Services</button>
@@ -193,7 +203,7 @@
                             <h4>Telephone</h4>
                             <p>(1) 858-622-0991</p>
                             <h4>Email</h4>
-                            <p>sandiegocaliforniatemple@lds.org</p>
+                            <p>sandiegotemple@lds.org</p>
                     </div>
 
                     <button class="accordion">Services</button>
@@ -220,15 +230,16 @@
 
                     <button class="accordion">Ordinance and Session Schedule</button>
                     <div class="panel">
-                        <p><h4>Baptistry Schedule</h4>
-                            <p>Tuesday - Friday &vert; 5am - 9pm</p>
-                            <p>Saturday &vert; 6:30am - 9pm</p>
+                            <h4>Baptistry Schedule</h4>
+                            <p>Tuesday - Friday &vert; 8am - 8pm</p>
+                            <p>Saturday &vert; 7am - 7:30pm</p>
                             <h4>Initiatory Schedule</h4>
                             <p>For initiatory information and schedule, please call the temple.</p>
                             <h4>Endowment Schedule</h4>
-                            <p>Tuesday - Saturday &vert; 6am - 8pm</p>
+                            <p>Tuesday - Friday &vert; 8am - 8pm</p>
+                            <p>Saturday &vert; 7:30am - 7pm</p>
                             <h4>Sealing Schedule</h4>
-                            <p>For sealing information and schedule, please call the temple.</p></p>
+                            <p>For sealing information and schedule, please call the temple.</p>
                     </div>
                     
                     <button class="accordion">Temple Closure Schedule</button>
@@ -250,22 +261,47 @@
 
                     <button class="accordion">Address and Contact Details</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                            <h4>Address</h4>
+                            <p>15725 Champion Forest Drive<br>Spring, Texas  77379-7036<br>United States</p>
+                            <h4>Telephone</h4>
+                            <p>(1) 281-376-6804</p>
+                            <h4>Email</h4>
+                            <p>houstontemple@lds.org</p>
                     </div>
 
                     <button class="accordion">Services</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                            <ul>
+                                    <li>Clothing rental available</li>
+                                    <li>Cafeteria available</li>
+                                    <li>No patron housing available</li>
+                                    <li>Distribution center nearby</li>
+                            </ul>
                     </div>
 
                     <button class="accordion">History</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>The Houston Texas Temple is the Church's 97th operating
+                             temple and the second temple built in Texas.
+                              It was first announced on September 30, 1997,
+                               and a groundbreaking ceremony took place a few months
+                                later on June 13, 1998. President Gordon B. Hinckley
+                                 offered the prayer at the dedication held
+                                  on August 26, 2000.</p>
                     </div>
 
                     <button class="accordion">Ordinance and Session Schedule</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p> <h4>Baptistry Schedule</h4>
+                            <p>Tuesday - Friday &vert; 8am - 9pm</p>
+                            <p>Saturday &vert; 7am - 4pm</p>
+                            <h4>Initiatory Schedule</h4>
+                            <p>For initiatory information and schedule, please call the temple.</p>
+                            <h4>Endowment Schedule</h4>
+                            <p>Tuesday - Friday &vert; 8am - 8pm</p>
+                            <p>Saturday &vert; 7am - 7pm</p>
+                            <h4>Sealing Schedule</h4>
+                            <p>For sealing information and schedule, please call the temple.</p></p>
                     </div>
                     
                     <button class="accordion">Temple Closure Schedule</button>
@@ -293,6 +329,8 @@
         </footer>
         <script type="text/javascript" src="scripts/currentdate.js"></script>
         <script type="text/javascript" src="scripts/hamburger.js"></script>
+        <script type="text/javascript" src="scripts/saltlake-weather.js"></script>
+
         <!--<script src="scripts/jquery-3.1.1.js"></script>-->
         <script type="text/javascript" src="scripts/accordion.js"></script>
         

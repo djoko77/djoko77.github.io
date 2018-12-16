@@ -472,11 +472,20 @@ flex: 50%;
   color: #F68D2E;
 } */
 
-.temple-page .temple-data p, .temple-page .temple-data span {
+.temple-page .temple-data .weather-label {
   color: #FFB81C;
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.2rem;
   font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.temple-page .temple-data .weather-value {
+color: #F68D2E;
+font-size: 1rem;
+text-transform: capitalize;
+text-align: center;
+margin-top: 0.2rem;
 }
 
 .temple-page .temple-data {
