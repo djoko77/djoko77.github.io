@@ -100,6 +100,9 @@ header {
   text-decoration: none;
 }
 
+.contact-us-now img {
+  padding: .1rem;
+}
 /* NAVIGATION BAR */
 
 nav {
@@ -394,6 +397,44 @@ height: 400px;
 flex: 50%;
 }
 
+/*  TEMPLE PAGE ACCORDIAN MENU */
+
+.accordion {
+  background-color: #FFEED2;
+  color: #F68D2E;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #F68D2E;
+  color: #FFEED2;
+}
+
+.panel {
+  padding: 0 1rem;
+  background-color: #FFEED2;
+  color: #F68D2E;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 1rem;
+  color: #F68D2E;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
