@@ -3,7 +3,6 @@ var weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', apiURL, true);
 weatherRequest.send();
 
-
 weatherRequest.onload =  function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
 
