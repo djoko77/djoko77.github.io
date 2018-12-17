@@ -191,21 +191,11 @@ nav ul.hide li a:hover::after {
 
 /* CONTACT US MEDIUM VIEW */
 
-.contact-us-title h2 {
-  margin: 0;
-  text-transform: uppercase;
-}
-
 .contact-us-page .contact-element {
-  padding: 2rem;
-}
-
-.contact-page .contact-us-page .contact-element h4 {
-  color: #F68D2E;
+  padding: 1.6rem;
 }
 
 .contact-page .contact-us-page .contact-element p {
-  color: #FFB81C;
   font-size: 1rem;
 }
 
@@ -238,7 +228,7 @@ flex: 50%;
 .contact-background {
 background-color: #F68D2E;
 margin: 3.5rem;
-padding: 3rem;
+padding: 1rem;
 }
 
 .form-title {

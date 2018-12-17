@@ -389,21 +389,33 @@ footer {
 
 .contact-page .contact-us-page .contact-element h4 {
   color: #F68D2E;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .contact-page .contact-us-page .contact-element p {
-  color: #FFB81C;
+  color: #696969;
   font-size: 1rem;
 }
 
 form label.top-form {
-max-width: 20rem;
-width: 100%;
+display: block;
 padding: 1rem;
 font-family: 'Oswald', sans-serif;
 color: #FFEED2;
 font-size: 1.2rem;
 }
+
+form label.top-form input {
+display: block;
+font-size: 1rem;
+padding: .75rem;
+border-radius: 4px;
+font-family: 'Lustria', serif;
+width: 80%;
+max-width: 20rem;
+}
+
 
 form label.top-form input:required {
 border-left: 6px solid red;
@@ -414,8 +426,8 @@ border: 0;
 }
 
 .google-map {
-width: 600px;
-height: 400px;
+width: 400px;
+height: 300px;
 }
 
 .contact-column {
@@ -424,8 +436,8 @@ flex: 50%;
 
 .contact-background {
 background-color: #F68D2E;
-margin: 3.5rem;
-padding: 3rem;
+margin: 2rem;
+padding: 2rem;
 }
 
 .form-title {
@@ -441,7 +453,6 @@ padding: 3rem;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
-
 
 /*  TEMPLE PAGE ACCORDIAN MENU */
 
@@ -575,6 +586,81 @@ border-bottom: 2px solid #F68D2E;
 .reception-service-info p, .temple-missionaries-info p {
   font-size: .8rem;
   text-align: center;
+}
+
+/*  RESERVATION FORM SMALL VIEW */
+
+.reserve-page-title h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.reservation-page .reserve-now-page {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #F68D2E;
+  width: 40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.reserve-now-page h4 {
+  color: #F68D2E;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.reservation-page .reserve-now-page p {
+  color: #696969;
+  font-size: 1rem;
+}
+
+form label.top-form {
+display: block;
+padding: 1rem;
+font-family: 'Oswald', sans-serif;
+color: #FFEED2;
+font-size: 1.2rem;
+}
+
+form label.top-form input {
+display: block;
+font-size: 1rem;
+padding: .75rem;
+border-radius: 4px;
+font-family: 'Lustria', serif;
+width: 80%;
+max-width: 20rem;
+}
+
+
+form label.top-form input:required {
+border-left: 6px solid red;
+}
+
+fieldset {
+border: 0;
+}
+
+.form-title {
+  color: #FFEED2;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submit-button {
+  color: #fd6906;
+  background-color: #FFEED2;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.reserve-now-page textarea {
+width: 400px;
+height: 300px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
