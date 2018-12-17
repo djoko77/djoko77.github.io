@@ -1,4 +1,4 @@
-var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=4699066&APPID=9245458199b42e2a0a9617a7a202fd93&mode=json&units=imperial';
+var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=4699066&APPID=44eb0e8f29694caa6bad844b0d626a8c&mode=json&units=imperial';
 var weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', apiURL, true);
 weatherRequest.send();
