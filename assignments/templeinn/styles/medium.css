@@ -180,14 +180,6 @@ nav ul.hide li a:hover::after {
   width: 600px;
 }
 
-/*  TEMPLE PAGE SMALL VIEW */
-
-.temple-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 /* CONTACT US MEDIUM VIEW */
 
@@ -271,11 +263,14 @@ padding: 1rem;
 }
 
 .reservation-page .reserve-now-page {
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
   background-color: #F68D2E;
-  width: 30rem;
-  width: 50%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  width: 60%; 
 }
 
 .reservation-page .reserve-now-page p {
@@ -304,8 +299,8 @@ max-width: 20rem;
 }
 
 .reserve-now-page textarea {
-width: 400px;
-height: 300px;
+width: 300px;
+height: 200px;
 }
 
 

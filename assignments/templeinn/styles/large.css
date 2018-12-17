@@ -216,14 +216,6 @@ section.temple-homepage {
   width: 900px;
 }
 
-/*  TEMPLE PAGE LARGE VIEW */
-
-.temple-page {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 /* CONTACT US LARGE VIEW */
 
 .contact-us-page .contact-element {
@@ -328,7 +320,7 @@ padding: .75rem;
 border-radius: 4px;
 font-family: 'Lustria', serif;
 width: 80%;
-max-width: 0rem;
+max-width: 20rem;
 }
 
 form label.top-form input:required {

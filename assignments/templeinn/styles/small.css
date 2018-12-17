@@ -416,7 +416,6 @@ width: 80%;
 max-width: 20rem;
 }
 
-
 form label.top-form input:required {
 border-left: 6px solid red;
 }
@@ -600,14 +599,14 @@ border-bottom: 2px solid #F68D2E;
 }
 
 .reservation-page .reserve-now-page {
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
   background-color: #F68D2E;
-  width: 40rem;
+  width: 30rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 80%; 
 }
 
 .reserve-now-page h4 {
@@ -639,6 +638,16 @@ width: 80%;
 max-width: 20rem;
 }
 
+form label.sbs{
+  display: block;
+  font-size: 1rem;
+  padding: .75rem;
+  border-radius: 4px;
+  font-family: 'Lustria', serif;
+  width: 80%;
+  max-width: 20rem;
+  }
+
 form label.top-form input:required {
 border-left: 6px solid red;
 }
@@ -662,8 +671,31 @@ border: 0;
 }
 
 .reserve-now-page textarea {
-width: 400px;
-height: 300px;
+width: 260px;
+height: 150px;
+}
+
+/*  THANK YOU SMALL VIEW */
+
+.thank-you {
+  background-color: #F68D2E;
+  width: 500px;
+  height: 200px;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thank-you h2 {
+  color: #FFEED2;
+  font-size: 2rem;
+}
+
+.thank-you p {
+  color: #FFEED2;
+  font-size: 1.5rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
