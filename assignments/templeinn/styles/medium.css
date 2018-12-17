@@ -130,7 +130,7 @@ nav ul.hide li a:hover::after {
 /* IMAGES */
 
 .image-slider .front-hero, .temple-homepage .front-hero,
-.hotel-chain .front-hero {
+.hotel-chain .front-hero, .service-pic {
   width: 600px;
 }
 
@@ -253,6 +253,25 @@ padding: 3rem;
   font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
   padding: 0.5rem;
+}
+
+/*  SERVICES PAGE SMALL VIEW */
+
+.service-pic {
+  padding-top: 1,5rem;
+}
+
+.special-service-info li, .amenities-info li,
+.reception-service-info p, .temple-missionaries-info p {
+  font-size: 1rem;
+}
+
+.special-service-info ul, .amenities-info ul {
+  padding-bottom: .5rem;
+}
+
+.reception-service-info p, .temple-missionaries-info p {
+  font-size: 1rem;
 }
 
  }

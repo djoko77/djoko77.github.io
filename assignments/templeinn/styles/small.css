@@ -172,7 +172,8 @@ nav ul.hide {
 /* IMAGES */
 
 .image-slider .front-hero, .temple-homepage .front-hero,
- .hotel-chain .front-hero, .temple-data .temple-pic {
+ .hotel-chain .front-hero, .temple-data .temple-pic,
+ .service-pic {
   width: 400px;
 }
 
@@ -546,6 +547,34 @@ margin-top: 0.2rem;
 
 .temple-page .panel {
 border-bottom: 2px solid #F68D2E;
+}
+
+/*  SERVICES PAGE SMALL VIEW */
+
+.service-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 1rem;
+}
+
+.special-service-info li, .amenities-info li,
+.reception-service-info p, .temple-missionaries-info p {
+  font-family: 'Lustria', serif;
+  color: #696969;
+  font-size: .8rem;
+}
+
+.special-service-info ul, .amenities-info ul {
+  width: 70%;
+  margin: auto;
+  padding-bottom: .8rem;
+}
+
+.reception-service-info p, .temple-missionaries-info p {
+  font-size: .8rem;
+  text-align: center;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
