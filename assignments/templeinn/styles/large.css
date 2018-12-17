@@ -129,12 +129,8 @@ nav ul.hide li a:hover::after {
 /* IMAGES */
 
 .image-slider .front-hero, .temple-homepage .front-hero, 
-.hotel-chain .front-hero, .service-pic  {
+.hotel-chain .front-hero, .service-pic, .temple-data .temple-pic   {
   width: 900px;
-}
-
-.temple-data .temple-pic {
-  width: 400px;
 }
 
 /* HOMEPAGE LARGE VIEW */
@@ -190,6 +186,16 @@ section.temple-homepage {
     padding: 1rem;
   }
   
+.accordion  {
+  width: 900px;
+  margin: auto;
+  display: block;
+}
+
+.panel {
+  width: 870px;
+  margin: auto;
+}
 /* HOTEL CHAIN LARGE VIEW */
 
 .hotel-chain h2 {
