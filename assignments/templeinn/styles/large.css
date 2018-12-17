@@ -280,4 +280,82 @@ padding: 1rem;
   font-size: 1.3rem;
 }
 
+/*  RESERVATION FORM SMALL VIEW */
+
+.reserve-page-title h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.form-title {
+  padding: 1rem;
+}
+
+.reservation-page .reserve-now-page {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #F68D2E;
+  width: 40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.reserve-now-page h4 {
+  color: #F68D2E;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.reservation-page .reserve-now-page p {
+  color: #696969;
+  font-size: 1rem;
+}
+
+form label.top-form, form label.sbs {
+display: block;
+padding: 1rem;
+font-family: 'Oswald', sans-serif;
+color: #FFEED2;
+font-size: 1.2rem;
+}
+
+form label.top-form input {
+display: block;
+font-size: 1rem;
+padding: .75rem;
+border-radius: 4px;
+font-family: 'Lustria', serif;
+width: 80%;
+max-width: 0rem;
+}
+
+form label.top-form input:required {
+border-left: 6px solid red;
+}
+
+fieldset {
+border: 0;
+}
+
+.form-title {
+  color: #FFEED2;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submit-button {
+  color: #fd6906;
+  background-color: #FFEED2;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.reserve-now-page textarea {
+width: 400px;
+height: 300px;
+}
+
 }

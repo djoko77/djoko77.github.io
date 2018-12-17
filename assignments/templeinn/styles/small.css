@@ -384,7 +384,7 @@ footer {
 }
 
 .contact-us-page .contact-element {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .contact-page .contact-us-page .contact-element h4 {
@@ -595,6 +595,10 @@ border-bottom: 2px solid #F68D2E;
   text-transform: uppercase;
 }
 
+.form-title {
+  padding: 1rem;
+}
+
 .reservation-page .reserve-now-page {
   padding: 2rem;
   margin: 2rem;
@@ -617,7 +621,7 @@ border-bottom: 2px solid #F68D2E;
   font-size: 1rem;
 }
 
-form label.top-form {
+form label.top-form, form label.sbs {
 display: block;
 padding: 1rem;
 font-family: 'Oswald', sans-serif;
@@ -634,7 +638,6 @@ font-family: 'Lustria', serif;
 width: 80%;
 max-width: 20rem;
 }
-
 
 form label.top-form input:required {
 border-left: 6px solid red;

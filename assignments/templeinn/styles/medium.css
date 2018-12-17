@@ -264,5 +264,51 @@ padding: 1rem;
   font-size: 1rem;
 }
 
+/*  RESERVATION FORM SMALL VIEW */
+
+.form-title {
+  padding: 1rem;
+}
+
+.reservation-page .reserve-now-page {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background-color: #F68D2E;
+  width: 30rem;
+  width: 50%; 
+}
+
+.reservation-page .reserve-now-page p {
+  font-size: .8rem;
+}
+
+form label.top-form, form label.sbs {
+padding: 1rem;
+font-size: 1rem;
+}
+
+form label.top-form input {
+font-size: 1rem;
+padding: .75rem;
+width: 80%;
+max-width: 20rem;
+}
+
+.form-title {
+  font-size: 1.5rem;
+}
+
+.submit-button {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.reserve-now-page textarea {
+width: 400px;
+height: 300px;
+}
+
+
+
  }
 
