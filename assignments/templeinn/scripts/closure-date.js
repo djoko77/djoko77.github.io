@@ -1,3 +1,4 @@
+/*
 var templeDataURL = 'https://djoko77.github.io/assignments/templeinn/scripts/temple.json';
 var request = new XMLHttpRequest();
 request.open('GET', templeDataURL);
@@ -26,4 +27,18 @@ for (var i = 0; i < templeData.length; i++) {
     }
 }
     
-}
+} */
+
+
+var closureDate = document.querySelector('.closure-date');
+var requestURL = 'https://djoko77.github.io/assignments/templeinn/scripts/temple.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+    var closing = request.response;
+    populateClosure(closing);
+    showClosure(closing);
+    }
