@@ -1,65 +1,58 @@
-var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5856194&APPID=9245458199b42e2a0a9617a7a202fd93&units=imperial';
-var weatherRequest = new XMLHttpRequest();
+/* SALT LAKE CITY WEATHER DETAILS */
+
+var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5856194&APPID=b390362458df878917351e9624e4ebb1&units=imperial';
+let weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', apiURL, true);
+weatherRequest.responseType='json';
 weatherRequest.send();
+weatherRequest.onload = function() {
+    var weatherData = weatherRequest.response;
 
-weatherRequest.onload =  function () {
-    let weatherData = JSON.parse(weatherRequest.responseText);
-
-    var currentWeather = weatherData.weather[0].description;
-    document.getElementById("weather-condition-slc").innerHTML = currentWeather;
-
-    console.log(currentWeather);
-    var currentTemp = weatherData.main['temp'];
-    document.getElementById("temperature-slc").innerHTML = currentTemp + " &deg;F";
-
-    console.log(currentTemp);
+document.getElementById("weather-condition-slc").innerHTML = weatherData.weather[0].description;
+document.getElementById("temperature-slc").innerHTML = weatherData.main["temp"] + " &deg;F";
 }
 
-var apiURL1 = 'https://api.openweathermap.org/data/2.5/weather?id=5586437&APPID=9245458199b42e2a0a9617a7a202fd93&units=imperial';
-var weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET', apiURL1, true);
-weatherRequest.send();
+/* BOISE WEATHER DETAILS */
 
-weatherRequest.onload =  function () {
-    let weatherData1 = JSON.parse(weatherRequest.responseText);
-
-    var currentWeather1 = weatherData1.weather[0].description;
-    document.getElementById("weather-condition-boise").innerHTML = currentWeather1;
-
-    var currentTemp1 = weatherData1.main['temp'];
-    document.getElementById("temperature-boise").innerHTML = currentTemp1 + " &deg;F";
-
-}
-
-var apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5391811&APPID=9245458199b42e2a0a9617a7a202fd93&units=imperial';
-var weatherRequest2 = new XMLHttpRequest();
+var apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5586437&APPID=cde596119966f8d9ef7c9bdd7d6f5204&units=imperial';
+let weatherRequest2 = new XMLHttpRequest();
 weatherRequest2.open('GET', apiURL2, true);
+weatherRequest2.responseType='json';
 weatherRequest2.send();
+weatherRequest2.onload = function() {
+    var weatherData2 = weatherRequest2.response;
 
-weatherRequest2.onload =  function () {
-    let weatherData2 = JSON.parse(weatherRequest2.responseText);
-
-    var currentWeather2 = weatherData2.weather[0].description;
-    document.getElementById("weather-condition-sandiego").innerHTML = currentWeather2;
-
-    var currentTemp2 = weatherData2.main['temp'];
-    document.getElementById("temperature-sandiego").innerHTML = currentTemp2 + " &deg;F";
-
+    document.getElementById("weather-condition-boise").innerHTML = weatherData2.weather[0].description;
+    document.getElementById("temperature-boise").innerHTML = weatherData2.main["temp"] + " &deg;F";
 }
 
-var apiURL3 = 'https://api.openweathermap.org/data/2.5/weather?id=4699066&APPID=9245458199b42e2a0a9617a7a202fd93&units=imperial';
-var weatherRequest3 = new XMLHttpRequest();
+/* SAN DIEGO WEATHER DETAILS */
+
+var apiURL3 = 'https://api.openweathermap.org/data/2.5/weather?id=5391811&APPID=775111ca8bb3c5a7907e0d222dd10fa3&units=imperial';
+let weatherRequest3 = new XMLHttpRequest();
 weatherRequest3.open('GET', apiURL3, true);
+weatherRequest3.responseType='json';
 weatherRequest3.send();
+weatherRequest3.onload = function() {
+    var weatherData3 = weatherRequest3.response;
 
-weatherRequest.onload =  function () {
-    let weatherData3 = JSON.parse(weatherRequest3.responseText);
-
-    var currentWeather3 = weatherData3.weather[0].description;
-    document.getElementById("weather-condition-houston").innerHTML = currentWeather3;
-
-    var currentTemp3 = weatherData3.main['temp'];
-    document.getElementById("temperature-houston").innerHTML = currentTemp3 + " &deg;F";
-
+    document.getElementById("weather-condition-sandiego").innerHTML = weatherData3.weather[0].description;
+    document.getElementById("temperature-sandiego").innerHTML = weatherData3.main["temp"] + " &deg;F";
 }
+
+/* HOUSTON WEATHER DETAILS */
+
+var apiURL4 = 'https://api.openweathermap.org/data/2.5/weather?id=4699066&APPID=44eb0e8f29694caa6bad844b0d626a8c&units=imperial';
+let weatherRequest4 = new XMLHttpRequest();
+weatherRequest4.open('GET', apiURL4, true);
+weatherRequest4.responseType='json';
+weatherRequest4.send();
+weatherRequest4.onload = function() {
+    var weatherData4 = weatherRequest4.response;
+
+    document.getElementById("weather-condition-houston").innerHTML = weatherData4.weather[0].description;
+    document.getElementById("temperature-houston").innerHTML = weatherData4.main["temp"] + " &deg;F";
+}
+
+
+
