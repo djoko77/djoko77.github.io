@@ -198,8 +198,8 @@ border: 0;
 }
 
 .google-map {
-width: 600px;
-height: 400px;
+width: 500px;
+height: 300px;
 }
 
 .contact-column {
@@ -229,7 +229,7 @@ padding: 1rem;
 /*  SERVICES PAGE SMALL VIEW */
 
 .service-pic {
-  padding-top: 1,5rem;
+  padding-top: 1rem;
 }
 
 .special-service-info li, .amenities-info li,
