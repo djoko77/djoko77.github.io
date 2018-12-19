@@ -33,12 +33,6 @@ header .site-logo {
     margin: 0.3rem;
     padding-bottom: .3rem;
   }
-
-  header {
-    display: grid;
-    grid-template-columns: 1fr 21%;
-    background-color: #FFEED2;
-  }
   
   .contact-us-now p {
     font-size: 1rem;
