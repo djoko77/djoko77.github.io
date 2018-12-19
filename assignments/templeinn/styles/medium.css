@@ -14,8 +14,12 @@ header .site-logo {
     height: auto;
   }
 
+header {
+  display: flex;
+  flex: 80%;
+}
+
 .contact-us-now {
-    float: left;
     background-color: #FFB81C;
     height: 80px;
     width: 180px;
