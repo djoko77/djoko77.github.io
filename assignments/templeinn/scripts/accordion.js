@@ -20,16 +20,18 @@ $(function() {
 });
 })
 */
+var acc = $("accordion");
+var i;
 
-(function($) {
-    
-  var allPanels = $('.panel').hide();
-    
-  $('.accordion').click(function() {
-    allPanels.slideUp();
-    $(this).parent().next().slideDown();
-    return false;
+for (i = 0; i < acc.length; i++) {
+acc[i].click(function() {
+$(this).toggle("active");
+
+var panel = $(this).next();
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
   });
-
-})
-
+} 
