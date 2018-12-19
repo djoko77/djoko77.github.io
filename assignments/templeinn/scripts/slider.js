@@ -4,7 +4,7 @@ sliderCarousel();
 function sliderCarousel() {
     var i;
     var s = document.getElementsByClassName("slider");
-    for (i = 0; i < x.length; i++) {
+    for (i = 0; i < s.length; i++) {
        s[i].style.display = "none";  
     }
     startNumber++;
