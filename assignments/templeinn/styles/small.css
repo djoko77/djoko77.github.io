@@ -174,14 +174,13 @@ nav ul.hide {
 .image-slider .front-hero, .temple-homepage .front-hero,
  .hotel-chain .front-hero, .temple-data .temple-pic,
  .service-pic {
-  width: 400px;
+  width: 500px;
 }
 
 .temple-data .temple-pic {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
 }
 
 /* HOMEPAGE SMALL VIEW*/

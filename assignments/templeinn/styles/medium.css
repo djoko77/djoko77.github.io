@@ -122,13 +122,9 @@ nav ul.hide li a:hover::after {
 
 /* IMAGES */
 
-.image-slider .front-hero, .temple-homepage .front-hero,
+.image-slider .front-hero, .temple-data .temple-pic, .temple-homepage .front-hero,
 .hotel-chain .front-hero, .service-pic {
   width: 600px;
-}
-
-.temple-data .temple-pic {
-  width: 300px;
 }
 
 /* HOMEPAGE MEDIUM VIEW */
