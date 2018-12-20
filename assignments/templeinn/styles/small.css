@@ -57,7 +57,7 @@ header .site-logo {
   width: 130px;
   margin: .5rem;
   padding: .5rem;
-  margin-left: auto;
+  margin: 1rem;
 }
 
 .contact-us-now img {
@@ -390,7 +390,7 @@ footer {
 }
 
 .contact-us-page .contact-element {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .contact-page .contact-us-page .contact-element h4 {
@@ -418,7 +418,7 @@ font-size: 1rem;
 padding: .75rem;
 border-radius: 4px;
 font-family: 'Lustria', serif;
-width: 80%;
+width: 40%;
 max-width: 20rem;
 }
 

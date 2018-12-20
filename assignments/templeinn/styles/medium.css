@@ -186,14 +186,9 @@ form label.top-form {
 max-width: 20rem;
 width: 100%;
 padding: 1rem;
-font-family: 'Oswald', sans-serif;
-color: #FFEED2;
 font-size: 1.2rem;
 }
 
-form label.top-form input:required {
-border-left: 6px solid red;
-}
 
 fieldset {
 border: 0;
@@ -215,15 +210,10 @@ padding: 1rem;
 }
 
 .form-title {
-  color: #FFEED2;
   font-size: 2rem;
-  font-family: 'Oswald', sans-serif;
 }
 
 .submit-button {
-  color: #fd6906;
-  background-color: #FFEED2;
-  font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
@@ -253,7 +243,6 @@ padding: 1rem;
 .reservation-page .reserve-now-page {
   padding: 1rem;
   margin: 1rem;
-  background-color: #F68D2E;
   display: block;
   margin-left: auto;
   margin-right: auto;
