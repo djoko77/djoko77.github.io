@@ -46,7 +46,7 @@ p {
 /* HEADER */
 
 header .site-logo {
-  width: 200px;
+  width: 180px;
   height: auto;
   padding: 1rem;
 }
@@ -66,8 +66,9 @@ header .site-logo {
   padding-right: .1rem;
   margin: .1rem;
 }
+
 .contact-us-now h3 {
-  font-size: .8rem;
+  font-size: .7rem;
   margin: 0.3rem;
 }
 
@@ -83,7 +84,7 @@ header {
   color: #696969;
   font-family: 'Oswald', sans-serif;
   padding: 0;
-  margin: 0.3rem;
+  margin: 0.4rem;
   text-decoration: none;
 }
 
@@ -420,7 +421,7 @@ font-size: 1rem;
 padding: .75rem;
 border-radius: 4px;
 font-family: 'Lustria', serif;
-width: 40%;
+width: 30%;
 max-width: 20rem;
 }
 
@@ -443,8 +444,8 @@ flex: 50%;
 
 .contact-background {
 background-color: #F68D2E;
-margin: 2rem;
-padding: 2rem;
+margin: 1rem;
+padding: 1rem;
 box-shadow: 5px 5px 5px #696969;
 }
 
