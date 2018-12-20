@@ -239,6 +239,8 @@ margin-right: auto;
 #weather-detail {
   text-transform: capitalize;
 }
+
+
 /* HOTEL CHAIN SMALL VIEW */
 
 .hotel-chain {
@@ -320,7 +322,7 @@ margin-right: auto;
   margin: 0;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  width: 350px;
+  width: 200px;
 }
 
 .call-to-action a:hover {
