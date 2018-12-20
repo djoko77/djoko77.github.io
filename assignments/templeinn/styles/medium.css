@@ -302,7 +302,7 @@ height: 200px;
 
  /* OTHERS */
 
-.temple-page .temple-data .set button {
+.temple-page .temple-data .set button, .temple-page .temple-data .set .panel {
   max-width: 550px;
 }
 
