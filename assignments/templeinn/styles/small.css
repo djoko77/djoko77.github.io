@@ -43,6 +43,10 @@ p {
   font-family: 'Lustria', serif;
 }
 
+a { 
+  color: inherit; 
+}
+
 /* HEADER */
 
 header .site-logo {
@@ -381,6 +385,11 @@ footer .resources {
   border-bottom-color: #FFEED2;    
 } 
 
+footer div h4 a:hover {
+  text-decoration: underline;
+  border-bottom-color: #FFEED2;  
+}
+
 footer {
   background-color: #F68D2E;
 }
@@ -715,6 +724,33 @@ height: 150px;
 .thank-you p {
   color: #FFEED2;
   font-size: .8rem;
+}
+
+/* Resource Page */
+
+section .resource-page {
+  margin: auto;
+  padding: 1rem;
+}
+
+.resource-page li {
+  list-style: none;
+  color: #696969;
+  font-family: 'Lustria', serif;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.resource-page li a {
+text-decoration: none;
+}
+
+.resource-page li a:hover {
+  color: #FFB81C;
+  }
+
+.resource-page h2 {
+  margin: 0;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
