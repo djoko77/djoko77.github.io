@@ -516,12 +516,9 @@ box-shadow: 5px 5px 5px #696969;
   font-size: 1.5rem;
 }
 
-/*
-.temple-page .temple-data button {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2rem;
-  color: #F68D2E;
-} */
+.temple-page .temple-data .set button {
+  max-width: 300px;
+}
 
 .temple-page .temple-data .weather-label {
   color: #FFB81C;

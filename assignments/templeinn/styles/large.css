@@ -124,7 +124,7 @@ nav ul.hide li a:hover::after {
 
 .image-slider .front-hero, .temple-homepage .front-hero, 
 .hotel-chain .front-hero, .service-pic, .temple-data .temple-pic   {
-  width: 900px;
+  width: 800px;
 }
 
 /* HOMEPAGE LARGE VIEW */
@@ -190,6 +190,7 @@ section.temple-homepage {
   width: 870px;
   margin: auto;
 }
+
 /* HOTEL CHAIN LARGE VIEW */
 
 .hotel-chain h2 {
@@ -362,6 +363,12 @@ height: 200px;
 
 .thank-you p {
   font-size: 1.5rem;
+}
+
+ /* OTHERS */
+
+ .temple-page .temple-data .set button {
+  max-width: 800px;
 }
 
 }
