@@ -588,6 +588,12 @@ border-bottom: 2px solid #F68D2E;
 .reception-service-info p, .temple-missionaries-info p {
   font-size: .8rem;
   text-align: center;
+  padding-bottom: 2rem;
+}
+
+.reception-service-info h2, .temple-missionaries-info h2 {
+  margin: 0;
+  padding-top: 1rem;
 }
 
 /*  RESERVATION FORM SMALL VIEW */
