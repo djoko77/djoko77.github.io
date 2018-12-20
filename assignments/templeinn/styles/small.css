@@ -565,11 +565,14 @@ border-bottom: 2px solid #F68D2E;
 
 /*  SERVICES PAGE SMALL VIEW */
 
+.special-service, .amenities, .reception-service, .temple-missionaries-info {
+  padding-top: 2rem;
+}
+
 .service-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1rem;
 }
 
 .special-service-info li, .amenities-info li,

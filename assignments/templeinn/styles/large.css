@@ -253,11 +253,7 @@ padding: 1rem;
   font-size: 1.4rem;
 }
 
-/*  SERVICES PAGE SMALL VIEW */
-
-.service-pic {
-  padding-top: 2rem;
-}
+/*  SERVICES PAGE LARGE VIEW */
 
 .special-service-info li, .amenities-info li,
 .reception-service-info p, .temple-missionaries-info p {
@@ -272,7 +268,7 @@ padding: 1rem;
   font-size: 1.3rem;
 }
 
-/*  RESERVATION FORM SMALL VIEW */
+/*  RESERVATION FORM LARGE VIEW */
 
 .reserve-page-title h2 {
   margin: 0;
