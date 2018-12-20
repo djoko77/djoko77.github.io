@@ -175,7 +175,7 @@ nav ul.hide li a:hover::after {
 /* CONTACT US MEDIUM VIEW */
 
 .contact-us-page .contact-element {
-  padding: 1.6rem;
+  padding: 1.1rem;
 }
 
 .contact-page .contact-us-page .contact-element p {
@@ -227,6 +227,7 @@ padding: 1rem;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
+
 
 /*  SERVICES PAGE SMALL VIEW */
 
@@ -293,6 +294,11 @@ max-width: 20rem;
 width: 300px;
 height: 200px;
 }
+
+.contact-us-page textarea {
+  width: 300px;
+  height: 200px;
+  }
 
 /*  THANK YOU MEDIUM VIEW */
 

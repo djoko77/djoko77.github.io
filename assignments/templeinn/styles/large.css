@@ -219,7 +219,7 @@ section.temple-homepage {
 /* CONTACT US LARGE VIEW */
 
 .contact-us-page .contact-element {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .contact-page .contact-us-page .contact-element p {
@@ -346,9 +346,14 @@ border: 0;
 }
 
 .reserve-now-page textarea {
-width: 4600px;
+width: 460px;
 height: 200px;
 }
+
+.contact-us-page textarea {
+  width: 350px;
+  height: 200px;
+  }
 
 .thank-you {
   width: 600px;

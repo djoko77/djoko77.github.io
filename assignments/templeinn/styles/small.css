@@ -679,6 +679,11 @@ width: 260px;
 height: 150px;
 }
 
+.contact-us-page textarea {
+  width: 260px;
+  height: 200px;
+  }
+
 /*  THANK YOU SMALL VIEW */
 
 .thank-you {
