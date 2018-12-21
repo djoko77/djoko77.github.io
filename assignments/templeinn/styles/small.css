@@ -203,7 +203,7 @@ margin-right: auto;
  .image-slider h2 {
    margin-top: 0.5rem;
    margin-bottom: 1rem;
-   font-size: 1.1rem;
+   font-size: 1rem;
  }
 
 /* TEMPLE HOME PAGE */
@@ -752,8 +752,6 @@ text-decoration: none;
 .resource-page h2 {
   margin: 0;
 }
-
-/* Home Page Image Slider */
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

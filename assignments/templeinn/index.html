@@ -54,17 +54,31 @@
         </nav>
 
         <main>
-            <section class="image-slider">               
+            <section class="image-slider"> 
+
                 <picture class="front-images">
                         <source media="(min-width: 900px)" srcset="images/family-large.jpg">
                         <source media="(min-width: 600px)" srcset="images/family-medium.jpg">
                         <source media="(min-width: 0px)" srcset="images/family-small.jpg">
-                        <img class="front-hero slider" src="images/family.jpg" alt="family in the temple">
+                        <img class="front-hero mySliders" src="images/family.jpg" alt="family in the temple">
                 </picture>
+
+                <picture class="front-images">
+                    <source media="(min-width: 900px)" srcset="images/inside-large.jpg">
+                    <source media="(min-width: 600px)" srcset="images/inside-medium.jpg">
+                    <source media="(min-width: 0px)" srcset="images/inside-small.jpg">
+                    <img class="front-hero mySliders" src="images/inside.jpg" alt="family in the temple">
+                </picture>
+
+                <picture class="front-images">
+                    <source media="(min-width: 900px)" srcset="images/youth-large.jpg">
+                    <source media="(min-width: 600px)" srcset="images/youth-medium.jpg">
+                    <source media="(min-width: 0px)" srcset="images/youth-small.jpg">
+                    <img class="front-hero mySliders" src="images/youth.jpg" alt="family in the temple">
+                </picture>
+
+                <h2 class="front-info">Welcome to Temple Inn &amp; Suites where we offer the best accommodation right next to your favorite temple!</h2>
             </section>
-                    
-                        <h2 class="front-info">Welcome to Temple Inn &amp; Suites where we offer the best accommodation right next to your favorite temple!</h2>
-                
 
                 <section class="temple-homepage">
                     <div class="temple-image-front">
@@ -144,6 +158,7 @@
                 <li id="current-date"></li>
             </ul>
         </footer>
+        <script type="text/javascript" src="scripts/slider.js"></script>
         <script type="text/javascript" src="scripts/currentdate.js"></script>
         <script type="text/javascript" src="scripts/hamburger.js"></script>
         <script type="text/javascript" src="scripts/weather1.js"></script>
