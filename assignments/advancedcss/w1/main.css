@@ -116,41 +116,38 @@ div .post-date {
 }
 
 .post-content p {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 @media only screen and (min-width : 641px) {
 
 body {
     max-width: 40rem;
+    margin-left: 1rem;
 }
-
+    
 /* LARGE SCREEN HEADER STYLING */
 
-header, main {
-    width: 40rem;
-    margin: auto;
-}
-
 header {
-    width: 15%;
+    max-width: 12rem;
     float: left;
-    height: 1420px;
-    position: absolute;
+    height: 1467px;
     padding: 2rem;
 }
 
 main {
-    margin-left: 41.5%;
+    margin-left: 40%;
+    width: 40rem;
 }
 
 article {
-    margin: 2.2rem;
-    padding: 2rem;
+    margin: 2.5rem;
+    padding: 2.2rem;
 }
 
 figure img {
     width: 260px;
 }
+
 
 }
