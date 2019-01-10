@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+h1, h2 {
+    font-family: 'Lora';
+}
+
+p, main div, nav {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* HEADER STYLING */
+
+header {
+    background-color: #6495ED;
+    width: 30rem;
+    padding-top: 2.2rem;
+    padding-bottom: 1.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+
+
+/* NAVIGATION LINKS */
+
+header nav ul li a:visited { 
+    color: #FAEBD7;
+}
+
+header nav ul li a:active { 
+    color: #DEB887;
+}
+
+header nav ul li a:hover { 
+    color: white;
+    text-decoration: underline;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* OTHER PAGE LINKS */
+
+article p a, article p a:visited {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+article p a:active {
+    color: #DEB887;
+}
+
+article p a:hover {
+    text-decoration: underline;
+}
+
+/* ARTICLE TITLE LINKS */
+
+article h2 a, article h2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+article h2 a:active {
+    color: #DEB887;
+}
+
+article h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+/* MAIN STYLING */
+
+main {
+    background-color: #FAEBD7;
+    padding: 1rem;
+    width: 30rem;
+}
+
+figure img {
+    width: 400px;
+    margin: auto;
+}
+
+article {
+    background-color: #FFF;
+    padding: 1.5rem;
+}
+
+@media only screen and (min-width : 992px) {
+
+}
