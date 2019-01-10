@@ -8,15 +8,20 @@ p, main div, nav {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+body {
+    max-width: 20rem;
+    margin: auto
+}
+
 /* HEADER STYLING */
 
 header {
     background-color: #6495ED;
-    width: 30rem;
+    width: 20rem;
     padding-top: 2.2rem;
     padding-bottom: 1.8rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: right;
 }
 
@@ -44,7 +49,7 @@ header nav ul li a:hover {
 header nav ul li {
     list-style: none;
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 /* OTHER PAGE LINKS */
@@ -83,19 +88,69 @@ article h2 a:hover {
 main {
     background-color: #FAEBD7;
     padding: 1rem;
-    width: 30rem;
+    width: 20rem;
 }
 
 figure img {
-    width: 400px;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 2rem;
 }
 
 article {
     background-color: #FFF;
     padding: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-@media only screen and (min-width : 992px) {
+div .post-date {
+    color: #8E8E8E;
+    padding-top: 1rem;
+}
+
+.post-content h2 {
+    margin-top: 0;
+    padding-top: 0.5rem;
+}
+
+.post-content p {
+    padding-bottom: 2rem;
+}
+
+@media only screen and (min-width : 641px) {
+
+body {
+    max-width: 40rem;
+}
+
+/* LARGE SCREEN HEADER STYLING */
+
+header, main {
+    width: 40rem;
+    margin: auto;
+}
+
+header {
+    width: 15%;
+    float: left;
+    height: 1420px;
+    position: absolute;
+    padding: 2rem;
+}
+
+main {
+    margin-left: 41.5%;
+}
+
+article {
+    margin: 2.2rem;
+    padding: 2rem;
+}
+
+figure img {
+    width: 260px;
+}
 
 }
