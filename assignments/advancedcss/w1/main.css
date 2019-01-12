@@ -31,7 +31,6 @@ header a {
     color: #FAEBD7;
 }
 
-
 /* NAVIGATION LINKS */
 
 header nav ul li a:visited, header h1 a:visited { 
@@ -84,7 +83,7 @@ article h2 a:hover {
     text-decoration: underline;
 }
 
-/* MAIN STYLING */
+/* MAIN SECTION STYLING */
 
 main {
     background-color: #FAEBD7;
@@ -152,6 +151,5 @@ article {
 figure img {
     width: 260px;
 }
-
 
 }
