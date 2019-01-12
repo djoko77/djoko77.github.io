@@ -33,15 +33,15 @@ header a {
 
 /* NAVIGATION LINKS */
 
-header nav ul li a:visited { 
+header nav ul li a:visited, header h1 a:visited { 
     color: #FAEBD7;
 }
 
-header nav ul li a:active { 
+header nav ul li a:active, header h1 a:active { 
     color: #DEB887;
 }
 
-header nav ul li a:hover { 
+header nav ul li a:hover, header h1 a:hover { 
     color: white;
     text-decoration: underline;
 }
@@ -124,6 +124,7 @@ div .post-date {
 body {
     max-width: 40rem;
     margin-left: 1rem;
+    position: relative;
 }
     
 /* LARGE SCREEN HEADER STYLING */
@@ -133,6 +134,7 @@ header {
     float: left;
     height: 1467px;
     padding: 2rem;
+    position: absolute;
 }
 
 main {
