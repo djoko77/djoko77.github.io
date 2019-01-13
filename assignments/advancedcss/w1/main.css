@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-/* SMALL SCREEN VIEW 992px and below */
+/* SMALL SCREEN VIEW 641px and below */
 
 h1, h2 {
     font-family: 'Lora';
@@ -13,7 +13,7 @@ p, main div, nav {
 
 body {
     max-width: 20rem;
-    margin: auto
+    margin: auto;
 }
 
 /* HEADER STYLING */
@@ -111,6 +111,7 @@ article {
 div .post-date {
     color: #8E8E8E;
     padding-top: 1rem;
+    display: block;
 }
 
 .post-content h2 {
@@ -124,26 +125,24 @@ div .post-date {
 
 /* LARGE SCREEN VIEW 992px and up */
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 1008px) {
 
 body {
-    max-width: 40rem;
-    margin-left: 1rem;
-    position: relative;
+    max-width: 50rem;
 }
-    
-/* LARGE SCREEN STYLING */
+
+body div {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    justify-items: center;
+}
 
 header {
-    max-width: 12rem;
-    float: left;
-    height: 1392px;
+    width: 12rem;
     padding: 2rem;
-    position: absolute;
 }
 
 main {
-    margin-left: 40%;
     width: 40rem;
 }
 
@@ -156,4 +155,35 @@ figure img {
     width: 260px;
 }
 
+}
+
+/* SCREEN SIZE IN BETWEEN VIEW 641px to 992px */
+
+@media only screen and (min-width : 641px) and (max-width : 1008px) {
+
+body {
+        max-width: 30rem;
+        margin: 0;
+}
+    
+body div {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        justify-items: center;
+}
+    
+header {
+        width: 10rem;
+        padding: 1rem;
+}
+    
+main {
+        width: 25rem;
+}
+    
+article {
+        margin: 1rem;
+        padding: 2.2rem;
+}
+    
 }
