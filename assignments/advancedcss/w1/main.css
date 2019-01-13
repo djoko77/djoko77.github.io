@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+/* SMALL SCREEN VIEW 992px and below */
+
 h1, h2 {
     font-family: 'Lora';
 }
@@ -120,7 +122,9 @@ div .post-date {
     padding-bottom: 1.5rem;
 }
 
-@media only screen and (min-width : 641px) {
+/* LARGE SCREEN VIEW 992px and up */
+
+@media only screen and (min-width : 992px) {
 
 body {
     max-width: 40rem;
